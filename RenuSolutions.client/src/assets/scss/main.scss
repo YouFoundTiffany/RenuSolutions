@@ -1,0 +1,174 @@
+@import "./_variables.scss";
+@import "bootstrap";
+@import "./_overrides.scss";
+@import "./_utilities.scss";
+@import "./loaders.scss";
+
+//  ====================  //
+//   Renu Solutions CSS   //
+//  ====================  //
+:root {
+  --Minty: #bdfafd;
+  --Aquatic: #00c6e0;
+  --Maritime: #04748c;
+  --Midnight: #012b5d;
+  --Abyss: #020c2f;
+}
+
+.Merri {
+  font-family: 'Merriweather', serif;
+}
+
+.Monty {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Background Colors */
+.bg-Minty {
+  background-color: var(--Minty);
+}
+
+.bg-Aquatic {
+  background-color: var(--Aquatic);
+}
+
+.bg-Maritime {
+  background-color: var(--Maritime);
+}
+
+.bg-Midnight {
+  background-color: var(--Midnight);
+}
+
+.bg-Abyss {
+  background-color: var(--Abyss);
+}
+
+/* Text Colors */
+.text-Minty {
+  color: var(--Minty);
+}
+
+.text-Aquatic {
+  color: var(--Aquatic);
+}
+
+.text-Maritime {
+  color: var(--Maritime);
+}
+
+.text-Midnight {
+  color: var(--Midnight);
+}
+
+.text-Abyss {
+  color: var(--Abyss);
+}
+
+/* Border Colors */
+.border-Minty {
+  border: 1px solid var(--Minty);
+}
+
+.border-Aquatic {
+  border: 1px solid var(--Aquatic);
+}
+
+.border-Maritime {
+  border: 1px solid var(--Maritime);
+}
+
+.border-Midnight {
+  border: 1px solid var(--Midnight);
+}
+
+.border-Abyss {
+  border: 1px solid var(--Abyss);
+}
+
+/* Gradient from Minty to Aquatic */
+.gradient-minty-aquatic {
+  background: linear-gradient(to right, var(--Minty), var(--Aquatic));
+}
+
+/* Gradient from Aquatic to Maritime */
+.gradient-midnight-maritime-aquatic {
+  background: linear-gradient(to right, var(--Midnight), var(--Maritime), var(--Aquatic));
+}
+
+/* Gradient from Maritime to Midnight */
+.gradient-maritime-midnight {
+  background: linear-gradient(to right, var(--Maritime), var(--Midnight));
+}
+
+/* Gradient from Midnight to Abyss */
+.gradient-midnight-abyss {
+  background: linear-gradient(to right, var(--Midnight), var(--Abyss));
+}
+
+/* Diagonal Gradient from Minty to Abyss */
+.gradient-minty-abyss-diagonal {
+  background: linear-gradient(to bottom right, var(--Minty), var(--Abyss));
+}
+
+/* Three-color Gradient */
+.gradient-triple {
+  background: linear-gradient(to right, var(--Minty), var(--Maritime), var(--Midnight));
+}
+
+/* Radial Gradient from Minty outwards */
+.gradient-radial-minty {
+  background: radial-gradient(circle, var(--Minty), var(--Midnight));
+}
+
+/* Repeating Gradient Stripes */
+.gradient-repeating-stripes {
+  background: repeating-linear-gradient(45deg,
+      var(--Minty),
+      var(--Minty) 10px,
+      var(--Aquatic) 10px,
+      var(--Aquatic) 20px);
+}
+
+//  ====================  //
+// END Renu Solutions CSS   //
+//  ====================  //
+
+
+body {
+  overscroll-behavior: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--body-bg);
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  &:not(:placeholder-shown) {
+    &:valid {
+      border: 1px solid $success;
+    }
+
+    &:invalid {
+      border: 1px solid $danger;
+    }
+  }
+}
+
+form:invalid button[type="submit"] {
+  filter: grayscale(1);
+  pointer-events: none;
+}
