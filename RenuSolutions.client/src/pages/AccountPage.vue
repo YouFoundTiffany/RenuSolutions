@@ -1,3 +1,4 @@
+<!-- ACCOUNT -->
 <template>
   <div class="about text-center">
     <h1>Welcome {{ account.name }}</h1>

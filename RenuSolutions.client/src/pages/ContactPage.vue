@@ -1,3 +1,4 @@
+<!-- CONTACT -->
 <template>
   <div class="about">
     <h1>This is the Contact page</h1>

@@ -1,19 +1,46 @@
+<!-- APP.VUE -->
 <template>
   <header>
-    <Navbar />
+    <Navbar2 v-if="$route.name != 'Home'" />
+    <div v-if="loading" class="loadingio-spinner-spin-gqrt81xkvci">
+      <div class="ldio-3nv84htim87">
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
   </header>
-  <main>
-    <router-view />
-  </main>
-  <footer class="gradient-midnight-maritime-aquatic text-light">
-    Copyright © 2023 | Renü Solutions Digital Lab | All Rights Reserved
-  </footer>
+  <main><router-view /></main>
+  <footer class="gradient-midnight-maritime-aquatic text-light">Copyright © 2023 | Renü Solutions Digital Lab | All Rights
+    Reserved </footer>
 </template>
 
 <script>
 import { computed } from 'vue'
 import { AppState } from './AppState.js'
-import Navbar from './components/Navbar.vue'
+import Navbar2 from './components/Navbar2.vue'
 
 export default {
   setup() {
@@ -21,7 +48,7 @@ export default {
       appState: computed(() => AppState)
     }
   },
-  components: { Navbar }
+  components: { Navbar2 }
 }
 </script>
 <style lang="scss">
@@ -37,4 +64,18 @@ footer {
   place-content: center;
   height: 32px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
 </style>

@@ -3,6 +3,11 @@
 @import "./_overrides.scss";
 @import "./_utilities.scss";
 @import "./loaders.scss";
+@import 'lightgallery/css/lightgallery.css';
+@import 'lightgallery/css/lg-thumbnail.css';
+@import 'lightgallery/css/lg-zoom.css';
+
+/* To Display Navbar over HomePage background image ONLY */
 
 //  ====================  //
 //   Renu Solutions CSS   //
@@ -11,114 +16,114 @@
   --Minty: #bdfafd;
   --Aquatic: #00c6e0;
   --Maritime: #04748c;
-  --Midnight: #012b5d;
+  --Midnight: #00295c;
   --Abyss: #020c2f;
 }
 
 .Merri {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif !important;
 }
 
 .Monty {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Background Colors */
 .bg-Minty {
-  background-color: var(--Minty);
+  background-color: var(--Minty) !important;
 }
 
 .bg-Aquatic {
-  background-color: var(--Aquatic);
+  background-color: var(--Aquatic) !important;
 }
 
 .bg-Maritime {
-  background-color: var(--Maritime);
+  background-color: var(--Maritime) !important;
 }
 
 .bg-Midnight {
-  background-color: var(--Midnight);
+  background-color: var(--Midnight) !important;
 }
 
 .bg-Abyss {
-  background-color: var(--Abyss);
+  background-color: var(--Abyss) !important;
 }
 
 /* Text Colors */
 .text-Minty {
-  color: var(--Minty);
+  color: var(--Minty) !important;
 }
 
 .text-Aquatic {
-  color: var(--Aquatic);
+  color: var(--Aquatic) !important;
 }
 
 .text-Maritime {
-  color: var(--Maritime);
+  color: var(--Maritime) !important;
 }
 
 .text-Midnight {
-  color: var(--Midnight);
+  color: var(--Midnight) !important;
 }
 
 .text-Abyss {
-  color: var(--Abyss);
+  color: var(--Abyss) !important;
 }
 
 /* Border Colors */
 .border-Minty {
-  border: 1px solid var(--Minty);
+  border: 1px solid var(--Minty) !important;
 }
 
 .border-Aquatic {
-  border: 1px solid var(--Aquatic);
+  border: 1px solid var(--Aquatic) !important;
 }
 
 .border-Maritime {
-  border: 1px solid var(--Maritime);
+  border: 1px solid var(--Maritime) !important;
 }
 
 .border-Midnight {
-  border: 1px solid var(--Midnight);
+  border: 1px solid var(--Midnight) !important;
 }
 
 .border-Abyss {
-  border: 1px solid var(--Abyss);
+  border: 1px solid var(--Abyss) !important;
 }
 
 /* Gradient from Minty to Aquatic */
 .gradient-minty-aquatic {
-  background: linear-gradient(to right, var(--Minty), var(--Aquatic));
+  background: linear-gradient(to right, var(--Minty), var(--Aquatic)) !important;
 }
 
 /* Gradient from Aquatic to Maritime */
 .gradient-midnight-maritime-aquatic {
-  background: linear-gradient(to right, var(--Midnight), var(--Maritime), var(--Aquatic));
+  background: linear-gradient(to right, var(--Midnight), var(--Maritime), var(--Aquatic)) !important;
 }
 
 /* Gradient from Maritime to Midnight */
 .gradient-maritime-midnight {
-  background: linear-gradient(to right, var(--Maritime), var(--Midnight));
+  background: linear-gradient(to right, var(--Maritime), var(--Midnight)) !important;
 }
 
 /* Gradient from Midnight to Abyss */
 .gradient-midnight-abyss {
-  background: linear-gradient(to right, var(--Midnight), var(--Abyss));
+  background: linear-gradient(to right, var(--Midnight), var(--Abyss)) !important;
 }
 
 /* Diagonal Gradient from Minty to Abyss */
 .gradient-minty-abyss-diagonal {
-  background: linear-gradient(to bottom right, var(--Minty), var(--Abyss));
+  background: linear-gradient(to bottom right, var(--Minty), var(--Abyss)) !important;
 }
 
 /* Three-color Gradient */
 .gradient-triple {
-  background: linear-gradient(to right, var(--Minty), var(--Maritime), var(--Midnight));
+  background: linear-gradient(to right, var(--Minty), var(--Maritime), var(--Midnight)) !important;
 }
 
 /* Radial Gradient from Minty outwards */
 .gradient-radial-minty {
-  background: radial-gradient(circle, var(--Minty), var(--Midnight));
+  background: radial-gradient(circle, var(--Minty), var(--Midnight)) !important;
 }
 
 /* Repeating Gradient Stripes */
@@ -127,12 +132,160 @@
       var(--Minty),
       var(--Minty) 10px,
       var(--Aquatic) 10px,
-      var(--Aquatic) 20px);
+      var(--Aquatic) 20px) !important;
 }
 
 //  ====================  //
-// END Renu Solutions CSS   //
+// END Renu Solutions CSS //
 //  ====================  //
+//  ====================  //
+//       SPINNER          //
+//  ====================  //
+
+// <div class="loadingio-spinner-spin-gqrt81xkvci"><div class="ldio-3nv84htim87">
+// <div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div>
+// </div></div>
+// <style type="text/css">
+@keyframes ldio-3nv84htim87 {
+  0% {
+    opacity: 1;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1, 1.5);
+  }
+
+  100% {
+    opacity: 0;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1, 1);
+  }
+}
+
+.ldio-3nv84htim87 div>div {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #00295c;
+  animation: ldio-3nv84htim87 1s linear infinite;
+}
+
+.ldio-3nv84htim87 div:nth-child(1)>div {
+  left: 148px;
+  top: 88px;
+  animation-delay: -0.875s;
+}
+
+.ldio-3nv84htim87>div:nth-child(1) {
+  transform: rotate(0deg);
+  transform-origin: 160px 100px;
+}
+
+.ldio-3nv84htim87 div:nth-child(2)>div {
+  left: 130px;
+  top: 130px;
+  animation-delay: -0.75s;
+}
+
+.ldio-3nv84htim87>div:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: 142px 142px;
+}
+
+.ldio-3nv84htim87 div:nth-child(3)>div {
+  left: 88px;
+  top: 148px;
+  animation-delay: -0.625s;
+}
+
+.ldio-3nv84htim87>div:nth-child(3) {
+  transform: rotate(90deg);
+  transform-origin: 100px 160px;
+}
+
+.ldio-3nv84htim87 div:nth-child(4)>div {
+  left: 46px;
+  top: 130px;
+  animation-delay: -0.5s;
+}
+
+.ldio-3nv84htim87>div:nth-child(4) {
+  transform: rotate(135deg);
+  transform-origin: 58px 142px;
+}
+
+.ldio-3nv84htim87 div:nth-child(5)>div {
+  left: 28px;
+  top: 88px;
+  animation-delay: -0.375s;
+}
+
+.ldio-3nv84htim87>div:nth-child(5) {
+  transform: rotate(180deg);
+  transform-origin: 40px 100px;
+}
+
+.ldio-3nv84htim87 div:nth-child(6)>div {
+  left: 46px;
+  top: 46px;
+  animation-delay: -0.25s;
+}
+
+.ldio-3nv84htim87>div:nth-child(6) {
+  transform: rotate(225deg);
+  transform-origin: 58px 58px;
+}
+
+.ldio-3nv84htim87 div:nth-child(7)>div {
+  left: 88px;
+  top: 28px;
+  animation-delay: -0.125s;
+}
+
+.ldio-3nv84htim87>div:nth-child(7) {
+  transform: rotate(270deg);
+  transform-origin: 100px 40px;
+}
+
+.ldio-3nv84htim87 div:nth-child(8)>div {
+  left: 130px;
+  top: 46px;
+  animation-delay: 0s;
+}
+
+.ldio-3nv84htim87>div:nth-child(8) {
+  transform: rotate(315deg);
+  transform-origin: 142px 58px;
+}
+
+.loadingio-spinner-spin-gqrt81xkvci {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-3nv84htim87 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-3nv84htim87 div {
+  box-sizing: content-box;
+}
+
+/* generated by https://loading.io/ */
+
+//  ====================  //
+//       SPINNER          //
+//  ====================  //
+
+
 
 
 body {

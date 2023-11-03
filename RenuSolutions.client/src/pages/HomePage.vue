@@ -1,8 +1,115 @@
+<!-- HOME PAGE -->
 <template>
-  <section class="top-sec-bg-image">
-    <div>
+  <section class="container-flex text-center top-sec-bg-image justify-content-center m-0 p-0">
 
+    <!-- NAVBAR ON HOME PAGE ONLY -->
+    <section class="m-0 p-0 d-flex align-items-center justify-content-center">
+      <nav v-if="$route.name === 'Home'"
+        class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-md pe-2 m-0">
+        <!-- <div style="width: 10vw;"> -->
+        <!-- spacer -->
+        <!-- </div> -->
+        <router-link class="navbar-brand" :to="{ name: 'Home' }">
+          <div class="align-items-center justify-content-center">
+            <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
+            <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home">
+          </div>
+        </router-link>
+        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse d-flex navbar-collapse justify-content-around" id="navbarText">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li>
+              <router-link :to="{ name: 'About' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                About
+              </router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'Services' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                Services
+              </router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                Portfolio
+              </router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'Blog' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                Blog
+              </router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                Contact
+              </router-link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- HOME PAGE NAVBAR ONLY -->
+    <!-- HOME PAGE CONTENT -->
+    <section>
+      <div class="container border border-warning">
+        <div
+          class="border border-danger row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
+          <div class="row">
+            <div class="col-8">
+              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 big-txt-msg text-light">Custom Web
+                Solutions<br>for the
+                Modern Small Business
+
+              </h1>
+              <!-- lh-sm line height -->
+              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-light">Ditch WordPress for our
+                bespoke,
+                human-coded
+                web
+                designs<br>that ensure superior performance, with plans starting at $150 a month."
+              </p>
+            </div>
+            <div class="col-4 justify-content-start d-flex">
+              <!-- FIXME Add media query -->
+              <img class="ad-img justify-content-start" src="src/assets/img/mock-up-replace.png" alt=""
+                style="max-width:;">
+            </div>
+            <div class="container d-flex , ms-5 ps-5">
+              <div class="container d-flex ps-5" style="margin-top: -15vh; margin-left: 15vw;">
+                <router-link :to="{ name: 'Contact' }"
+                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex">
+                  GET IN TOUCH!
+                </router-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div style="height: 40vh;"> -->
+      <!-- spacer div -->
+      <!-- </div> -->
+
+    </section>
+    <!-- HOME PAGE CONTENT END -->
+    <!-- BODY -->
+    <div class="container mt-3">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col"></div>
+
+      </div>
     </div>
+    <!-- 3 CARDS -->
+    <div class="container mt-3">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+    <!-- 3 CARDS -->
+
+    <!-- BODY END -->
   </section>
 </template>
 
@@ -15,7 +122,69 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.top-sec-bg-image {
-  background-image: url("/assets/img/basicbackgroundRenuSol.svg");
+// large and mobile ad image
+// @media screen and (max-width: 601px) {
+//   .mobile-ad-image {
+//     display: none;
+//   }
+// }
+
+// // remove large image
+// @media screen and (max-width: 600px) {
+//   .ad-img {
+//     display: none;
+//   }
+// }
+
+// big and small text for topline message
+.smol-txt-msg {
+  font-size: small;
+  font-weight: 800;
 }
+
+.big-txt-msg {
+  font-size: xx-large;
+  // font-weight: 800;
+}
+
+// small text for button
+.smol-txt-btn {
+  text-align: center !important;
+  height: 35px !important;
+  font-size: x-small !important;
+  font-weight: 600 !important;
+}
+
+.smol-txt-btn:hover {
+  background-color: var(--Aquatic) !important;
+  color: var(--Minty) !important;
+  transition: 0.2s !important;
+}
+
+
+
+//ad mock up image
+.ad-img {
+  height: 75vh;
+  width: 75vh;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* To Display Navbar over HomePage background image ONLY */
+.top-sec-bg-image {
+  background-image: url("../assets/img/final-basicbackgroundRenuSol.svg");
+  // background-attachment: fixed;
+  /* This keeps the background image fixed during scroll */
+  height: 140vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  // height: 100vh;
+  /* You can adjust this to fit the size you want */
+  // position: relative;
+  // z-index: 1;
+}
+
+/* To Display Navbar over HomePage background image ONLY */
 </style>
