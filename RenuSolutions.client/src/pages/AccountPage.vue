@@ -5,6 +5,7 @@
     <img class="rounded" :src="account.picture" alt="" />
     <p>{{ account.email }}</p>
   </div>
+  <PreFooter />
 </template>
 
 <script>

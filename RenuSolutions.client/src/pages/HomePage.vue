@@ -168,7 +168,7 @@
     <!-- 2️⃣ TRIPLE CARDS END-->
 
     <!-- 3️⃣ Horizontal Card DIV -->
-    <section class="container my-5 text-Midnight">
+    <section class="container my-2 text-Midnight">
       <div class="row py-5 justify-content-center align-items-center">
         <!-- PIGGY -->
         <div class="col-3">
@@ -282,8 +282,8 @@
     <!-- 3️⃣ Horizontal Card DIV END -->
 
     <!-- 4️⃣ Horizontal Card DIV -->
-    <section class="container my-5 text-Midnight">
-      <div class="row py-5 justify-content-center align-items-center">
+    <section class="container my-2 text-Midnight">
+      <div class="row py-2 justify-content-center align-items-center">
 
         <!-- $150 CONTRACT -->
         <div class="col-12 col-md-8">
@@ -400,8 +400,8 @@
 
 
     <!-- 1️⃣SINGLE CONTENT DIV -->
-    <div class="container my-5 text-Midnight">
-      <div class="row py-5 justify-content-center align-items-center">
+    <div class="container my-2 text-Midnight">
+      <div class="row py-2 justify-content-center align-items-center">
         <div class="col-12 col-md-6 text-center">
           <h1 class="fw-bold">WHO WE ARE</h1>
           <div class="text-Midnight">
@@ -438,6 +438,7 @@
 
 
   <!-- </section> -->
+  <PreFooter />
 </template>
 
 <script>

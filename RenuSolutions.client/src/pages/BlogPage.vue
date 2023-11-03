@@ -3,6 +3,7 @@
   <div class="about">
     <h1>This is the Blog page</h1>
   </div>
+  <PreFooter />
 </template>
 
 <script>
