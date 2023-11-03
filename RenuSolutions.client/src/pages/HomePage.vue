@@ -56,28 +56,30 @@
         <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
           <div class="row">
             <div class="col-12 col-md-6 col-sm-4">
-              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 big-txt-msg text-light">Custom Web
+              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty"
+                style="text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.694);">Custom Web
                 Solutions<br>for the
                 Modern Small Business
 
               </h1>
               <!-- lh-sm line height -->
-              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-light">Ditch WordPress for our
+              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight"
+                style="text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.694);">Ditch WordPress for
+                our
                 bespoke,
                 human-coded
                 web
-                designs<br>that ensure superior performance, with plans starting at $150 a month."
-              </p>
+                designs<br>that ensure superior performance, with plans starting at $150 a month." </p>
             </div>
             <div class="col-12 col-md-4 justify-content-start d-flex">
               <!-- FIXME Add media query -->
-              <img class="ad-img justify-content-start" src="src/assets/img/mock-up-replace.png" alt="">
+              <img class="ad-img justify-content-start img-fluid" src="src/assets/img/mock-up-replace.png" alt="">
             </div>
             <!-- FIXME THIS NEEDS A MEDIA QUERY -->
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5" style="margin-top: -5vh; margin-left: 15vw;">
                 <router-link :to="{ name: 'Contact' }"
-                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3">
+                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3 d-flex">
                   GET IN TOUCH!
                 </router-link>
               </div>
@@ -102,7 +104,7 @@
   <!--🦄 BODY -->
 
   <!-- 1️⃣SINGLE CONTENT DIV -->
-  <div class="container my-5 text-Midnight">
+  <div class="container mt-2 mb-2 text-Midnight">
     <div class="row py-5 justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
         <h1 class="fw-bold">WHAT WE DO</h1>
@@ -127,7 +129,7 @@
 
 
   <!-- 2️⃣ TRIPLE CARDS -->
-  <section class="container my-3">
+  <section class="container my-2">
     <div class="row justify-content-around">
       <!-- 🅰️ -->
       <div class="col-3 card h-30 elevation-3 text-Midnight">
@@ -168,20 +170,267 @@
     <!-- 3️⃣ Horizontal Card DIV -->
     <section class="container my-5 text-Midnight">
       <div class="row py-5 justify-content-center align-items-center">
+        <!-- PIGGY -->
         <div class="col-3">
-          <img src="src/assets/img/piggyBank.svg" alt="" class="piggyBank">
+          <img src="src/assets/img/piggyBank.svg" alt="" class="piggyBank img-fluid">
         </div>
-        <div class="col-12 col-md-6 text-center">
-          <h1 class="fw-bold">$150 per Month,<br>6 month Minimum Contract</h1>
+        <!-- PIGGY -->
+        <!-- $150 CONTRACT -->
+        <div class="col-12 col-md-8">
+          <h1 class="fw-bold  lh-1"><span class="text-Aquatic">$150</span> per Month,<br>6 month Minimum Contract</h1>
+          <!-- $150 CONTRACT -->
 
-          <p><span><i class="mdi mdi-checkbox-marked-circle-outline"></i></span>We Specialize in providing a quality,
-            full-stack
-          </p>
+          <!-- CHECK POINTS ROW 1 -->
+          <div class="row squish">
+            <!-- Infinity 1 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 1 content-->
+              <p class=" fw-bold">
+                <span class="smol-txt-checks fw-bold">Inclusive Hosting Costs</span>
+                <br>
+                <span class="xsmol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
+              </p>
+            </div>
+            <!-- Infinity 2 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 2 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Feel free to request any modifications at any time, and expect completion
+                  within the same day.
+                </span>
+              </p>
+            </div>
+          </div>
+          <!-- CHECK POINTS ROW 2 -->
+          <div class="row squish">
+            <!-- Infinity 3 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 3 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Direct 24/7 Support Access
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
+                  immediate human assistance.
+                </span>
+              </p>
+            </div>
+            <!-- Infinity 4 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 4 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Comprehensive Web Crafting
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
+                  development, and rigorous quality checks.
+                </span>
+              </p>
+            </div>
+          </div>
 
-
+          <!-- CHECK POINTS ROW 3 -->
+          <div class="row squish">
+            <!-- Infinity 5 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 5 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Attain an impeccable score of 100 in Google Page Speed insights, enhancing
+                  your site's visibility.
+                </span>
+              </p>
+            </div>
+            <!-- Infinity 6 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 6 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Complimentary Google Analytics Integration
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">We provide a complimentary setup of Google Analytics to track your
+                  website's traffic sources and visitor behavior.</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- 3️⃣ Horizontal Card DIV END -->
+
+    <!-- 4️⃣ Horizontal Card DIV -->
+    <section class="container my-5 text-Midnight">
+      <div class="row py-5 justify-content-center align-items-center">
+
+        <!-- $150 CONTRACT -->
+        <div class="col-12 col-md-8">
+          <h1 class="fw-bold lh-1"><span>Add-On Package</span><br><span class="text-Aquatic">$50</span> per Month,<br>6
+            month
+            Minimum Contract</h1>
+          <!-- $150 CONTRACT -->
+
+          <!-- CHECK POINTS ROW 1 -->
+          <div class="row squish">
+            <!-- Infinity 1 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 1 content-->
+              <p class=" fw-bold">
+                <span class="smol-txt-checks fw-bold">Inclusive Hosting Costs</span>
+                <br>
+                <span class="xsmol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
+              </p>
+            </div>
+            <!-- Infinity 2 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 2 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Feel free to request any modifications at any time, and expect completion
+                  within the same day.
+                </span>
+              </p>
+            </div>
+          </div>
+          <!-- CHECK POINTS ROW 2 -->
+          <div class="row squish">
+            <!-- Infinity 3 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 3 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Direct 24/7 Support Access
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
+                  immediate human assistance.
+                </span>
+              </p>
+            </div>
+            <!-- Infinity 4 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 4 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Comprehensive Web Crafting
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
+                  development, and rigorous quality checks.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <!-- CHECK POINTS ROW 3 -->
+          <div class="row squish">
+            <!-- Infinity 5 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 5 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">Attain an impeccable score of 100 in Google Page Speed insights, enhancing
+                  your site's visibility.
+                </span>
+              </p>
+            </div>
+            <!-- Infinity 6 check -->
+            <div class="col-1 p-0 m-0 text-end">
+              <i class="mdi mdi-infinity mdi-18px"></i>
+            </div>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 6 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Complimentary Google Analytics Integration
+                </span>
+                <br>
+                <span class="xsmol-txt-checks">We provide a complimentary setup of Google Analytics to track your
+                  website's traffic sources and visitor behavior.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- MONEY HANDS -->
+        <div class="col-3">
+          <img src="src/assets/img/moneyHands.svg" alt="" class="img-fluid">
+        </div>
+        <!-- MONEY HANDS -->
+      </div>
+    </section>
+    <!-- 4️⃣ Horizontal Card DIV END -->
+
+
+    <!-- 1️⃣SINGLE CONTENT DIV -->
+    <div class="container my-5 text-Midnight">
+      <div class="row py-5 justify-content-center align-items-center">
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="fw-bold">WHO WE ARE</h1>
+          <div class="text-Midnight">
+            <span>———</span><i class="mdi
+          mdi-pyramid"></i><span>———</span>
+          </div>
+
+          <p>We Specialize in providing a quality, full-stack, business system that has a proven track record of
+            increasing
+            revenue for small businesses like yours. This allows you the time and freedome to meet with your clients,
+            which
+            brings in more revenue.
+          </p>
+          <p class="fst-italic">You finally get to focus on what you really love about your business!
+          </p>
+          <!-- My name is Ryan, I am a stay at home dad and web developer. I started this business to help provide for the family while still being able to be home and raise the kids. I spent a year and a half teaching myself the right way to make websites and learning to write the code myself. Now after being in business professionally for over 5 years I have built hundreds websites and have my method down to a science. LEARN MORE -->
+
+          picture of Tiffany
+          Tiffany H.
+          OWNER/DEVELOPER
+          <div class="text-Midnight">
+            <span>———</span><i class="mdi
+          mdi-pyramid mdi-flip-v"></i><span>———</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SINGLE CONTENT DIV -->
+
 
 
     <!--🦄 BODY END -->
@@ -194,13 +443,7 @@
 <script>
 export default {
   setup() {
-    // document.getElementById('animateMe').addEventListener('mouseenter', function () {
-    //   this.classList.add('animate__bounce');
-    // });
 
-    // document.getElementById('animateMe').addEventListener('mouseleave', function () {
-    //   this.classList.remove('animate__bounce');
-    // });
 
     return {}
   }
@@ -215,25 +458,7 @@ export default {
   object-position: center;
 }
 
-
-// large and mobile ad image
-// @media screen and (max-width: 601px) {
-//   .mobile-ad-image {
-//     display: none;
-//   }
-// }
-
-// // remove large image
-// @media screen and (max-width: 600px) {
-//   .ad-img {
-//     display: none;
-//   }
-// }
-
-// END big and small text for topline message
-
 // letter spacing
-
 
 .card:hover i.onhvr {
   scale: 1.5;
@@ -246,12 +471,25 @@ export default {
   font-size: small !important;
 }
 
+.squish {
+  line-height: .75;
+}
+
+.smol-txt-checks {
+  font-size: small !important;
+}
+
+.xsmol-txt-checks {
+  font-size: x-small !important;
+  font-weight: 500 !important;
+}
+
 .smol-txt-msg {
   font-size: small !important;
   font-weight: 800 !important;
 }
 
-.big-txt-msg {
+.xxbig-txt-msg {
   font-size: xx-large !important;
   // font-weight: 800;
 }
@@ -275,8 +513,8 @@ export default {
 //ad mock up image
 .ad-img {
   max-height: 60vh;
-  object-fit: cover;
-  object-position: left center;
+  // object-fit: cover;
+  // object-position: left center;
 }
 
 /* To Display Navbar over HomePage background image ONLY */
