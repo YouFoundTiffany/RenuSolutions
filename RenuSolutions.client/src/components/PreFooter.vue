@@ -51,6 +51,7 @@ export default {
 
 .ftsTitleUnderline {
     border-bottom: 1px solid var(--Maritime);
+    font-size: small;
 }
 
 /* ANIMATED UNDERLINE */

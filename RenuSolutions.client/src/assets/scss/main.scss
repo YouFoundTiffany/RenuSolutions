@@ -105,6 +105,11 @@
   background: linear-gradient(to right, var(--Midnight), var(--Maritime), var(--Aquatic)) !important;
 }
 
+/* Gradient from Maritime to Maritime */
+.gradient-aquatic-maritime-midnight {
+  background: linear-gradient(to right, var(--Aquatic), var(--Maritime), var(--Midnight)) !important;
+}
+
 /* Gradient from Maritime to Midnight */
 .gradient-maritime-midnight {
   background: linear-gradient(to right, var(--Maritime), var(--Midnight)) !important;
