@@ -43,8 +43,9 @@
 
   </main>
   <!-- FIXME media query needed -->
-  <footer class="gradient-midnight-maritime-aquatic text-light text-center">Copyright © 2023 | Renü Solutions Digital Lab
-    | All Rights Reserved
+  <footer class="gradient-midnight-maritime-aquatic text-light xsmol-txt-fts ps-1 py-0 pe-0 m-0">
+    <PreFooter />
+    Copyright © 2023 Renü Solutions Digital Lab. All rights reserved.
   </footer>
 </template>
 
@@ -87,8 +88,14 @@ export default {
   components: { Navbar2 },
 };
 </script>
-
 <style lang="scss">
+.xsmol-txt-fts {
+  font-size: x-small !important;
+}
+
+
+
+
 @import "./assets/scss/main.scss";
 
 // BACK TO TOP BUTTON

@@ -438,7 +438,6 @@
 
 
   <!-- </section> -->
-  <PreFooter />
 </template>
 
 <script>
