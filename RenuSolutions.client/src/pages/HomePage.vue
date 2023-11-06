@@ -166,7 +166,7 @@
   <section class="container my-2">
     <div class="row justify-content-around">
       <!-- 🅰️ -->
-      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Full-System</h5>
@@ -179,7 +179,7 @@
         </div>
       </div>
       <!-- 🅱️ -->
-      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-tablet-cellphone fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Mobile First</h5>
@@ -190,7 +190,7 @@
         </div>
       </div>
       <!-- 🆎 -->
-      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
         <i class="mdi mdi-key fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Turn Key</h5>
