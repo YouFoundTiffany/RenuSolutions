@@ -56,15 +56,14 @@
         <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
           <div class="row">
             <div class="col-12 col-md-6 col-sm-4">
-              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty"
-                style="text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.694);">Custom Web
+              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty txt-shad">Custom Web
                 Solutions<br>for the
                 Modern Small Business
 
               </h1>
               <!-- lh-sm line height -->
-              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight"
-                style="text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.694);">Ditch WordPress for
+              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight txt-glow">Ditch
+                WordPress for
                 our
                 bespoke,
                 human-coded
@@ -77,7 +76,8 @@
             </div>
             <!-- FIXME THIS NEEDS A MEDIA QUERY -->
             <div class="container d-flex ms-5 ps-5">
-              <div class="container d-flex ps-5 ps-md-5" style="margin-top: -5vh; margin-left: 15vw;">
+              <div class="container d-flex ps-5 ps-md-5">
+                <!-- style="margin-top: -5vh; margin-left: 15vw;" -->
                 <router-link :to="{ name: 'Contact' }"
                   class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3 d-flex">
                   GET IN TOUCH!
@@ -112,12 +112,48 @@
           <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
         </div>
-        <p>We Specialize in providing a quality, full-stack, business system that has a proven track record of increasing
-          revenue for small businesses like yours. This allows you the time and freedome to meet with your clients, which
-          brings in more revenue.
-        </p>
         <p class="fst-italic">You finally get to focus on what you really love about your business!
         </p>
+        <p>We Specialize in providing a quality business system that has a proven track record of increasing
+          revenue for small businesses like yours. This allows you the time and freedom to meet with your clients, which
+          brings in more revenue.</p>
+
+
+        <!-- MODAL BUTTON-->
+        <p type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
+            learn-more">LEARN MORE</span></p>
+        <!-- MODAL -->
+        <div class="modal fade" id="DeltaERPModal" tabindex="-1" role="dialog" aria-labelledby="DeltaERPModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="DeltaERPModalLabel">The Renü Solutions <span class="Delta">Delta</span>
+                  ERP</h5>
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button> -->
+              </div>
+              <div class="modal-body">
+                <p class="text-start fw-normal">What is the Delta ERP or an ERP? ERP stands for
+                  <span style="text-decoration: underline;">E</span>nterprise
+                  <span style="text-decoration: underline;">R</span>esource
+                  <span style="text-decoration: underline;">P</span>lanning
+                  software.
+                </p>
+                <p class="text-start">
+                  ERPs are systems utilized by medium and large businesses to run everything in a systematic and organized
+                  way. We have taken the <span class="fst-italic">BEST</span> of these systems and made them
+                  available to small businesses
+                  like yours, which is what we call the <span class="fw-bold fs-5">Delta ERP</span>.<br><br>
+                  We have also added in some of our own special sauce to make it even better. We have seen it increase
+                  revenue for every business that has used it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MODAL -->
         <div class="text-Midnight">
           <span>———</span><i class="mdi
           mdi-pyramid mdi-flip-v"></i><span>———</span>
@@ -135,8 +171,8 @@
       <div class="col-3 card h-30 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
-          <h5 class="card-title  text-center">Full-Stack</h5>
-          <p class="card-text text-start Merri-light-smol "> We build a system that has every important tool at your
+          <h5 class="card-title  text-center">Full-System</h5>
+          <p class="card-text text-start Merri-light-smol ">We build a system that has every important tool at your
             fingertips,
             and they all
             work
@@ -177,9 +213,11 @@
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold  lh-1"><span class="text-Aquatic">$150</span> per Month,<br>6 month Minimum Contract</h1>
+          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per Month,<br>6 month
+            Minimum
+            Contract</h1>
           <!-- $150 CONTRACT -->
-
+          <h3 class="fw-bold text-Aquatic lght-txt-shad">The Simple Static Website</h3>
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -285,13 +323,14 @@
     <section class="container my-2 text-Midnight">
       <div class="row py-2 justify-content-center align-items-center">
 
-        <!-- $150 CONTRACT -->
+        <!-- $50 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold lh-1"><span>Add-On Package</span><br><span class="text-Aquatic">$50</span> per Month,<br>6
+          <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Aquatic lght-txt-shad">$50</span> per
+            Month,<br>6
             month
             Minimum Contract</h1>
           <!-- $150 CONTRACT -->
-
+          <h3 class="fw-bold text-Aquatic lght-txt-shad">The Delta ERP</h3>
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -301,9 +340,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 1 content-->
               <p class=" fw-bold">
-                <span class="smol-txt-checks fw-bold">Inclusive Hosting Costs</span>
+                <span class="smol-txt-checks fw-bold">Customer Relationship Manager (CRM)
+                </span>
                 <br>
-                <span class="xsmol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
+                <span class="xsmol-txt-checks">Details</span>
               </p>
             </div>
             <!-- Infinity 2 check -->
@@ -313,12 +353,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 2 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
-                </span>
+                <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
                 <br>
-                <span class="xsmol-txt-checks">Feel free to request any modifications at any time, and expect completion
-                  within the same day.
-                </span>
+                <span class="xsmol-txt-checks">Details</span>
               </p>
             </div>
           </div>
@@ -331,12 +368,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 3 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Direct 24/7 Support Access
-                </span>
+                <span class="smol-txt-checks fw-bold">Website & Funnel Builder</span>
                 <br>
-                <span class="xsmol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
-                  immediate human assistance.
-                </span>
+                <span class="xsmol-txt-checks">Details</span>
               </p>
             </div>
             <!-- Infinity 4 check -->
@@ -346,12 +380,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 4 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Comprehensive Web Crafting
-                </span>
+                <span class="smol-txt-checks fw-bold">Membership Portal</span>
                 <br>
-                <span class="xsmol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
-                  development, and rigorous quality checks.
-                </span>
+                <span class="xsmol-txt-checks">Details</span>
               </p>
             </div>
           </div>
@@ -365,28 +396,25 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 5 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
-                </span>
+                <span class="smol-txt-checks fw-bold">Messaging Capabilities (i.e. email, text, phone, etc.)</span>
                 <br>
-                <span class="xsmol-txt-checks">Attain an impeccable score of 100 in Google Page Speed insights, enhancing
-                  your site's visibility.
-                </span>
+                <span class="xsmol-txt-checks">Details</span>
               </p>
             </div>
-            <!-- Infinity 6 check -->
+            <!-- Infinity 6 check
             <div class="col-1 p-0 m-0 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 6 content-->
-              <p class="">
+            <div class="col-4 ps-1 m-0"> -->
+            <!-- check 6 content-->
+            <!-- <p class="">
                 <span class="smol-txt-checks fw-bold">Complimentary Google Analytics Integration
                 </span>
                 <br>
                 <span class="xsmol-txt-checks">We provide a complimentary setup of Google Analytics to track your
                   website's traffic sources and visitor behavior.</span>
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- MONEY HANDS -->
@@ -408,20 +436,16 @@
             <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
           </div>
-
-          <p>We Specialize in providing a quality, full-stack, business system that has a proven track record of
-            increasing
-            revenue for small businesses like yours. This allows you the time and freedome to meet with your clients,
-            which
-            brings in more revenue.
+          <p> My name is Tiffany, I am 5-Path Hypnotist and web developer. I started this business to help other small
+            business
+            owners, like you, to be successful and enable them to find and help more people than they ever could.
           </p>
-          <p class="fst-italic">You finally get to focus on what you really love about your business!
+          <img src="" alt="picture of Tiffany">
+          <p>
+            <br>Tiffany H. OWNER/DEVELOPER
           </p>
-          <!-- My name is Ryan, I am a stay at home dad and web developer. I started this business to help provide for the family while still being able to be home and raise the kids. I spent a year and a half teaching myself the right way to make websites and learning to write the code myself. Now after being in business professionally for over 5 years I have built hundreds websites and have my method down to a science. LEARN MORE -->
-
-          picture of Tiffany
-          Tiffany H.
-          OWNER/DEVELOPER
+          <p class="fst-italic">Personal Motto: Make the World Better, One Day at a Time!
+          </p>
           <div class="text-Midnight">
             <span>———</span><i class="mdi
           mdi-pyramid mdi-flip-v"></i><span>———</span>
@@ -451,6 +475,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// MODAL HOVER
+.learn-more:hover {
+  color: var(--Aquatic);
+  /* Change color on hover */
+  cursor: pointer;
+  /* Change cursor to indicate clickable */
+  /* Add other hover styles as needed */
+}
+
 .piggyBank {
   max-height: 10rem;
   max-width: 100%;
@@ -487,6 +520,18 @@ export default {
 .smol-txt-msg {
   font-size: small !important;
   font-weight: 800 !important;
+}
+
+.lght-txt-shad {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.367);
+}
+
+.txt-shad {
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.694);
+}
+
+.txt-glow {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.694);
 }
 
 .xxbig-txt-msg {
