@@ -8,7 +8,7 @@
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
             </div>
-            <div class="col-12 col-md-2 text-center">
+            <!-- <div class="col-12 col-md-2 text-center">
                 <p class="ftsTitleUnderline pt-1 pb-2 m-0 fw-bold">SERVICES</p>
                 <p class="borderLiner py-1 m-0"> Web Design</p>
                 <p class="borderLiner py-1 m-0">Website Maintenance</p>
@@ -22,15 +22,15 @@
                 <p class="borderLiner py-1 m-0">About</p>
                 <p class="borderLiner py-1 m-0">Contact</p>
                 <p class="borderLiner py-1 m-0">Blog</p>
-            </div>
+            </div> -->
         </div>
 
 
 
         <!-- bottom row -->
-        <div class='row pt-3 pb-2 m-0 text-center SideEye'>
+        <!-- <div class='row pt-3 pb-2 m-0 text-center SideEye'>
             <p class="privpoli mb-0 p-0">PRIVACY POLICY</p>
-        </div>
+        </div> -->
     </section>
 </template>
 <script>

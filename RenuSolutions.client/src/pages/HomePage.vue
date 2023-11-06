@@ -18,8 +18,7 @@
           <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarText1">
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-
-            <li>
+            <!-- <li>
               <router-link :to="{ name: 'About' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 About
               </router-link>
@@ -43,14 +42,16 @@
               <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 Contact
               </router-link>
-            </li>
+            </li> -->
           </ul>
         </div>
       </nav>
     </section>
     <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
+
+
     <section class="" style="min-height: 35vh;">
-      <div class="container ">
+      <div class="container">
         <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
           <div class="row">
             <div class="col-12 col-md-6">
@@ -67,10 +68,22 @@
                 human-coded
                 web
                 designs<br>that ensure superior performance, with plans starting at $150 a month." </p>
-              <router-link :to="{ name: 'Contact' }"
+
+              <!-- ⭐Comment back in for Router-Link to Contact page -->
+              <!-- <router-link :to="{ name: 'Contact' }"
                 class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
                 GET IN TOUCH!
-              </router-link>
+              </router-link> -->
+              <!-- TEMP Button trigger modal -->
+
+              <button type="button"
+                class="smol-txt-btn btn bg-Minty text-Midnight ighten-30 text-uppercase rounded elevation-3 m-3"
+                data-toggle="modal" data-target="#getInTouchModal">
+                GET IN TOUCH!</button>
+              <!-- TEMP Button trigger modal -->
+
+
+
             </div>
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
               src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
@@ -80,7 +93,43 @@
             </div>
           </div>
         </div>
+        <!-- TEMP Modal -->
+        <div class="modal fade" id="getInTouchModal" tabindex="-1" role="dialog" aria-labelledby="getInTouchModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content fw-medium">
+              <img src="src/assets/img/RenuLogoMockUp.png" alt="" class="img-fluid"
+                style="object-fit: contain; object-position: center; max-height: 10vh;">
+              <p>Schedule your discovery session today!<br>Email, Text, or Call</p>
+              <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>(208) 918-0942</p>
+              <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>Info@RenuSolutions.tech</p>
+              <p class="px-3 txt-smol smol-txt-checks">We choose to focus on our clients, and so,<br>our website is a work
+                in
+                progress.<br>Thank you for your patience.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- TEMP Modal -->
+
+
+
+
+
+
+
+
+      <!-- </div>
+          <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
+            src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
+          <div class="container d-flex ms-5 ps-5">
+            <div class="container d-flex ps-5 ps-md-5">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
     </section>
     <!-- 🧭 - NAVBAR END -->
   </section>
@@ -91,8 +140,8 @@
   <!--🦄 - BODY -->
 
   <!-- 1️⃣ - SINGLE CONTENT DIV -->
-  <div class="container mt-2 mb-2 text-Midnight">
-    <div class="row py-5 justify-content-center align-items-center">
+  <div class="container mt-2 text-Midnight">
+    <div class="row pt-5 justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
         <h1 class="fw-bold">WHAT WE DO</h1>
         <div class="text-Midnight">
@@ -118,9 +167,6 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="DeltaERPModalLabel">The Renü Solutions <span class="Delta">Delta</span>
                   ERP</h5>
-                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button> -->
               </div>
               <div class="modal-body">
                 <p class="text-start fw-normal">What is the Delta ERP or an ERP? ERP stands for
@@ -152,14 +198,16 @@
   <!-- 1️⃣ - SINGLE CONTENT DIV -->
 
 
-  <!-- 🚀 - spacer div -->
-  <div class="spacer d-flex justify-content-center align-items-center" style="height: 30vh;"> <!-- DIVIDER LINE -->
+  <!-- 🚀 - spacer div 1️⃣ -->
+  <!-- Do NOT copy this Spacer Set it is custom, use 2 or 3 -->
+  <div class="spacer mx-3 d-flex justify-content-center align-items-center" style="height: 30vh;">
+    <!-- DIVIDER LINE -->
     <div class="container mx-5 my-4 px-5">
       <hr class="solid mx-5" style="color: var(--Midnight);">
     </div>
     <!-- DIVIDER LINE -->
   </div>
-  <!-- 🚀 - spacer div -->
+  <!-- 🚀 - spacer div 1️⃣-->
 
 
   <!-- 2️⃣ - TRIPLE CARDS -->
@@ -204,7 +252,7 @@
     <!-- 2️⃣ - TRIPLE CARDS END-->
 
 
-    <!-- 🚀 spacer div -->
+    <!-- 🚀 spacer div 2️⃣-->
     <div class="spacer d-flex align-items-center" style="height: 30vh;">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
@@ -212,12 +260,12 @@
       </div>
       <!-- DIVIDER LINE -->
     </div>
-    <!-- 🚀 spacer div -->
+    <!-- 🚀 spacer div 2️⃣-->
 
 
     <!-- 3️⃣ - Horizontal Card DIV -->
-    <section class="container my-2 text-Midnight">
-      <div class="row py-5 justify-content-center align-items-center">
+    <section class="container mb-2 text-Midnight">
+      <div class="row pb-5 justify-content-center align-items-center">
         <!-- PIGGY -->
         <div class="col-3">
           <img src="src/assets/img/piggyBank.svg" alt="" class="piggyBank img-fluid">
@@ -437,7 +485,7 @@
     <!-- 4️⃣ - Horizontal Card DIV END -->
 
 
-    <!-- 🚀 spacer div -->
+    <!-- 🚀 spacer div 3️⃣-->
     <div class="spacer d-flex align-items-center" style="height: 30vh;">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
@@ -445,7 +493,7 @@
       </div>
       <!-- DIVIDER LINE -->
     </div>
-    <!-- 🚀 spacer div -->
+    <!-- 🚀 spacer div 3️⃣-->
 
 
     <!-- 5️⃣ - SINGLE CONTENT DIV -->
@@ -471,7 +519,7 @@
               Time!</span>
           </p>
           <div class="text-Midnight">
-            <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
+            <span>———</span><i class="mdi mdi-heart-outline"></i><span id="HomePageFooter">———</span>
           </div>
         </div>
       </div>
