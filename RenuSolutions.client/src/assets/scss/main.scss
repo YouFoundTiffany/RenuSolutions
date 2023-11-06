@@ -295,8 +295,29 @@
 //  ====================  //
 
 
+// ====================  //
+//  BASIC NAVBAR SETTINGS   //
+// ====================  //
+.nav-link {
+  text-transform: uppercase;
+}
 
+.navbar-nav .router-link-exact-active {
+  border-bottom: 3px solid var(--Maritime);
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
 
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    height: 64px;
+  }
+}
+
+// ====================  //
+//  BASIC NAVBAR SETTINGS   //
+// ====================  //
 body {
   overscroll-behavior: none;
 }

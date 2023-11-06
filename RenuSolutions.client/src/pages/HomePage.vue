@@ -1,26 +1,24 @@
 <!-- HOME PAGE -->
 <template>
-  <!-- 🖼️ TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
+  <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
   <section class="container-flex text-center top-sec-bg-image justify-content-center m-0 p-0">
 
-    <!-- 🧭 NAVBAR ON HOME PAGE ONLY -->
+    <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
     <section class="m-0 p-0 d-flex align-items-center justify-content-center">
       <nav v-if="$route.name === 'Home'"
-        class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-md pe-2 m-0">
-        <!-- <div style="width: 10vw;"> -->
-        <!-- spacer -->
-        <!-- </div> -->
+        class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
           <div class="align-items-center justify-content-center">
             <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
             <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home">
           </div>
         </router-link>
-        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span></button>
-        <div class="collapse d-flex navbar-collapse justify-content-around" id="navbarText">
+        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarText1" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarText1">
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
             <li>
               <router-link :to="{ name: 'About' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 About
@@ -50,7 +48,7 @@
         </div>
       </nav>
     </section>
-    <!-- 🧭 HOME PAGE NAVBAR ONLY END-->
+    <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
     <section class="" style="min-height: 35vh;">
       <div class="container ">
         <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
@@ -84,22 +82,15 @@
         </div>
       </div>
     </section>
-    <!-- 🧭 NAVBAR END -->
+    <!-- 🧭 - NAVBAR END -->
   </section>
-  <!-- 🖼️ TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE END-->
-
-
-
-  <!-- 🚀 spacer div -->
-  <!-- <div style="height: 60vh;">
-  </div> -->
-  <!-- 🚀 spacer div -->
+  <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE END-->
 
 
   <!-- HOME PAGE CONTENT -->
-  <!--🦄 BODY -->
+  <!--🦄 - BODY -->
 
-  <!-- 1️⃣SINGLE CONTENT DIV -->
+  <!-- 1️⃣ - SINGLE CONTENT DIV -->
   <div class="container mt-2 mb-2 text-Midnight">
     <div class="row py-5 justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
@@ -158,20 +149,20 @@
       </div>
     </div>
   </div>
-  <!-- SINGLE CONTENT DIV -->
+  <!-- 1️⃣ - SINGLE CONTENT DIV -->
 
 
-  <!-- 🚀 spacer div -->
-  <div class="d-flex align-items-center" style="height: 30vh;">
-    <!-- DIVIDER LINE -->
-    <div class="container mx-5 my-4 px-5 align-items-center">
+  <!-- 🚀 - spacer div -->
+  <div class="spacer d-flex justify-content-center align-items-center" style="height: 30vh;"> <!-- DIVIDER LINE -->
+    <div class="container mx-5 my-4 px-5">
       <hr class="solid mx-5" style="color: var(--Midnight);">
     </div>
     <!-- DIVIDER LINE -->
   </div>
-  <!-- 🚀 spacer div -->
+  <!-- 🚀 - spacer div -->
 
-  <!-- 2️⃣ TRIPLE CARDS -->
+
+  <!-- 2️⃣ - TRIPLE CARDS -->
   <section class="container my-2">
     <div class="row justify-content-around">
       <!-- 🅰️ -->
@@ -210,11 +201,11 @@
         </div>
       </div>
     </div>
-    <!-- 2️⃣ TRIPLE CARDS END-->
+    <!-- 2️⃣ - TRIPLE CARDS END-->
 
 
     <!-- 🚀 spacer div -->
-    <div class="d-flex align-items-center" style="height: 30vh;">
+    <div class="spacer d-flex align-items-center" style="height: 30vh;">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
         <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -224,7 +215,7 @@
     <!-- 🚀 spacer div -->
 
 
-    <!-- 3️⃣ Horizontal Card DIV -->
+    <!-- 3️⃣ - Horizontal Card DIV -->
     <section class="container my-2 text-Midnight">
       <div class="row py-5 justify-content-center align-items-center">
         <!-- PIGGY -->
@@ -338,9 +329,9 @@
         </div>
       </div>
     </section>
-    <!-- 3️⃣ Horizontal Card DIV END -->
+    <!-- 3️⃣ - Horizontal Card DIV END -->
 
-    <!-- 4️⃣ Horizontal Card DIV -->
+    <!-- 4️⃣ - Horizontal Card DIV -->
     <section class="container my-2 text-Midnight">
       <div class="row py-2 justify-content-center align-items-center">
 
@@ -443,11 +434,11 @@
         <!-- MONEY HANDS -->
       </div>
     </section>
-    <!-- 4️⃣ Horizontal Card DIV END -->
+    <!-- 4️⃣ - Horizontal Card DIV END -->
 
 
     <!-- 🚀 spacer div -->
-    <div class="d-flex align-items-center" style="height: 30vh;">
+    <div class="spacer d-flex align-items-center" style="height: 30vh;">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
         <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -457,8 +448,7 @@
     <!-- 🚀 spacer div -->
 
 
-
-    <!-- 5️⃣SINGLE CONTENT DIV -->
+    <!-- 5️⃣ - SINGLE CONTENT DIV -->
     <div class="container my-2 text-Midnight">
       <div class="row py-2 justify-content-center align-items-center">
         <div class="col-12 col-md-6 text-center">
@@ -486,11 +476,11 @@
         </div>
       </div>
     </div>
-    <!-- SINGLE CONTENT DIV -->
+    <!-- 5️⃣ - SINGLE CONTENT DIV -->
 
 
 
-    <!--🦄 BODY END -->
+    <!--🦄 - BODY END -->
   </section>
 
 
@@ -515,9 +505,6 @@ export default {
   transition: 0.3s;
   color: var(--Aquatic);
   cursor: pointer;
-
-
-
 }
 
 .piggyBank {
@@ -591,8 +578,6 @@ export default {
 
 }
 
-
-
 //ad mock up image
 .ad-img {
   max-height: 60vh;
@@ -615,6 +600,30 @@ export default {
 }
 
 /* To Display Navbar over HomePage background image ONLY */
+
+// ====================  //
+//  BASIC NAVBAR SETTINGS   //
+// ====================  //
+.nav-link {
+  text-transform: uppercase;
+}
+
+.navbar-nav .router-link-exact-active {
+  border-bottom: 3px solid var(--Maritime);
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
+
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    height: 64px;
+  }
+}
+
+// ====================  //
+//  BASIC NAVBAR SETTINGS   //
+// ====================  //
 </style>
 
 <!-- <i class="mdi mdi-pyramid"></i>

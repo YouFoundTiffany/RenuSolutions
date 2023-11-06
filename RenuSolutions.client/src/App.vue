@@ -139,8 +139,15 @@ export default {
   background-color: #55555500;
   color: #00295c;
   transition: background-color 0.5s ease-in-out;
+}
 
+// MEDIA QUERY for landscape mode in mobile devices
+@media (max-width: 767px) and (orientation: landscape) {
+  .scrollToTopBtn {
+    top: 20px;
+    /* Adjust the distance from the top */
+    bottom: auto;
+    /* Remove the bottom positioning */
+  }
 }
 </style>
-<!-- arrow-up-bold-circle-outline -->
-<!-- arrow-up-bold-circle -->
