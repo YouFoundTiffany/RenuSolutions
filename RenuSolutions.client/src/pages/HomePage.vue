@@ -74,18 +74,10 @@
                 GET IN TOUCH!
               </router-link>
             </div>
-            <!-- <div class="col-12 col-md-6 justify-content-start d-flex"> -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
               src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
-            <!-- </div> -->
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
-                <!-- style="margin-top: -5vh; margin-left: 15vw;" -->
-                <!-- <router-link :to="{ name: 'Contact' }"
-                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3 d-flex"
-                  style="overflow: hidden;">
-                  GET IN TOUCH!
-                </router-link> -->
               </div>
             </div>
           </div>
@@ -169,6 +161,16 @@
   <!-- SINGLE CONTENT DIV -->
 
 
+  <!-- 🚀 spacer div -->
+  <div class="d-flex align-items-center" style="height: 30vh;">
+    <!-- DIVIDER LINE -->
+    <div class="container mx-5 my-4 px-5 align-items-center">
+      <hr class="solid mx-5" style="color: var(--Midnight);">
+    </div>
+    <!-- DIVIDER LINE -->
+  </div>
+  <!-- 🚀 spacer div -->
+
   <!-- 2️⃣ TRIPLE CARDS -->
   <section class="container my-2">
     <div class="row justify-content-around">
@@ -209,6 +211,18 @@
       </div>
     </div>
     <!-- 2️⃣ TRIPLE CARDS END-->
+
+
+    <!-- 🚀 spacer div -->
+    <div class="d-flex align-items-center" style="height: 30vh;">
+      <!-- DIVIDER LINE -->
+      <div class="container mx-5 my-4 px-5 align-items-center">
+        <hr class="solid mx-5" style="color: var(--Midnight);">
+      </div>
+      <!-- DIVIDER LINE -->
+    </div>
+    <!-- 🚀 spacer div -->
+
 
     <!-- 3️⃣ Horizontal Card DIV -->
     <section class="container my-2 text-Midnight">
@@ -432,21 +446,30 @@
     <!-- 4️⃣ Horizontal Card DIV END -->
 
 
-    <!-- 1️⃣SINGLE CONTENT DIV -->
+    <!-- 🚀 spacer div -->
+    <div class="d-flex align-items-center" style="height: 30vh;">
+      <!-- DIVIDER LINE -->
+      <div class="container mx-5 my-4 px-5 align-items-center">
+        <hr class="solid mx-5" style="color: var(--Midnight);">
+      </div>
+      <!-- DIVIDER LINE -->
+    </div>
+    <!-- 🚀 spacer div -->
+
+
+
+    <!-- 5️⃣SINGLE CONTENT DIV -->
     <div class="container my-2 text-Midnight">
       <div class="row py-2 justify-content-center align-items-center">
         <div class="col-12 col-md-6 text-center">
           <h1 class="fw-bold">WHO WE ARE</h1>
-          <div class="text-Midnight">
-            <span>———</span><i class="mdi
-          mdi-pyramid"></i><span>———</span>
-          </div>
+          <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
           <p class="text-start fw-medium"> My name is Tiffany, I am a web developer that found their special skill later
             in life. I
             started this
             business to help other small
             business
-            owners, like you. My purpose is to assist my clients in achieving thier biggest dreams for thier business. I
+            owners, like you. My mission is to assist others in achieving thier biggest dreams for thier business. I
             do that by managing and providing all of the hard stuff so they can focus on being their best-selves for thier
             clients.
           </p>
@@ -454,11 +477,11 @@
           <p class="fw-medium">
             <br>Tiffany H. OWNER/DEVELOPER
           </p>
-          <p class="fst-italic fw-medium">Personal Motto: Make the World Better, One Day at a Time!
+          <p class="fst-italic fw-medium">Personal Motto:<br><span class="fs-5">Make the World Better, One Day at a
+              Time!</span>
           </p>
           <div class="text-Midnight">
-            <span>———</span><i class="mdi
-          mdi-pyramid mdi-flip-v"></i><span>———</span>
+            <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
           </div>
         </div>
       </div>
