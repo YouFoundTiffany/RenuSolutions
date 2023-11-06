@@ -1,7 +1,7 @@
 <!-- NAVBAR -->
 <template>
   <!-- FIXME height is off by 1-2 pixels vs the homepage navbar -->
-  <section>
+  <section class="d-flex justify-content-center m-0 p-1">
     <nav class="navbar bg-transparent navbar-expand-sm navbar-lightnavbar-expand-sm pe-2">
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex align-items-center">

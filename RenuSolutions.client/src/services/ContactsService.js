@@ -1,5 +1,5 @@
 import { AppState } from '../AppState.js'
-import { Contact } from '../models/Account.js'
+import { Contact } from '../models/Contact.js'
 import { logger } from '../utils/Logger.js'
 import { api } from './AxiosService'
 

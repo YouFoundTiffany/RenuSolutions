@@ -55,7 +55,7 @@
       <div class="container ">
         <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
           <div class="row">
-            <div class="col-12 col-md-6 col-sm-4">
+            <div class="col-12 col-md-6">
               <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty txt-shad">Custom Web
                 Solutions<br>for the
                 Modern Small Business
@@ -69,19 +69,23 @@
                 human-coded
                 web
                 designs<br>that ensure superior performance, with plans starting at $150 a month." </p>
+              <router-link :to="{ name: 'Contact' }"
+                class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+                GET IN TOUCH!
+              </router-link>
             </div>
-            <div class="col-12 col-md-4 justify-content-start d-flex">
-              <!-- FIXME Add media query -->
-              <img class="ad-img justify-content-start img-fluid" src="src/assets/img/mock-up-replace.png" alt="">
-            </div>
-            <!-- FIXME THIS NEEDS A MEDIA QUERY -->
+            <!-- <div class="col-12 col-md-6 justify-content-start d-flex"> -->
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
+              src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
+            <!-- </div> -->
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
                 <!-- style="margin-top: -5vh; margin-left: 15vw;" -->
-                <router-link :to="{ name: 'Contact' }"
-                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3 d-flex">
+                <!-- <router-link :to="{ name: 'Contact' }"
+                  class="smol-txt-btn btn lighten-30 text-uppercase fw-bold text-Midnight rounded bg-Minty align-items-center d-flex elevation-3 d-flex"
+                  style="overflow: hidden;">
                   GET IN TOUCH!
-                </router-link>
+                </router-link> -->
               </div>
             </div>
           </div>
@@ -112,16 +116,17 @@
           <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
         </div>
-        <p class="fst-italic">You finally get to focus on what you really love about your business!
+        <p class="fst-italic fw-medium">You finally get to focus on what you really love about your business!
         </p>
-        <p>We Specialize in providing a quality business system that has a proven track record of increasing
+        <p class="fw-medium">We Specialize in providing a quality business system that has a proven track record of
+          increasing
           revenue for small businesses like yours. This allows you the time and freedom to meet with your clients, which
           brings in more revenue.</p>
 
 
         <!-- MODAL BUTTON-->
-        <p type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
-            learn-more">LEARN MORE</span></p>
+        <h5 type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
+            learn-more">LEARN MORE</span></h5>
         <!-- MODAL -->
         <div class="modal fade" id="DeltaERPModal" tabindex="-1" role="dialog" aria-labelledby="DeltaERPModalLabel"
           aria-hidden="true">
@@ -168,11 +173,12 @@
   <section class="container my-2">
     <div class="row justify-content-around">
       <!-- 🅰️ -->
-      <div class="col-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
-          <h5 class="card-title  text-center">Full-System</h5>
-          <p class="card-text text-start Merri-light-smol ">We build a system that has every important tool at your
+          <h5 class="card-title text-center">Full-System</h5>
+          <p class="card-text text-start fw-semibold smol-txt-checks">We build a system that has every important tool at
+            your
             fingertips,
             and they all
             work
@@ -180,21 +186,22 @@
         </div>
       </div>
       <!-- 🅱️ -->
-      <div class="col-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
         <i class="mdi mdi-tablet-cellphone fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Mobile First</h5>
-          <p class="card-text text-start Merri-light-smol">Your web products will display and be repsponsive in all
+          <p class="card-text text-start fw-semibold smol-txt-checks">Your web products will display and be repsponsive in
+            all
             mobile sizes.
           </p>
         </div>
       </div>
       <!-- 🆎 -->
-      <div class="col-3 card h-30 elevation-3 text-Midnight">
+      <div class="col-12 col-md-3 card h-30 elevation-3 text-Midnight">
         <i class="mdi mdi-key fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Turn Key</h5>
-          <p class="text-start Merri-light-smol">
+          <p class="text-start fw-semibold smol-txt-checks">
             Everything you need to
             run your entire
             business is all organized for you.</p>
@@ -343,7 +350,7 @@
                 <span class="smol-txt-checks fw-bold">Customer Relationship Manager (CRM)
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Details</span>
+                <span class="xsmol-txt-checks">Easily Manage all of Your Customer Interactions</span>
               </p>
             </div>
             <!-- Infinity 2 check -->
@@ -355,7 +362,7 @@
               <p class="">
                 <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
                 <br>
-                <span class="xsmol-txt-checks">Details</span>
+                <span class="xsmol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
               </p>
             </div>
           </div>
@@ -370,7 +377,7 @@
               <p class="">
                 <span class="smol-txt-checks fw-bold">Website & Funnel Builder</span>
                 <br>
-                <span class="xsmol-txt-checks">Details</span>
+                <span class="xsmol-txt-checks">Direct Potential Customers to your Site</span>
               </p>
             </div>
             <!-- Infinity 4 check -->
@@ -382,7 +389,7 @@
               <p class="">
                 <span class="smol-txt-checks fw-bold">Membership Portal</span>
                 <br>
-                <span class="xsmol-txt-checks">Details</span>
+                <span class="xsmol-txt-checks">Virtual Training System</span>
               </p>
             </div>
           </div>
@@ -396,25 +403,23 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 5 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Messaging Capabilities (i.e. email, text, phone, etc.)</span>
+                <span class="smol-txt-checks fw-bold">Messaging Capabilities</span>
                 <br>
-                <span class="xsmol-txt-checks">Details</span>
+                <span class="xsmol-txt-checks">Integrated Email, Text, Phone, etc.</span>
               </p>
             </div>
-            <!-- Infinity 6 check
+            <!-- Infinity 6 check -->
             <div class="col-1 p-0 m-0 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
-            <div class="col-4 ps-1 m-0"> -->
-            <!-- check 6 content-->
-            <!-- <p class="">
-                <span class="smol-txt-checks fw-bold">Complimentary Google Analytics Integration
-                </span>
+            <div class="col-4 ps-1 m-0">
+              <!-- check 6 content-->
+              <p class="">
+                <span class="smol-txt-checks fw-bold">Online Payments</span>
                 <br>
-                <span class="xsmol-txt-checks">We provide a complimentary setup of Google Analytics to track your
-                  website's traffic sources and visitor behavior.</span>
+                <span class="xsmol-txt-checks">Accept and Manage Your Revenue</span>
               </p>
-            </div> -->
+            </div>
           </div>
         </div>
         <!-- MONEY HANDS -->
@@ -436,15 +441,20 @@
             <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
           </div>
-          <p> My name is Tiffany, I am 5-Path Hypnotist and web developer. I started this business to help other small
+          <p class="text-start fw-medium"> My name is Tiffany, I am a web developer that found their special skill later
+            in life. I
+            started this
+            business to help other small
             business
-            owners, like you, to be successful and enable them to find and help more people than they ever could.
+            owners, like you. My purpose is to assist my clients in achieving thier biggest dreams for thier business. I
+            do that by managing and providing all of the hard stuff so they can focus on being their best-selves for thier
+            clients.
           </p>
-          <img src="" alt="picture of Tiffany">
-          <p>
+          <!-- <img src="" alt="picture of Tiffany"> -->
+          <p class="fw-medium">
             <br>Tiffany H. OWNER/DEVELOPER
           </p>
-          <p class="fst-italic">Personal Motto: Make the World Better, One Day at a Time!
+          <p class="fst-italic fw-medium">Personal Motto: Make the World Better, One Day at a Time!
           </p>
           <div class="text-Midnight">
             <span>———</span><i class="mdi
@@ -477,11 +487,14 @@ export default {
 <style scoped lang="scss">
 // MODAL HOVER
 .learn-more:hover {
+  scale: 1.5;
+  font-size: x-large;
+  transition: 0.3s;
   color: var(--Aquatic);
-  /* Change color on hover */
   cursor: pointer;
-  /* Change cursor to indicate clickable */
-  /* Add other hover styles as needed */
+
+
+
 }
 
 .piggyBank {
@@ -495,7 +508,7 @@ export default {
 
 .card:hover i.onhvr {
   scale: 1.5;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .Merri-light-smol {
@@ -514,7 +527,7 @@ export default {
 
 .xsmol-txt-checks {
   font-size: x-small !important;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
 }
 
 .smol-txt-msg {
@@ -541,16 +554,18 @@ export default {
 
 // small text for button
 .smol-txt-btn {
-  text-align: center !important;
+  padding-top: 10px;
   height: 35px !important;
   font-size: x-small !important;
-  font-weight: 600 !important;
+  font-weight: 800 !important;
 }
 
 .smol-txt-btn:hover {
   background-color: var(--Aquatic) !important;
   color: var(--Minty) !important;
-  transition: 0.2s !important;
+  transition: 0.3s !important;
+  scale: 1.3;
+
 }
 
 
