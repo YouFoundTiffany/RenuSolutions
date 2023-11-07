@@ -72,8 +72,8 @@
                 GET IN TOUCH!
               </router-link>
             </div>
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
-              src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/mobileMU2.png"
+              alt="" style="object-fit: contain;object-position: center; max-height:43vh;">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
