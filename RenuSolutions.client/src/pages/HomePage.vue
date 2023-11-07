@@ -72,33 +72,9 @@
                 GET IN TOUCH!
               </router-link>
             </div>
-            <!-- <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/mobileMU2.png"
-              alt="" style="object-fit: contain;object-position: center; max-height:43vh;"> -->
-
-            <!-- 🎠 CAROUSEL -->
-            <div id="TopLineCarousel" class="carousel slide col-12 col-md-6 rounded-carousel" data-bs-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100 img-fluid" src="src/assets/img/mobileMU2.png" alt="First slide"
-                    style="max-height: 30vh; object-fit: contain; object-position: center;">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="src/assets/img/laptopMU1.png" alt="Second slide">
-                </div>
-                <!-- <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide">
-                  </div> -->
-              </div>
-            </div>
-            <!-- 🎠 CAROUSEL -->
-
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/mobileMU2.png"
+              alt="" style="object-fit: contain;object-position: center;">
             <div class="container d-flex ms-5 ps-5">
-
               <div class="container d-flex ps-5 ps-md-5">
               </div>
             </div>
@@ -512,19 +488,9 @@
 </template>
 
 <script>
-import bootstrap from 'bootstrap';
-import { onMounted } from 'vue';
-
-
 export default {
   setup() {
-    onMounted(() => {
-      new bootstrap.Carousel(document.getElementById('TopLineCarousel'), {
-        interval: 2000,
-        wrap: true,
-        touch: true
-      });
-    });
+
 
     return {}
   }
