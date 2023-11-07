@@ -8,7 +8,7 @@
       <nav v-if="$route.name === 'Home'"
         class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
-          <div class="align-items-center justify-content-center">
+          <div class="align-items-center justify-content-center renu-glow">
             <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
             <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home">
           </div>
@@ -61,13 +61,13 @@
 
               </h1>
               <!-- lh-sm line height -->
-              <p class="fw-semibold text-start lh-sm ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight txt-glow">Ditch
+              <p class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight txt-glow">Ditch
                 WordPress for
                 our
-                bespoke,
+                bespoke,<br>
                 human-coded
                 web
-                designs<br>that ensure superior performance, with plans starting at $150 a month." </p>
+                designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
 
               <!-- ⭐Comment back in for Router-Link to Contact page -->
               <!-- <router-link :to="{ name: 'Contact' }"
@@ -589,7 +589,7 @@ export default {
 }
 
 .smol-txt-msg {
-  font-size: small !important;
+  font-size: medium !important;
   font-weight: 800 !important;
 }
 
@@ -601,8 +601,13 @@ export default {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.694);
 }
 
+.renu-glow {
+  backdrop-filter: rgba(255, 255, 255, 0.603) !important;
+  // backdrop-filter: 1px 1px 1px rgba(255, 255, 255, 0.836);
+}
+
 .txt-glow {
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.694);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.836);
 }
 
 .xxbig-txt-msg {
