@@ -52,7 +52,8 @@
 
     <section class="" style="min-height: 35vh;">
       <div class="container">
-        <div class=" row justify-content-around text-Midnight p-0 m-0 animate__animated animate__backInLeft">
+        <div class=" row justify-content-around text-Midnight p-0 m-0n animate__animated animate__backInLeft">
+          <!-- animate__animated animate__backInLeft -->
           <div class="row">
             <div class="col-12 col-md-6">
               <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty txt-shad">Custom Web
@@ -69,11 +70,13 @@
                 web
                 designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
 
+
+
               <!-- ⭐Comment back in for Router-Link to Contact page -->
               <!-- <router-link :to="{ name: 'Contact' }"
-                class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-                GET IN TOUCH!
-              </router-link> -->
+              class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+              GET IN TOUCH!
+            </router-link> -->
               <!-- TEMP Button trigger modal -->
 
               <button type="button"
@@ -85,14 +88,19 @@
 
 
             </div>
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/mobileMU2.png"
-              alt="" style="object-fit: contain;object-position: center; max-height:43vh;">
+            <!-- Static mockup Image -->
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/Mockups.png"
+              alt="" style="object-fit: contain;object-position: center; max-height:100vh;">
+
+
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
             </div>
           </div>
         </div>
+
+
         <!-- TEMP Modal -->
         <div class="modal fade" id="getInTouchModal" tabindex="-1" role="dialog" aria-labelledby="getInTouchModalLabel"
           aria-hidden="true">
@@ -103,26 +111,15 @@
               <p>Schedule your discovery session today!<br>Email, Text, or Call</p>
               <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>(208) 918-0942</p>
               <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>Info@RenuSolutions.tech</p>
-              <p class="px-3 txt-smol smol-txt-checks">We choose to focus on our clients, and so,<br>our website is a work
-                in
-                progress.<br>Thank you for your patience.
-              </p>
+
             </div>
           </div>
         </div>
       </div>
       <!-- TEMP Modal -->
-
-
-
-
-
-
-
-
       <!-- </div>
           <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
-            src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
+          src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
           <div class="container d-flex ms-5 ps-5">
             <div class="container d-flex ps-5 ps-md-5">
             </div>
@@ -130,7 +127,11 @@
         </div>
       </div> -->
 
+
     </section>
+
+
+
     <!-- 🧭 - NAVBAR END -->
   </section>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE END-->
