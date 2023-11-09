@@ -544,7 +544,7 @@ import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGL
 import mobileMU2 from '@/assets/img/mobileMU2.png';
 import piggyBank from '@/assets/img/piggyBank.svg';
 import moneyHands from '@/assets/img/moneyHands.svg';
-import RenuLogoMockUp from '/assets/img/RenuLogoMockUp.png';
+import RenuLogoMockUp from '@/assets/img/RenuLogoMockUp.png';
 
 
 export default {
