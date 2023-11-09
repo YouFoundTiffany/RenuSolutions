@@ -91,7 +91,7 @@
 
             </div>
             <!-- Static mockup Image -->
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="mobileMU2" alt=""
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups" alt="Mockups"
               style="object-fit: contain;object-position: center;">
 
 
@@ -541,10 +541,10 @@
 <script>
 
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
-import mobileMU2 from '@/assets/img/mobileMU2.png';
 import piggyBank from '@/assets/img/piggyBank.svg';
 import moneyHands from '@/assets/img/moneyHands.svg';
 import RenuLogoMockUp from '@/assets/img/RenuLogoMockUp.png';
+import Mockups from '@/assets/img/Mockups.png';
 
 
 export default {
@@ -553,10 +553,10 @@ export default {
 
     return {
       logo: RenuSolutionsLogo,
-      mobileMU2: mobileMU2,
       piggyBank: piggyBank,
       moneyHands: moneyHands,
       RenuLogoMockUp: RenuLogoMockUp,
+      Mockups: Mockups,
 
     }
   }
