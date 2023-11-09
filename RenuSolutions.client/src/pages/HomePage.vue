@@ -539,11 +539,16 @@
 </template>
 
 <script>
+import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
+
 export default {
   setup() {
 
 
-    return {}
+    return {
+      logo: RenuSolutionsLogo
+
+    }
   }
 }
 </script>
