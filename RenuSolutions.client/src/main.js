@@ -6,7 +6,7 @@ import App from './App.vue'
 import { registerGlobalComponents } from './registerGlobalComponents'
 import { router } from './router'
 import './utils/SocketProvider.js'
-import 'animate.css'
+import 'animate.css';
 
 const root = createApp(App)
 registerGlobalComponents(root)
