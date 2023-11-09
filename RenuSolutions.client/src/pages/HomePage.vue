@@ -9,8 +9,8 @@
         class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
           <div class="align-items-center justify-content-center">
-            <img src="src/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg" alt="Renu Solutions" height="45"
-              class="" title="Home">
+            <img :src="logo" alt="Renu Solutions Logo"> alt="Renu Solutions" height="45"
+            class="" title="Home">
             <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
             <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
           </div>
