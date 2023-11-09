@@ -1,10 +1,10 @@
 <!-- HOME PAGE -->
 <template>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
-  <section class="container-flex text-center top-sec-bg-image justify-content-center m-0 p-0">
+  <section class="container-flex text-center top-sec-bg-image justify-content-around m-0 p-0">
 
     <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
-    <section class="m-0 p-0 d-flex align-items-center justify-content-center">
+    <section class="m-0 p-0 d-flex align-items-center justify-content-around">
       <nav v-if="$route.name === 'Home'"
         class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
@@ -14,9 +14,9 @@
             <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
           </div>
         </router-link>
-        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
+        <!-- <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarText1" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span></button>
+          <span class="navbar-toggler-icon"></span></button> -->
         <div class="collapse navbar-collapse" id="navbarText1">
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
             <!-- <li>
@@ -47,6 +47,11 @@
           </ul>
         </div>
       </nav>
+      <button type="button"
+        class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3"
+        data-toggle="modal" data-target="#getInTouchModal">
+        Free Consult</button>
+
     </section>
     <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
 
