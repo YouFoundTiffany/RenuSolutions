@@ -4,8 +4,7 @@
     <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2">
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex align-items-center">
-          <img src="src/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg" alt="Renu Solutions Digital Lab"
-            height="45" class="" title="Home">
+          <img :src="logo" alt="Renu Solutions Logo" height="45" class="" title="Home">
           <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
           <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
         </div>
