@@ -2,7 +2,7 @@
     <section class='container-flex gradient-midnight-maritime-aquatic my-2 p-0 SideEye'>
         <div class='row justify-content-around pt-3 text-center'>
             <div class="col-12 col-md-3">
-                <img src="src/assets/img/RenuLogoMockUp.png" alt="" class=""
+                <img :src="renoLogo" alt="Reno Logo" class=""
                     style="object-fit: cover; object-position: center; max-height: 30vh;">
                 <p></p>
                 <p>Email Info@RenuSolutions.tech</p>
@@ -34,9 +34,13 @@
     </section>
 </template>
 <script>
+import RenuLogo from '@/assets/img/RenuLogoMockUp.png';
+
 export default {
     setup() {
-        return {};
+        return {
+            renuLogo: RenuLogo,
+        };
     },
 };
 </script>
