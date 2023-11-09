@@ -50,10 +50,15 @@
 </template>
 
 <script>
+import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
+
+
 // import Login from './Login.vue';
 export default {
   setup() {
-    return {}
+    return {
+      logo: RenuSolutionsLogo,
+    }
   },
   // components: { Login }
 }
