@@ -91,8 +91,8 @@
 
             </div>
             <!-- Static mockup Image -->
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/Mockups.png"
-              alt="" style="object-fit: contain;object-position: center; max-height:100vh;">
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="mobileMU2" alt=""
+              style="object-fit: contain;object-position: center;">
 
 
             <div class="container d-flex ms-5 ps-5">
@@ -108,7 +108,7 @@
           aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content fw-medium">
-              <img src="src/assets/img/RenuLogoMockUp.png" alt="" class="img-fluid"
+              <img :src="RenuLogoMockUp" alt="Renu Logo Mock Up" class="img-fluid"
                 style="object-fit: contain; object-position: center; max-height: 10vh;">
               <p>Schedule your discovery session today!<br>Email, Text, or Call</p>
               <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>(208) 918-0942</p>
@@ -271,7 +271,7 @@
       <div class="row pb-5 justify-content-center align-items-center">
         <!-- PIGGY -->
         <div class="col-3">
-          <img src="src/assets/img/piggyBank.svg" alt="" class="piggyBank img-fluid">
+          <img :src="piggyBank" alt="Piggy Bank" class="piggyBank img-fluid">
         </div>
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
@@ -480,7 +480,7 @@
         </div>
         <!-- MONEY HANDS -->
         <div class="col-3">
-          <img src="src/assets/img/moneyHands.svg" alt="" class="img-fluid">
+          <img :src="moneyHands" alt="Money Hands" class="img-fluid">
         </div>
         <!-- MONEY HANDS -->
       </div>
@@ -539,14 +539,24 @@
 </template>
 
 <script>
+
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
+import mobileMU2 from '@/assets/img/mobileMU2.png';
+import piggyBank from '@/assets/img/piggyBank.svg';
+import moneyHands from '@/assets/img/moneyHands.svg';
+import RenuLogoMockUp from '/assets/img/RenuLogoMockUp.png';
+
 
 export default {
   setup() {
 
 
     return {
-      logo: RenuSolutionsLogo
+      logo: RenuSolutionsLogo,
+      mobileMU2: mobileMU2,
+      piggyBank: piggyBank,
+      moneyHands: moneyHands,
+      RenuLogoMockUp: RenuLogoMockUp,
 
     }
   }
