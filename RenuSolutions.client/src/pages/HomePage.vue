@@ -73,8 +73,8 @@
                 GET IN TOUCH!
               </router-link>
             </div>
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" src="src/assets/img/mobileMU2.png"
-              alt="" style="object-fit: contain;object-position: center;">
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="mobileMU2" alt=""
+              style="object-fit: contain;object-position: center;">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
@@ -488,12 +488,14 @@
   <!-- </section> -->
 </template>
 
+
 <script>
 
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
 import mobileMU2 from '@/assets/img/mobileMU2.png';
 import piggyBank from '@/assets/img/piggyBank.svg';
 import moneyHands from '@/assets/img/moneyHands.svg';
+import RenuLogoMockUp from '/assets/img/RenuLogoMockUp.png';
 
 
 export default {
@@ -505,6 +507,7 @@ export default {
       mobileMU2: mobileMU2,
       piggyBank: piggyBank,
       moneyHands: moneyHands,
+      RenuLogoMockUp: RenuLogoMockUp,
 
     }
   }
