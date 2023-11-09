@@ -9,8 +9,7 @@
         class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
           <div class="align-items-center justify-content-center">
-            <img :src="logo" alt="Renu Solutions Logo"> alt="Renu Solutions" height="45"
-            class="" title="Home">
+            <img :src="logo" alt="Renu Solutions Logo" height="45" class="" title="Home">
             <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
             <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
           </div>
@@ -222,7 +221,7 @@
       <div class="row py-5 justify-content-center align-items-center">
         <!-- PIGGY -->
         <div class="col-3">
-          <img src="src/assets/img/piggyBank.svg" alt="" class="piggyBank img-fluid">
+          <img :src="piggyBank" alt="Piggy Bank" class="piggyBank img-fluid">
         </div>
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
@@ -431,7 +430,7 @@
         </div>
         <!-- MONEY HANDS -->
         <div class="col-3">
-          <img src="src/assets/img/moneyHands.svg" alt="" class="img-fluid">
+          <img :src="moneyHands" alt="Money Hands" class="img-fluid">
         </div>
         <!-- MONEY HANDS -->
       </div>
@@ -491,16 +490,22 @@
 
 <script>
 
-// Incorrect
-// Correct
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
+import mobileMU2 from '@/assets/img/mobileMU2.png';
+import piggyBank from '@/assets/img/piggyBank.svg';
+import moneyHands from '@/assets/img/moneyHands.svg';
+
 
 export default {
   setup() {
 
 
     return {
-      logo: RenuSolutionsLogo
+      logo: RenuSolutionsLogo,
+      mobileMU2: mobileMU2,
+      piggyBank: piggyBank,
+      moneyHands: moneyHands,
+
     }
   }
 }
