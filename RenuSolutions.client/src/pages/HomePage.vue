@@ -10,8 +10,6 @@
         <router-link class="navbar-brand" :to="{ name: 'Home' }">
           <div class="align-items-center justify-content-center">
             <img :src="logo" alt="Renu Solutions Logo" height="45" class="" title="Home">
-            <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
-            <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
           </div>
         </router-link>
         <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
@@ -48,6 +46,10 @@
           </ul>
         </div>
       </nav>
+      <router-link :to="{ name: 'Contact' }"
+        class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+        Free Consult
+      </router-link>
     </section>
     <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
     <section class="" style="min-height: 35vh;">
@@ -73,8 +75,8 @@
                 GET IN TOUCH!
               </router-link>
             </div>
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="mobileMU2" alt=""
-              style="object-fit: contain;object-position: center;">
+            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
+              alt="Example of Hypnosis Website" style="object-fit: contain;object-position: center;">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
@@ -492,7 +494,7 @@
 <script>
 
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
-import mobileMU2 from '@/assets/img/mobileMU2.png';
+import Mockups from '@/assets/img/Mockups.png';
 import piggyBank from '@/assets/img/piggyBank.svg';
 import moneyHands from '@/assets/img/moneyHands.svg';
 import RenuLogoMockUp from '@/assets/img/RenuLogoMockUp.png';
@@ -504,10 +506,10 @@ export default {
 
     return {
       logo: RenuSolutionsLogo,
-      mobileMU2: mobileMU2,
       piggyBank: piggyBank,
       moneyHands: moneyHands,
       RenuLogoMockUp: RenuLogoMockUp,
+      Mockups: Mockups,
 
     }
   }
@@ -533,10 +535,13 @@ export default {
 
 // letter spacing
 
+// Card hover effect
 .card:hover i.onhvr {
   scale: 1.5;
   transition: 0.3s;
 }
+
+// Card hover effect
 
 .Merri-light-smol {
   font-family: 'Merriweather', serif !important;
