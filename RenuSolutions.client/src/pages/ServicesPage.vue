@@ -1,14 +1,16 @@
 <!-- SERVICES -->
 <template>
-  <section class="container my-2">
+  <section class="container my-2 mt-4">
+    <h1 class="text-center m-4 p-4">Our Services</h1>
+
     <!-- 1️⃣ - TRIPLE CARDS -->
-    <div class="row justify-content-around gap-sm-2 gap-lg-0">
+    <div class="row justify-content-around text-center gap-sm-2 gap-lg-0">
 
       <!-- 🅰️ -->
       <a @click.prevent="scrollTo('static-website')"
-        class="col-10 col-md-3 card mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
-        <i class=" mdi mdi-web fs-1 text-center m-0 p-0"></i>
-        <h6 class="card-title text-center  m-0 p-0">Static Website</h6>
+        class="col-10 col-md-3 cad mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
+        <i class="mdi mdi-web fs-1 text-center"></i>
+        <h6 class="card-title text-center">Static Website</h6>
         <!-- <p class="card-text text-start fw-semibold smol-txt-checks"></p> -->
       </a>
 
@@ -27,37 +29,104 @@
         <h6 class="card-title text-center">Web Apps</h6>
         <!-- <p class="card-text text-start fw-semibold smol-txt-checks"></p> -->
       </a>
-
-
-
     </div>
+
+    <!-- 🚀 spacer div -->
+    <div class="spacer d-flex align-items-center" style="height: 30vh;">
+      <!-- DIVIDER LINE -->
+      <div class="container mx-5 my-4 px-5 align-items-center">
+        <hr class="solid mx-5" style="color: var(--Midnight);">
+      </div>
+      <!-- DIVIDER LINE -->
+    </div>
+    <!-- 🚀 spacer div -->
+
+
     <!-- 1️⃣ - TRIPLE CARDS END-->
   </section>
   <!-- Content -->
   <section>
     <div class="container">
-      <h3 id="static-website">Static Website</h3>
-      <p>Starting at $150 per Month,
-        6 month Minimum Contract
-        The Simple Static Website
-        Inclusive Hosting Costs
-        Your monthly plan encompasses all hosting charges.
+      <div class="row">
+        <!-- healine -->
+        <h3 id="static-website">Static Website : What do you get?</h3>
+        <!-- healine -->
 
-        Unlimited Revisions & Round-the-Clock Support
-        Feel free to request any modifications at any time, and expect completion within the same day.
+        <!-- List Left -->
+        <!-- icon column 1 +1-->
+        <div class="col-1 m-0 p-0 text-end">
+          <i class="mdi mdi-web"></i>
+        </div>
+        <!-- bullet Point column 4 +1-->
+        <div class="col-3 m-0 p-0">
+          <!-- check 2 content-->
+          <p class="">
+            <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
+            <br>
+            <span class="xsmol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
+          </p>
+          <!-- List Left -->
 
-        Direct 24/7 Support Access
-        Contact us directly at any hour—avoiding automated menus and getting immediate human assistance.
+          <!-- List center -->
+        </div>
+        <div class="col-1 m-0 p-0 text-end">
 
-        Comprehensive Web Crafting
-        Our package offers over 40 hours dedicated to meticulous web design, development, and rigorous quality checks.
+          <i class="mdi mdi-web"></i>
+        </div>
+        <div class="col-3 m-0 p-0">
+          <!-- check 2 content-->
+          <p class="">
+            <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
+            <br>
+            <span class="xsmol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
+          </p>
+        </div>
+        <!-- List center -->
 
-        Top-Tier Google Page Speed Ratings
-        Attain an impeccable score of 100 in Google Page Speed insights, enhancing your site's visibility.
+        <!-- List right -->
+        <div class="col-1 m-0 p-0 text-end">
 
-        Complimentary Google Analytics Integration
-        We provide a complimentary setup of Google Analytics to track your website's traffic sources and visitor behavior.
-      </p>
+          <i class="mdi mdi-web"></i>
+        </div>
+        <div class="col-3 m-0 p-0">
+          <!-- check 2 content-->
+          <p class="">
+            <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
+            <br>
+            <span class="xsmol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
+          </p>
+        </div>
+        <!-- List right -->
+
+        <!-- Details -->
+        <p>Starting at $150 per Month,
+          6 month Minimum Contract
+          The Simple Static Website
+          Inclusive Hosting Costs
+          Your monthly plan encompasses all hosting charges.
+
+          Unlimited Revisions & Round-the-Clock Support
+          Feel free to request any modifications at any time, and expect completion within the same day.
+
+          Direct 24/7 Support Access
+          Contact us directly at any hour—avoiding automated menus and getting immediate human assistance.
+
+          Comprehensive Web Crafting
+          Our package offers over 40 hours dedicated to meticulous web design, development, and rigorous quality checks.
+
+          Top-Tier Google Page Speed Ratings
+          Attain an impeccable score in Google Page Speed insights, enhancing your site's visibility.
+
+          Complimentary Google Analytics Integration
+          We provide a complimentary setup of Google Analytics to track your website's traffic sources and visitor
+          behavior.
+        </p>
+        <!-- Details -->
+
+      </div>
+
+
+
 
       <h3 id="delta-erp">Delta ERP</h3>
       <p>The Renü Solutions Delta ERP
