@@ -228,9 +228,10 @@
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per Month,<br>6 month
+          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per Month,<br>Six
+            Month
             Minimum
-            Contract</h1>
+            Contract,<br>Cancel Anytime</h1>
           <!-- $150 CONTRACT -->
           <h3 class="fw-bold text-Aquatic lght-txt-shad">The Simple Static Website</h3>
           <!-- CHECK POINTS ROW 1 -->
@@ -341,9 +342,8 @@
         <!-- $50 CONTRACT -->
         <div class="col-12 col-md-8">
           <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Aquatic lght-txt-shad">$50</span> per
-            Month,<br>6
-            month
-            Minimum Contract</h1>
+            Month,<br> Six Month
+            Minimum Contract,<br>Cancel Anytime</h1>
           <!-- $150 CONTRACT -->
           <h3 class="fw-bold text-Aquatic lght-txt-shad">The Delta ERP</h3>
           <!-- CHECK POINTS ROW 1 -->
