@@ -54,7 +54,6 @@
           <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
             <div class="card-body">
               <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
-              <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
 
               <form @submit.prevent="createContact" class="mt-4">
                 <div class="mb-3">
@@ -78,8 +77,7 @@
                     style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn"
-                    style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
+                  <button type="submit" class="btn">Submit</button>
                 </div>
               </form>
             </div>
@@ -147,3 +145,18 @@ export default {
 }
 
 </script>
+<style>
+#contactUsModal .btn[type="submit"] {
+  background-color: var(--Aquatic) !important;
+  /* Replace with your desired color */
+  color: var(--Minty) !important;
+  /* Replace with your desired color */
+}
+
+#contactUsModal .btn[type="submit"]:hover {
+  background-color: var(--Minty) !important;
+  /* Color on hover */
+  color: var(--Midnight) !important;
+  /* Text color on hover */
+}
+</style>

@@ -110,8 +110,7 @@
                                         maxlength="200"></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn"
-                                        style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
+                                    <button type="submit" class="btn">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -139,8 +138,9 @@ export default {
         return {
             renuLogo: RenuLogo,
             contactData: {
-                email: '',
                 name: '',
+                email: '',
+                phone: '',
                 message: ''
             },
             googleFormUrl: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/formResponse"
@@ -263,5 +263,19 @@ export default {
 .borderLinerNav:hover::after {
     width: 100%;
     left: 0;
+}
+
+#footContactUsModal .btn[type="submit"] {
+    background-color: var(--Aquatic) !important;
+    /* Replace with your desired color */
+    color: var(--Minty) !important;
+    /* Replace with your desired color */
+}
+
+#footContactUsModal .btn[type="submit"]:hover {
+    background-color: var(--Minty) !important;
+    /* Color on hover */
+    color: var(--Midnight) !important;
+    /* Text color on hover */
 }
 </style>
