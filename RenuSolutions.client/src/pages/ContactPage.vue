@@ -68,6 +68,11 @@
                     style="background-color: var(--Minty);" minlength="3" maxlength="59">
                 </div>
                 <div class="mb-3">
+                  <label for="phone" class="form-label" style="color: var(--Aquatic);">Phone</label>
+                  <input type="phone" class="form-control" id="phone" v-model="contactData.phone" required
+                    style="background-color: var(--Minty);" minlength="3" maxlength="59">
+                </div>
+                <div class="mb-3">
                   <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
                   <textarea class="form-control" id="message" rows="3" v-model="contactData.message" required
                     style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
@@ -113,8 +118,9 @@ export default {
   methods: {
     createContact() {
       const formData = new FormData();
-      formData.append('entry.1793138634', this.contactData.email);
-      formData.append('entry.227427169', this.contactData.name);
+      formData.append('entry.1793138634', this.contactData.name);
+      formData.append('entry.227427169', this.contactData.email);
+      formData.append('entry.1942162986', this.contactData.phone);
       formData.append('entry.1139891264', this.contactData.message);
 
       fetch(this.googleFormUrl, {
