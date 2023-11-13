@@ -18,7 +18,7 @@
 
             <!-- 🐕‍🦺 SERVICES -->
             <!-- <section class="glass-effect m-0 p-0"> -->
-            <div class="col-12 col-md-1 text-center">
+            <div class="col-12 col-md-1 text-center rounded">
                 <!-- <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p> -->
                 <!-- <router-link :to="{ name: 'WEBSITES' }">
                     <p class="borderLinerServ text-light pt-1">WEBSITES</p>
@@ -32,7 +32,7 @@
                 <p class="borderLinerServ text-light txt-shad">APPS</p> -->
             </div>
             <!-- 🧭 NAVIGATION -->
-            <div class="col-12 col-md-1 text-center glass-effect">
+            <div class="col-12 col-md-1 text-center glass-effect rounded">
                 <p class="ftsTitleUnderlineNav pt-1 m-0 fw-bold txt-shad">NAVIGATION</p>
                 <router-link :to="{ name: 'Home' }">
                     <p class="borderLinerNav text-light pt-1 txt-shad">HOME</p>
@@ -49,9 +49,9 @@
                 <!-- <router-link :to="{ name: 'Blog' }">
                     <p class="borderLinerNav text-light txt-shad">BLOG</p>
                 </router-link> -->
-                <!-- <router-link :to="{ name: 'Contact' }">
+                <router-link :to="{ name: 'Contact' }">
                     <p class="borderLinerNav text-light txt-shad">CONTACT</p>
-                </router-link> -->
+                </router-link>
             </div>
             <!-- </section> -->
 

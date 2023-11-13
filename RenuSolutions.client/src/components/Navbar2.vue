@@ -14,26 +14,26 @@
           class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarText2">
         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-          <li>
+          <!-- <li>
             <router-link :to="{ name: 'About' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               About
             </router-link>
-          </li>
+          </li> -->
           <li>
             <router-link :to="{ name: 'Services' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               Services
             </router-link>
           </li>
-          <li>
+          <!-- <li>
             <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               Portfolio
             </router-link>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <router-link :to="{ name: 'Blog' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               Blog
             </router-link>
-          </li>
+          </li> -->
           <li>
             <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               Contact
@@ -42,6 +42,11 @@
         </ul>
       </div>
     </nav>
+    <router-link :to="{ name: 'Contact' }" v-show="$route.name !== 'Contact'"
+      class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+      Free Consult
+    </router-link>
+
   </section>
 
   <!-- LOGIN COMPONENT HERE -->
@@ -50,7 +55,6 @@
 
 <script>
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
-
 
 // import Login from './Login.vue';
 export default {
@@ -64,6 +68,13 @@ export default {
 </script>
 
 <style scoped>
+.smol-txt-btn {
+  padding-top: 10px;
+  height: 35px !important;
+  font-size: x-small !important;
+  font-weight: 800 !important;
+}
+
 a:hover {
   text-decoration: none;
   color: var(--Maritime);
