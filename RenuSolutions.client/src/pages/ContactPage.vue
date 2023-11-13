@@ -111,7 +111,7 @@ export default {
         name: '',
         message: ''
       },
-      googleFormUrl: 'https://forms.gle/kLsWqpdjmdhKfDRk8'
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link'
     };
   },
   methods: {
