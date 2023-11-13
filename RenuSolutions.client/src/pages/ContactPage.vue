@@ -40,57 +40,57 @@
   <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <!-- <div class="modal-content"> -->
-      <!-- <div class="modal-header"> -->
-      <!-- <h5 class="modal-title" id="contactUsModalLabel">Modal title</h5> -->
-      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
-      <!-- <span aria-hidden="true">&times;</span> -->
-      <!-- </button> -->
-      <!-- </div> -->
-      <!-- <div class="modal-body"> -->
-      <!--  END MODAL HEADER -->
-      <!-- MODAL BODY CONTACT US FORM -->
-      <div class="container-flex py-5">
-        <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
-          <div class="card-body">
-            <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
-            <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
+      <div class="modal-content">
+        <!-- <div class="modal-header"> -->
+        <!-- <h5 class="modal-title" id="contactUsModalLabel">Modal title</h5> -->
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+        <!-- <span aria-hidden="true">&times;</span> -->
+        <!-- </button> -->
+        <!-- </div> -->
+        <!-- <div class="modal-body"> -->
+        <!--  END MODAL HEADER -->
+        <!-- MODAL BODY CONTACT US FORM -->
+        <div class="container-flex">
+          <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
+            <div class="card-body">
+              <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
+              <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
 
-            <form @submit.prevent="createContact" class="mt-4">
-              <div class="mb-3">
-                <label for="name" class="form-label" style="color: var(--Aquatic);">Name</label>
-                <input type="text" class="form-control" id="name" v-model="contactData.name" required
-                  style="background-color: var(--Minty);" minlength="3" maxlength="59">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label" style="color: var(--Aquatic);">Email</label>
-                <input type="email" class="form-control" id="email" v-model="contactData.email" required
-                  style="background-color: var(--Minty);" minlength="3" maxlength="59">
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
-                <textarea class="form-control" id="message" rows="3" v-model="contactData.message" required
-                  style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn"
-                  style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
-              </div>
-            </form>
+              <form @submit.prevent="createContact" class="mt-4">
+                <div class="mb-3">
+                  <label for="name" class="form-label" style="color: var(--Aquatic);">Name</label>
+                  <input type="text" class="form-control" id="name" v-model="contactData.name" required
+                    style="background-color: var(--Minty);" minlength="3" maxlength="59">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label" style="color: var(--Aquatic);">Email</label>
+                  <input type="email" class="form-control" id="email" v-model="contactData.email" required
+                    style="background-color: var(--Minty);" minlength="3" maxlength="59">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
+                  <textarea class="form-control" id="message" rows="3" v-model="contactData.message" required
+                    style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn"
+                    style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- END MODAL BODY CONTACT US FORM -->
-      <!-- MODAL FOOTER -->
-      <!-- </div> -->
+        <!-- END MODAL BODY CONTACT US FORM -->
+        <!-- MODAL FOOTER -->
+      </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div> -->
-      <!-- </div> -->
     </div>
   </div>
+  <!-- </div> -->
   <!-- MODAL END -->
 </template>
 
@@ -98,9 +98,18 @@
 // import { contactsService } from '../services/ContactsService.js'
 // import { onMounted, ref } from 'vue';
 import Pop from '../utils/Pop.js';
-import { } from '../AppState.js';
+import { Modal } from 'bootstrap';
+
+// import { AppState } from '../AppState.js';
 // import { logger } from '../utils/Logger.js';
 
+
+// Name
+// name="entry.1793138634"
+// Email
+// name="entry.227427169"
+// Comments
+// name="entry.1139891264"
 export default {
   data() {
     return {
@@ -109,15 +118,15 @@ export default {
         name: '',
         message: ''
       },
-      googleFormUrl: 'https://forms.gle/kLsWqpdjmdhKfDRk8'
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link'
     };
   },
   methods: {
     createContact() {
       const formData = new FormData();
-      formData.append('entry.Email', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
-      formData.append('entry.Name', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
-      formData.append('entry.Message', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
+      formData.append('entry.1793138634', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
+      formData.append('entry.227427169', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
+      formData.append('entry.1139891264', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
 
       fetch(this.googleFormUrl, {
         method: 'POST',
