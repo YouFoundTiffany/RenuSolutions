@@ -37,21 +37,21 @@
                 <router-link :to="{ name: 'Home' }">
                     <p class="borderLinerNav text-light pt-1 txt-shad">HOME</p>
                 </router-link>
-                <router-link :to="{ name: 'About' }">
+                <!-- <router-link :to="{ name: 'About' }">
                     <p class="borderLinerNav text-light txt-shad">ABOUT</p>
-                </router-link>
+                </router-link> -->
                 <router-link :to="{ name: 'Services' }">
                     <p class="borderLinerNav text-light txt-shad">SERVICES</p>
                 </router-link>
-                <router-link :to="{ name: 'Portfolio' }">
+                <!-- <router-link :to="{ name: 'Portfolio' }">
                     <p class="borderLinerNav text-light txt-shad">PORTFOLIO</p>
-                </router-link>
-                <router-link :to="{ name: 'Blog' }">
+                </router-link> -->
+                <!-- <router-link :to="{ name: 'Blog' }">
                     <p class="borderLinerNav text-light txt-shad">BLOG</p>
-                </router-link>
-                <router-link :to="{ name: 'Contact' }">
+                </router-link> -->
+                <!-- <router-link :to="{ name: 'Contact' }">
                     <p class="borderLinerNav text-light txt-shad">CONTACT</p>
-                </router-link>
+                </router-link> -->
             </div>
             <!-- </section> -->
 
