@@ -153,6 +153,11 @@
       var(--Aquatic) 20px) !important;
 }
 
+.gradient-radial-midnight {
+  background: radial-gradient(circle, var(--Midnight), var(--Minty)) !important;
+  filter: brightness(110%) !important;
+}
+
 //  ====================  //
 // END Renu Solutions CSS //
 //  ====================  //
