@@ -42,7 +42,7 @@
         </ul>
       </div>
     </nav>
-    <router-link :to="{ name: 'Contact' }"
+    <router-link :to="{ name: 'Contact' }" v-show="$route.name !== 'Contact'"
       class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
       Free Consult
     </router-link>

@@ -54,21 +54,23 @@
         <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
           <div class="card-body">
             <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
+            <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
+
             <form @submit.prevent="createContact" class="mt-4">
               <div class="mb-3">
                 <label for="name" class="form-label" style="color: var(--Aquatic);">Name</label>
                 <input type="text" class="form-control" id="name" v-model="contactData.name" required
-                  style="background-color: var(--Minty);">
+                  style="background-color: var(--Minty);" minlength="3" maxlength="59">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label" style="color: var(--Aquatic);">Email</label>
                 <input type="email" class="form-control" id="email" v-model="contactData.email" required
-                  style="background-color: var(--Minty);">
+                  style="background-color: var(--Minty);" minlength="3" maxlength="59">
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
                 <textarea class="form-control" id="message" rows="3" v-model="contactData.message" required
-                  style="background-color: var(--Minty);"></textarea>
+                  style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
               </div>
               <div class="text-center">
                 <button type="submit" class="btn"
@@ -92,30 +94,45 @@
   <!-- MODAL END -->
 </template>
 
-<script setup>
-import { contactsService } from '../services/ContactsService.js'
-import { onMounted, ref } from 'vue';
+<script >
+// import { contactsService } from '../services/ContactsService.js'
+// import { onMounted, ref } from 'vue';
 import Pop from '../utils/Pop.js';
 import { } from '../AppState.js';
+// import { logger } from '../utils/Logger.js';
 
-const contactData = ref({})
+export default {
+  data() {
+    return {
+      contactData: {
+        email: '',
+        name: '',
+        message: ''
+      },
+      googleFormUrl: 'https://forms.gle/kLsWqpdjmdhKfDRk8'
+    };
+  },
+  methods: {
+    createContact() {
+      const formData = new FormData();
+      formData.append('entry.Email', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
+      formData.append('entry.Name', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
+      formData.append('entry.Message', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
 
-
-onMounted(() => {
-  resetForm()
-})
-
-async function createContact() {
-  try {
-    await contactsService.createContact(contactData.value)
-    Pop.success('Created Report')
-    resetForm()
-  } catch (error) {
-    Pop.error(error)
+      fetch(this.googleFormUrl, {
+        method: 'POST',
+        body: formData,
+        mode: 'no-cors' // Google Forms requires no-cors mode
+      }).then(() => {
+        // Handle the response, e.g., show a thank you message, clear the form, etc.
+        this.contactData = { name: '', email: '', message: '' };
+        alert("Form submitted successfully.");
+      }).catch(error => {
+        // Handle any errors
+        Pop.error('Error:', error);
+      });
+    }
   }
-}
-function resetForm() {
-  contactData.value = {}
 }
 
 </script>
