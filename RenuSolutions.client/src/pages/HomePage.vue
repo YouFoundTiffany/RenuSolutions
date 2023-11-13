@@ -228,8 +228,8 @@
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per Month,<br>Six
-            Month
+          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per
+            Month,<br>Six-Month
             Minimum
             Contract,<br>Cancel Anytime</h1>
           <!-- $150 CONTRACT -->
@@ -342,7 +342,7 @@
         <!-- $50 CONTRACT -->
         <div class="col-12 col-md-8">
           <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Aquatic lght-txt-shad">$50</span> per
-            Month,<br> Six Month
+            Month,<br> Six-Month
             Minimum Contract,<br>Cancel Anytime</h1>
           <!-- $150 CONTRACT -->
           <h3 class="fw-bold text-Aquatic lght-txt-shad">The Delta ERP</h3>

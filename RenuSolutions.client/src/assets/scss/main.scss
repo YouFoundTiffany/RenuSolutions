@@ -140,6 +140,13 @@
 /* Radial Gradient from Minty outwards */
 .gradient-radial-minty {
   background: radial-gradient(circle, var(--Minty), var(--Midnight)) !important;
+  filter: brightness(110%) !important;
+
+}
+
+.gradient-radial-midnight {
+  background: radial-gradient(circle, var(--Midnight), var(--Minty)) !important;
+  filter: brightness(110%) !important;
 }
 
 /* Repeating Gradient Stripes */

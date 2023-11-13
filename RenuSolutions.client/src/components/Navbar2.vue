@@ -42,6 +42,11 @@
         </ul>
       </div>
     </nav>
+    <router-link :to="{ name: 'Contact' }"
+      class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+      Free Consult
+    </router-link>
+
   </section>
 
   <!-- LOGIN COMPONENT HERE -->
@@ -63,6 +68,13 @@ export default {
 </script>
 
 <style scoped>
+.smol-txt-btn {
+  padding-top: 10px;
+  height: 35px !important;
+  font-size: x-small !important;
+  font-weight: 800 !important;
+}
+
 a:hover {
   text-decoration: none;
   color: var(--Maritime);
