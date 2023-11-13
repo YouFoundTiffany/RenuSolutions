@@ -5,8 +5,6 @@
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex align-items-center">
           <img :src="logo" alt="Renu Solutions Logo" height="45" class="" title="Home">
-          <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
-          <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
         </div>
       </router-link>
       <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText2"

@@ -111,7 +111,7 @@
 
 
         <!-- MODAL BUTTON-->
-        <h5 type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
+        <h5 type="button" class="" data-bs-toggle="modal" data-bs-target="#DeltaERPModal"><span class="fw-bold
             learn-more">LEARN MORE</span></h5>
         <!-- MODAL -->
         <div class="modal fade" id="DeltaERPModal" tabindex="-1" role="dialog" aria-labelledby="DeltaERPModalLabel"

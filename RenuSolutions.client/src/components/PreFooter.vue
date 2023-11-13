@@ -8,7 +8,7 @@
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
-                <button type="button" class="btn" data-toggle="modal" data-target="#contactUsModal"
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#footContactUsModal"
                     style="background-color: var(--Maritime); color: var(--Minty);">
                     Contact Us
                 </button>
@@ -68,12 +68,12 @@
     </section>
     <!-- MODAL -->
     <!-- MODAL HEADER -->
-    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel"
+    <div class="modal fade" id="footContactUsModal" tabindex="-1" role="dialog" aria-labelledby="footContactUsModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <!-- <div class="modal-header"> -->
-                <!-- <h5 class="modal-title" id="contactUsModalLabel">Modal title</h5> -->
+                <!-- <h5 class="modal-title" id="footContactUsModalLabel">Modal title</h5> -->
                 <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
                 <!-- <span aria-hidden="true">&times;</span> -->
                 <!-- </button> -->
@@ -128,6 +128,7 @@
 <script>
 import RenuLogo from '@/assets/img/RenuLogoMockUp.png';
 import Pop from '../utils/Pop.js';
+import { nextTick } from 'vue';
 export default {
     data() {
         return {
@@ -143,20 +144,27 @@ export default {
     methods: {
         createContact() {
             const formData = new FormData();
-            formData.append('entry.1793138634', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
-            formData.append('entry.227427169', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
-            formData.append('entry.1139891264', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
+            formData.append('entry.1793138634', this.contactData.email);
+            formData.append('entry.227427169', this.contactData.name);
+            formData.append('entry.1139891264', this.contactData.message);
 
             fetch(this.googleFormUrl, {
                 method: 'POST',
                 body: formData,
-                mode: 'no-cors' // Google Forms requires no-cors mode
+                mode: 'no-cors'
             }).then(() => {
-                // Handle the response, e.g., show a thank you message, clear the form, etc.
                 this.contactData = { name: '', email: '', message: '' };
-                alert("Form submitted successfully.");
+                Pop.success('Message Sent!')
+                nextTick(() => {
+                    let modalElement = document.getElementById('footContactUsModal');
+                    if (modalElement) {
+                        modalElement.classList.remove('show');
+                        modalElement.style.display = 'none';
+                        document.body.classList.remove('modal-open');
+                        document.querySelector('.modal-backdrop').remove();
+                    }
+                });
             }).catch(error => {
-                // Handle any errors
                 Pop.error('Error:', error);
             });
         }
