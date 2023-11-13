@@ -3,8 +3,9 @@
         <div class='row justify-content-around pt-3 text-center'>
             <div class="col-12 col-md-3">
                 <router-link :to="{ name: 'Home' }" class="">
-                    <img :src="renuLogo" alt="Renu Logo" class="p-3"
-                        style="object-fit: cover; object-position: center; max-height: 25vh;">
+                    <img :src="renuLogo" class="p-3" style="object-fit: cover; object-position: center; max-height: 25vh;"
+                        alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal
+                        with ditigal artifacts in circle">
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
@@ -21,18 +22,18 @@
 
             <!-- 🐕‍🦺 SERVICES -->
             <!-- <section class="glass-effect m-0 p-0"> -->
-            <div class="col-12 col-md-1 text-center glass-effect">
-                <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p>
+            <div class="col-12 col-md-1 text-center ">
+                <!-- <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p> -->
                 <!-- <router-link :to="{ name: 'WEBSITES' }">
                     <p class="borderLinerServ text-light pt-1">WEBSITES</p>
                 </router-link> -->
-                <p class="borderLinerServ text-light txt-shad pt-1">WEBSITES</p>
+                <!-- <p class="borderLinerServ text-light txt-shad pt-1">WEBSITES</p>
                 <p class="borderLinerServ text-light txt-shad">WEB DESIGN</p>
                 <p class="borderLinerServ text-light txt-shad">MAINTENANCE</p>
                 <p class="borderLinerServ text-light txt-shad">SEO</p>
                 <p class="borderLinerServ text-light txt-shad">CONTENT CREATION</p>
                 <p class="borderLinerServ text-light txt-shad">LOGOS</p>
-                <p class="borderLinerServ text-light txt-shad">APPS</p>
+                <p class="borderLinerServ text-light txt-shad">APPS</p> -->
             </div>
             <!-- 🧭 NAVIGATION -->
             <div class="col-12 col-md-1 text-center glass-effect">
@@ -40,18 +41,18 @@
                 <router-link :to="{ name: 'Home' }">
                     <p class="borderLinerNav text-light pt-1 txt-shad">HOME</p>
                 </router-link>
-                <router-link :to="{ name: 'About' }">
+                <!-- <router-link :to="{ name: 'About' }">
                     <p class="borderLinerNav text-light txt-shad">ABOUT</p>
-                </router-link>
+                </router-link> -->
                 <router-link :to="{ name: 'Services' }">
                     <p class="borderLinerNav text-light txt-shad">SERVICES</p>
                 </router-link>
-                <router-link :to="{ name: 'Portfolio' }">
+                <!-- <router-link :to="{ name: 'Portfolio' }">
                     <p class="borderLinerNav text-light txt-shad">PORTFOLIO</p>
-                </router-link>
-                <router-link :to="{ name: 'Blog' }">
+                </router-link> -->
+                <!-- <router-link :to="{ name: 'Blog' }">
                     <p class="borderLinerNav text-light txt-shad">BLOG</p>
-                </router-link>
+                </router-link> -->
                 <router-link :to="{ name: 'Contact' }">
                     <p class="borderLinerNav text-light txt-shad">CONTACT</p>
                 </router-link>
@@ -63,7 +64,7 @@
 
         <!-- bottom row -->
         <div class='row pt-3 pb-2 m-0 text-center SideEye'>
-            <p class="privpoli mb-0 p-0">PRIVACY POLICY</p>
+            <!-- <p class="privpoli mb-0 p-0">PRIVACY POLICY</p> -->
         </div>
     </section>
     <!-- MODAL -->
@@ -85,7 +86,6 @@
                     <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
                         <div class="card-body">
                             <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
-                            <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
 
                             <form @submit.prevent="createContact" class="mt-4">
                                 <div class="mb-3">
@@ -99,14 +99,18 @@
                                         style="background-color: var(--Minty);" minlength="3" maxlength="59">
                                 </div>
                                 <div class="mb-3">
+                                    <label for="phone" class="form-label" style="color: var(--Aquatic);">Phone</label>
+                                    <input type="phone" class="form-control" id="phone" v-model="contactData.phone" required
+                                        style="background-color: var(--Minty);" minlength="3" maxlength="59">
+                                </div>
+                                <div class="mb-3">
                                     <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
                                     <textarea class="form-control" id="message" rows="3" v-model="contactData.message"
                                         required style="background-color: var(--Minty);" minlength="3"
                                         maxlength="200"></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn"
-                                        style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
+                                    <button type="submit" class="btn">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -134,8 +138,9 @@ export default {
         return {
             renuLogo: RenuLogo,
             contactData: {
-                email: '',
                 name: '',
+                email: '',
+                phone: '',
                 message: ''
             },
             googleFormUrl: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/formResponse"
@@ -144,8 +149,9 @@ export default {
     methods: {
         createContact() {
             const formData = new FormData();
-            formData.append('entry.1793138634', this.contactData.email);
-            formData.append('entry.227427169', this.contactData.name);
+            formData.append('entry.1793138634', this.contactData.name);
+            formData.append('entry.227427169', this.contactData.email);
+            formData.append('entry.1942162986', this.contactData.phone);
             formData.append('entry.1139891264', this.contactData.message);
 
             fetch(this.googleFormUrl, {
@@ -257,5 +263,19 @@ export default {
 .borderLinerNav:hover::after {
     width: 100%;
     left: 0;
+}
+
+#footContactUsModal .btn[type="submit"] {
+    background-color: var(--Aquatic) !important;
+    /* Replace with your desired color */
+    color: var(--Minty) !important;
+    /* Replace with your desired color */
+}
+
+#footContactUsModal .btn[type="submit"]:hover {
+    background-color: var(--Minty) !important;
+    /* Color on hover */
+    color: var(--Midnight) !important;
+    /* Text color on hover */
 }
 </style>
