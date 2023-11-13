@@ -21,18 +21,18 @@
 
             <!-- 🐕‍🦺 SERVICES -->
             <!-- <section class="glass-effect m-0 p-0"> -->
-            <div class="col-12 col-md-1 text-center glass-effect">
-                <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p>
+            <div class="col-12 col-md-1 text-center ">
+                <!-- <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p> -->
                 <!-- <router-link :to="{ name: 'WEBSITES' }">
                     <p class="borderLinerServ text-light pt-1">WEBSITES</p>
                 </router-link> -->
-                <p class="borderLinerServ text-light txt-shad pt-1">WEBSITES</p>
+                <!-- <p class="borderLinerServ text-light txt-shad pt-1">WEBSITES</p>
                 <p class="borderLinerServ text-light txt-shad">WEB DESIGN</p>
                 <p class="borderLinerServ text-light txt-shad">MAINTENANCE</p>
                 <p class="borderLinerServ text-light txt-shad">SEO</p>
                 <p class="borderLinerServ text-light txt-shad">CONTENT CREATION</p>
                 <p class="borderLinerServ text-light txt-shad">LOGOS</p>
-                <p class="borderLinerServ text-light txt-shad">APPS</p>
+                <p class="borderLinerServ text-light txt-shad">APPS</p> -->
             </div>
             <!-- 🧭 NAVIGATION -->
             <div class="col-12 col-md-1 text-center glass-effect">
@@ -40,18 +40,18 @@
                 <router-link :to="{ name: 'Home' }">
                     <p class="borderLinerNav text-light pt-1 txt-shad">HOME</p>
                 </router-link>
-                <router-link :to="{ name: 'About' }">
+                <!-- <router-link :to="{ name: 'About' }">
                     <p class="borderLinerNav text-light txt-shad">ABOUT</p>
-                </router-link>
+                </router-link> -->
                 <router-link :to="{ name: 'Services' }">
                     <p class="borderLinerNav text-light txt-shad">SERVICES</p>
                 </router-link>
-                <router-link :to="{ name: 'Portfolio' }">
+                <!-- <router-link :to="{ name: 'Portfolio' }">
                     <p class="borderLinerNav text-light txt-shad">PORTFOLIO</p>
-                </router-link>
-                <router-link :to="{ name: 'Blog' }">
+                </router-link> -->
+                <!-- <router-link :to="{ name: 'Blog' }">
                     <p class="borderLinerNav text-light txt-shad">BLOG</p>
-                </router-link>
+                </router-link> -->
                 <router-link :to="{ name: 'Contact' }">
                     <p class="borderLinerNav text-light txt-shad">CONTACT</p>
                 </router-link>
@@ -63,7 +63,7 @@
 
         <!-- bottom row -->
         <div class='row pt-3 pb-2 m-0 text-center SideEye'>
-            <p class="privpoli mb-0 p-0">PRIVACY POLICY</p>
+            <!-- <p class="privpoli mb-0 p-0">PRIVACY POLICY</p> -->
         </div>
     </section>
     <!-- MODAL -->

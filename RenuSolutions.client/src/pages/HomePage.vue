@@ -1,7 +1,7 @@
 <!-- HOME PAGE -->
 <template>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
-  <section class="container-flex text-center top-sec-bg-image justify-content-around m-0 p-0">
+  <section class="container-flex top-sec-bg-image justify-content-around m-0 p-0">
 
     <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
     <section class="m-0 p-0 d-flex align-items-center justify-content-around">
