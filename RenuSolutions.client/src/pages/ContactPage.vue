@@ -54,7 +54,6 @@
           <div class="card mx-auto" style="max-width: 500px; background-color: var(--Maritime);">
             <div class="card-body">
               <h3 class="card-title text-center" style="color: var(--Minty);">Contact Us</h3>
-              <!-- google form url https://docs.google.com/forms/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/viewform?usp=sf_link -->
 
               <form @submit.prevent="createContact" class="mt-4">
                 <div class="mb-3">
@@ -68,13 +67,17 @@
                     style="background-color: var(--Minty);" minlength="3" maxlength="59">
                 </div>
                 <div class="mb-3">
+                  <label for="phone" class="form-label" style="color: var(--Aquatic);">Phone</label>
+                  <input type="phone" class="form-control" id="phone" v-model="contactData.phone" required
+                    style="background-color: var(--Minty);" minlength="3" maxlength="59">
+                </div>
+                <div class="mb-3">
                   <label for="message" class="form-label" style="color: var(--Aquatic);">Message</label>
                   <textarea class="form-control" id="message" rows="3" v-model="contactData.message" required
                     style="background-color: var(--Minty);" minlength="3" maxlength="200"></textarea>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn"
-                    style="background-color: var(--Maritime); color: var(--Minty);">Submit</button>
+                  <button type="submit" class="btn">Submit</button>
                 </div>
               </form>
             </div>
@@ -102,8 +105,9 @@ export default {
   data() {
     return {
       contactData: {
-        email: '',
         name: '',
+        email: '',
+        phone: '',
         message: ''
       },
       googleFormUrl: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/formResponse"
@@ -112,8 +116,9 @@ export default {
   methods: {
     createContact() {
       const formData = new FormData();
-      formData.append('entry.1793138634', this.contactData.email);
-      formData.append('entry.227427169', this.contactData.name);
+      formData.append('entry.1793138634', this.contactData.name);
+      formData.append('entry.227427169', this.contactData.email);
+      formData.append('entry.1942162986', this.contactData.phone);
       formData.append('entry.1139891264', this.contactData.message);
 
       fetch(this.googleFormUrl, {
@@ -140,3 +145,18 @@ export default {
 }
 
 </script>
+<style>
+#contactUsModal .btn[type="submit"] {
+  background-color: var(--Aquatic) !important;
+  /* Replace with your desired color */
+  color: var(--Minty) !important;
+  /* Replace with your desired color */
+}
+
+#contactUsModal .btn[type="submit"]:hover {
+  background-color: var(--Minty) !important;
+  /* Color on hover */
+  color: var(--Midnight) !important;
+  /* Text color on hover */
+}
+</style>
