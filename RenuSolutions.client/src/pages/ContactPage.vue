@@ -97,7 +97,7 @@
 <script >
 // import { contactsService } from '../services/ContactsService.js'
 // import { onMounted, ref } from 'vue';
-import Pop from '../utils/Pop.js';
+import { Pop } from '../utils/Pop.js';
 import { Modal } from 'bootstrap';
 
 // import { AppState } from '../AppState.js';
