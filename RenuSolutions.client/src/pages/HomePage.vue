@@ -47,15 +47,13 @@
           </ul>
         </div>
       </nav>
-      <button type="button"
-        class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3"
-        data-toggle="modal" data-target="#getInTouchModal">
-        Free Consult</button>
-
+      <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+        <button type="button"
+          class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+          Free Consult</button>
+      </router-link>
     </section>
     <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
-
-
     <section class="" style="min-height: 35vh;">
       <div class="container">
         <div class=" row justify-content-around text-Midnight p-0 m-0n animate__animated animate__backInLeft">
@@ -65,7 +63,6 @@
               <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty txt-shad">Custom Web
                 Solutions<br>for the
                 Modern Small Business
-
               </h1>
               <!-- lh-sm line height -->
               <p class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight txt-glow">Ditch
@@ -75,63 +72,23 @@
                 human-coded
                 web
                 designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
-
-
-
-              <!-- ⭐Comment back in for Router-Link to Contact page -->
-              <!-- <router-link :to="{ name: 'Contact' }"
-              class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-              GET IN TOUCH!
-            </router-link> -->
-              <!-- TEMP Button trigger modal -->
-
-              <button type="button"
-                class="smol-txt-btn btn bg-Minty text-Midnight ighten-30 text-uppercase rounded elevation-3 m-3"
-                data-toggle="modal" data-target="#getInTouchModal">
-                GET IN TOUCH!</button>
-              <!-- TEMP Button trigger modal -->
-
-
-
+              <router-link :to="{ name: 'Contact' }"
+                class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 mS-5">
+                GET IN TOUCH!
+              </router-link>
             </div>
             <!-- Static mockup Image -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups" alt="Mockups"
               style="object-fit: contain;object-position: center;">
-
-
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
             </div>
           </div>
         </div>
-
-
-        <!-- TEMP Modal -->
-        <div class="modal fade" id="getInTouchModal" tabindex="-1" role="dialog" aria-labelledby="getInTouchModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content fw-medium">
-              <img :src="RenuLogoMockUp" alt="Renu Logo Mock Up" class="img-fluid"
-                style="object-fit: contain; object-position: center; max-height: 10vh;">
-              <p>Schedule your discovery session today!<br>Email, Text, or Call</p>
-              <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>(208) 918-0942</p>
-              <p><i class="mdi mdi-bullhorn mdi-24px text-Aquatic"></i>Info@RenuSolutions.tech</p>
-
-            </div>
-          </div>
-        </div>
       </div>
-      <!-- TEMP Modal -->
-      <!-- </div>
-          <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6"
-          src="src/assets/img/mock-up-replace.png" alt="" style="object-fit: contain;object-position: center;">
-          <div class="container d-flex ms-5 ps-5">
-            <div class="container d-flex ps-5 ps-md-5">
-            </div>
-          </div>
-        </div>
-      </div> -->
+
+
 
 
     </section>
