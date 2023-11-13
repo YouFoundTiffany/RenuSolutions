@@ -42,7 +42,7 @@
 
 
   </main>
-  <!-- FIXME media query needed -->
+
   <footer class="gradient-midnight-maritime-aquatic text-light xsmol-txt-fts ps-1 py-0 pe-0 m-0">
     <PreFooter />
     Copyright © 2023 Renü Solutions Digital Lab. All rights reserved.

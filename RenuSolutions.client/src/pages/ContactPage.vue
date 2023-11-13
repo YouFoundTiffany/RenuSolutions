@@ -103,6 +103,13 @@ import { Modal } from 'bootstrap';
 // import { AppState } from '../AppState.js';
 // import { logger } from '../utils/Logger.js';
 
+
+// Name
+// name="entry.1793138634"
+// Email
+// name="entry.227427169"
+// Comments
+// name="entry.1139891264"
 export default {
   data() {
     return {
@@ -117,9 +124,9 @@ export default {
   methods: {
     createContact() {
       const formData = new FormData();
-      formData.append('entry.Email', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
-      formData.append('entry.Name', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
-      formData.append('entry.Message', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
+      formData.append('entry.1793138634', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
+      formData.append('entry.227427169', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
+      formData.append('entry.1139891264', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
 
       fetch(this.googleFormUrl, {
         method: 'POST',
