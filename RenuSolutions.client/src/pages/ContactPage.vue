@@ -95,21 +95,9 @@
 </template>
 
 <script >
-// import { contactsService } from '../services/ContactsService.js'
-// import { onMounted, ref } from 'vue';
+
 import Pop from '../utils/Pop.js';
-import { Modal } from 'bootstrap';
-
-// import { AppState } from '../AppState.js';
-// import { logger } from '../utils/Logger.js';
-
-
-// Name
-// name="entry.1793138634"
-// Email
-// name="entry.227427169"
-// Comments
-// name="entry.1139891264"
+import { nextTick } from 'vue';
 export default {
   data() {
     return {
@@ -124,20 +112,27 @@ export default {
   methods: {
     createContact() {
       const formData = new FormData();
-      formData.append('entry.1793138634', this.contactData.email); // Replace 'entry.YYYYYYY' with your Google Form field name for 'email'
-      formData.append('entry.227427169', this.contactData.name); // Replace 'entry.XXXXXXX' with your Google Form field name for 'name'
-      formData.append('entry.1139891264', this.contactData.message); // Replace 'entry.ZZZZZZZ' with your Google Form field name for 'message'
+      formData.append('entry.1793138634', this.contactData.email);
+      formData.append('entry.227427169', this.contactData.name);
+      formData.append('entry.1139891264', this.contactData.message);
 
       fetch(this.googleFormUrl, {
         method: 'POST',
         body: formData,
-        mode: 'no-cors' // Google Forms requires no-cors mode
+        mode: 'no-cors'
       }).then(() => {
-        // Handle the response, e.g., show a thank you message, clear the form, etc.
         this.contactData = { name: '', email: '', message: '' };
-        alert("Form submitted successfully.");
+        Pop.success('Message Sent!')
+        nextTick(() => {
+          let modalElement = document.getElementById('contactUsModal');
+          if (modalElement) {
+            modalElement.classList.remove('show');
+            modalElement.style.display = 'none';
+            document.body.classList.remove('modal-open');
+            document.querySelector('.modal-backdrop').remove();
+          }
+        });
       }).catch(error => {
-        // Handle any errors
         Pop.error('Error:', error);
       });
     }
