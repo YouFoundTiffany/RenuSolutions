@@ -3,8 +3,9 @@
         <div class='row justify-content-around pt-3 text-center'>
             <div class="col-12 col-md-3">
                 <router-link :to="{ name: 'Home' }" class="">
-                    <img :src="renuLogo" alt="Renu Logo" class="p-3"
-                        style="object-fit: cover; object-position: center; max-height: 25vh;">
+                    <img :src="renuLogo" class="p-3" style="object-fit: cover; object-position: center; max-height: 25vh;"
+                        alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal
+                        with ditigal artifacts in circle">
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
