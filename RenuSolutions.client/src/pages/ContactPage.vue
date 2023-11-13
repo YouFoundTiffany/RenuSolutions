@@ -102,8 +102,9 @@ export default {
   data() {
     return {
       contactData: {
-        email: '',
         name: '',
+        email: '',
+        phone: '',
         message: ''
       },
       googleFormUrl: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdnZbZgR8i78Zw5cvnRUa2pInXz-19v6nt4QvZFISUARc_odQ/formResponse"
