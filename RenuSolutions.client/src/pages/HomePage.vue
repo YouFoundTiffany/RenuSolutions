@@ -72,9 +72,10 @@
                 human-coded
                 web
                 designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
-              <router-link :to="{ name: 'Contact' }"
-                class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 mS-5">
-                GET IN TOUCH!
+              <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight ms-5">
+                <button type="button"
+                  class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 ms-5">
+                  Get In Touch!</button>
               </router-link>
             </div>
             <!-- Static mockup Image -->
@@ -178,7 +179,7 @@
   <section class="container my-2">
     <div class="row justify-content-around">
       <!-- 🅰️ -->
-      <div class="col-12 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+      <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Full-System</h5>
@@ -191,7 +192,7 @@
         </div>
       </div>
       <!-- 🅱️ -->
-      <div class="col-12 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+      <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-tablet-cellphone fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Mobile First</h5>
@@ -202,7 +203,7 @@
         </div>
       </div>
       <!-- 🆎 -->
-      <div class="col-12 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
+      <div class="col-10 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
         <i class="mdi mdi-key fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Turn Key</h5>
