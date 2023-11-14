@@ -11,7 +11,7 @@
           <div class="align-items-center justify-content-center renu-glow">
             <img :src="logo"
               alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
-              height="45" class="" title="Home">
+              height="45" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
         <!-- <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
@@ -81,7 +81,7 @@
             <!-- Static mockup Image -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
               alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
-              style="object-fit: contain;object-position: center;">
+              style="max-width: 100%; height: auto;" title="Your Title">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
@@ -234,8 +234,10 @@
       <div class="row pb-5 justify-content-center align-items-center">
         <!-- PIGGY -->
         <div class="col-3">
-          <img :src="piggyBank" class="piggyBank img-fluid"
-            alt="Piggy Bank with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist">
+          <img :src="piggyBank"
+            alt="Piggy Bank with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
+            style="width: 200px; height: 200px;" title="Your Title">
+
         </div>
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
@@ -444,8 +446,10 @@
         </div>
         <!-- MONEY HANDS -->
         <div class="col-3">
-          <img :src="moneyHands" class="img-fluid"
-            alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist">
+          <img :src="moneyHands"
+            alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
+            style="width: 200px; height: 200px;" title="Your Title">
+
         </div>
         <!-- MONEY HANDS -->
       </div>
