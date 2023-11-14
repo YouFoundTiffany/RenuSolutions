@@ -535,7 +535,7 @@ export default {
 <style scoped lang="scss">
 /* To Display Navbar over HomePage background image ONLY */
 .top-sec-bg-image {
-  background-image: url("src/assets/img/final-basicbackgroundRenuSolwebready.png");
+  background-image: url("../assets/img/final-basicbackgroundRenuSolwebready.png");
   // background-attachment: fixed;
   /* This keeps the background image fixed during scroll */
   // height: 140vh;
