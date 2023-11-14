@@ -240,11 +240,12 @@
         <!-- PIGGY -->
         <!-- $150 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold  lh-1">Starting at<span class="text-Aquatic lght-txt-shad"> $150</span> per Month,<br>6 month
+          <h1 class="fw-bold  lh-1">Starting at<span class="text-Maritime lght-txt-shad"> $150</span> per Month,<br>6
+            month
             Minimum
             Contract</h1>
           <!-- $150 CONTRACT -->
-          <h3 class="fw-bold text-Aquatic lght-txt-shad">The Simple Static Website</h3>
+          <h3 class="fw-bold text-Maritime lght-txt-shad">The Simple Static Website</h3>
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -352,12 +353,13 @@
 
         <!-- $50 CONTRACT -->
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Aquatic lght-txt-shad">$50</span> per
+          <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Maritime lght-txt-shad">$50</span>
+            per
             Month,<br>6
             month
             Minimum Contract</h1>
-          <!-- $150 CONTRACT -->
-          <h3 class="fw-bold text-Aquatic lght-txt-shad">The Delta ERP</h3>
+          <!-- DELTA ERP CONTRACT -->
+          <h3 class="fw-bold text-Maritime lght-txt-shad">The Delta ERP</h3>
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -531,6 +533,21 @@ export default {
 </script>
 
 <style scoped lang="scss">
+/* To Display Navbar over HomePage background image ONLY */
+.top-sec-bg-image {
+  background-image: url("src/assets/img/final-basicbackgroundRenuSolwebready.png");
+  // background-attachment: fixed;
+  /* This keeps the background image fixed during scroll */
+  // height: 140vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* You can adjust this to fit the size you want */
+  // position: relative;
+  // z-index: 1;
+}
+
+/* To Display Navbar over HomePage background image ONLY */
 // MODAL HOVER
 .learn-more:hover {
   scale: 1.5;
@@ -623,21 +640,6 @@ export default {
   // object-position: left center;
 }
 
-/* To Display Navbar over HomePage background image ONLY */
-.top-sec-bg-image {
-  background-image: url("../assets/img/final-basicbackgroundRenuSol.svg");
-  // background-attachment: fixed;
-  /* This keeps the background image fixed during scroll */
-  // height: 140vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  /* You can adjust this to fit the size you want */
-  // position: relative;
-  // z-index: 1;
-}
-
-/* To Display Navbar over HomePage background image ONLY */
 
 // ====================  //
 //  BASIC NAVBAR SETTINGS   //
