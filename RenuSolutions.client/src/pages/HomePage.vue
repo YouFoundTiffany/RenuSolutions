@@ -664,6 +664,14 @@ export default {
 // ====================  //
 //  BASIC NAVBAR SETTINGS   //
 // ====================  //
+@font-face {
+  font-family: 'Material Design Icons';
+  src: url('docs/assets/materialdesignicons-webfont-c1c004a9.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Use 'swap' or 'fallback' to ensure text remains visible */
+}
 </style>
 
 <!-- <i class="mdi mdi-pyramid"></i>
