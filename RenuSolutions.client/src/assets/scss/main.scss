@@ -3,11 +3,9 @@
 @import "./_overrides.scss";
 @import "./_utilities.scss";
 @import "./loaders.scss";
-@import "@mdi/font/css/materialdesignicons.min.css";
-
-
-
-
+@import 'lightgallery/css/lightgallery.css';
+@import 'lightgallery/css/lg-thumbnail.css';
+@import 'lightgallery/css/lg-zoom.css';
 
 /* To Display Navbar over HomePage background image ONLY */
 
@@ -16,7 +14,7 @@
 //  ====================  //
 :root {
   --Minty: #bdfafd;
-  --Aquatic: #00c6e0;
+  --Aquatic: #2fcbe0;
   --Maritime: #04748c;
   --Midnight: #00295c;
   --Abyss: #020c2f;
@@ -142,6 +140,13 @@
 /* Radial Gradient from Minty outwards */
 .gradient-radial-minty {
   background: radial-gradient(circle, var(--Minty), var(--Midnight)) !important;
+  filter: brightness(110%) !important;
+
+}
+
+.gradient-radial-midnight {
+  background: radial-gradient(circle, var(--Midnight), var(--Minty)) !important;
+  filter: brightness(110%) !important;
 }
 
 /* Repeating Gradient Stripes */
@@ -151,11 +156,6 @@
       var(--Minty) 10px,
       var(--Aquatic) 10px,
       var(--Aquatic) 20px) !important;
-}
-
-.gradient-radial-midnight {
-  background: radial-gradient(circle, var(--Midnight), var(--Minty)) !important;
-  filter: brightness(110%) !important;
 }
 
 //  ====================  //
@@ -310,7 +310,7 @@
 
 
 // ====================  //
-//  BASIC NAVBAR SETTINGS   //
+// BASIC NAVBAR SETTINGS //
 // ====================  //
 .nav-link {
   text-transform: uppercase;
@@ -330,8 +330,26 @@
 }
 
 // ====================  //
-//  BASIC NAVBAR SETTINGS   //
+// BASIC NAVBAR SETTINGS //
 // ====================  //
+
+// ====================  //
+//     MDI SETTINGS      //
+// ====================  //
+@font-face {
+  font-family: 'Material Design Icons';
+  src: url('docs/assets/materialdesignicons-webfont-c1c004a9.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Use 'swap' or 'fallback' to ensure text remains visible */
+}
+
+// ====================  //
+//     MDI SETTINGS      //
+// ====================  //
+
+
 body {
   overscroll-behavior: none;
 }
