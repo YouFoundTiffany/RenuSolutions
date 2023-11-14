@@ -81,7 +81,7 @@
             <!-- Static mockup Image -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
               alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
-              style="max-width: 100%; height: auto;" title="Your Title">
+              style="max-width: 100%; height: auto;" title="Your New Mobile First Website">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
@@ -236,7 +236,7 @@
         <div class="col-3">
           <img :src="piggyBank"
             alt="Piggy Bank with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            style="width: 200px; height: 200px;" title="Your Title">
+            style="width: 200px; height: 200px;" title="Simple Stataic Website helps you to Make and Save Money">
 
         </div>
         <!-- PIGGY -->
@@ -448,7 +448,7 @@
         <div class="col-3">
           <img :src="moneyHands"
             alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            style="width: 200px; height: 200px;" title="Your Title">
+            style="width: 200px; height: 200px;" title=" Delta ERP helps you to Make and Save Money.">
 
         </div>
         <!-- MONEY HANDS -->
