@@ -12,9 +12,9 @@
               height="95" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
-        <!-- <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarText1" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span></button> -->
+          <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarText1">
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
             <!-- <li>
