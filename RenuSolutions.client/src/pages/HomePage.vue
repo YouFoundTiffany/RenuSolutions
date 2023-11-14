@@ -33,12 +33,12 @@
               <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 Portfolio
               </router-link>
-            </li>
+            </li> -->
             <li>
               <router-link :to="{ name: 'Blog' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 Blog
               </router-link>
-            </li> -->
+            </li>
             <li>
               <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 Contact
