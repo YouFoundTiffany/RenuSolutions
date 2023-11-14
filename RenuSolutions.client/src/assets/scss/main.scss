@@ -310,7 +310,7 @@
 
 
 // ====================  //
-//  BASIC NAVBAR SETTINGS   //
+// BASIC NAVBAR SETTINGS //
 // ====================  //
 .nav-link {
   text-transform: uppercase;
@@ -330,8 +330,26 @@
 }
 
 // ====================  //
-//  BASIC NAVBAR SETTINGS   //
+// BASIC NAVBAR SETTINGS //
 // ====================  //
+
+// ====================  //
+//     MDI SETTINGS      //
+// ====================  //
+@font-face {
+  font-family: 'Material Design Icons';
+  src: url('/path/to/materialdesignicons-webfont-c1c004a9.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Use 'swap' or 'fallback' to ensure text remains visible */
+}
+
+// ====================  //
+//     MDI SETTINGS      //
+// ====================  //
+
+
 body {
   overscroll-behavior: none;
 }
