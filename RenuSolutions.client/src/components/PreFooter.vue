@@ -130,7 +130,7 @@
     <!-- MODAL END -->
 </template>
 <script>
-import RenuLogo from '@/assets/img/RenuLogoMockUp.png';
+import RenuLogo from '@/assets/img/RenuLogoSmall.png';
 import Pop from '../utils/Pop.js';
 import { nextTick } from 'vue';
 export default {

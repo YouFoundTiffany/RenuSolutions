@@ -1,13 +1,14 @@
 <!-- NAVBAR 2 -->
 <template>
-  <section class="container-flex top-sec-bg-image justify-content-around m-0 p-0">
-    <section class="d-flex justify-content-around m-0 p-1">
-      <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2">
-        <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-          <div class="d-flex align-items-center">
-            <img :src="logo" alt="Renu Solutions Logo" height="45" class="" title="Home">
-            <!-- <img src="src\assets\img\RenuLogoMockUp.png" alt="Renu Name" height="45" class="" title="Home">
-          <img src="src\assets\img\RenuNameMidnight4.svg" alt="Renu Name" height="45" class="" title="Home"> -->
+  <section class="m-0 p-0 container-flex justify-content-around">
+
+    <section class="m-0 p-0 d-flex align-items-center justify-content-around">
+      <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
+        <router-link class="navbar-brand mt-3 mb-0 mx-0" :to="{ name: 'Home' }">
+          <div class="align-items-center justify-content-center renu-glow">
+            <img :src="logo"
+              alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
+              height="95" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
         <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"

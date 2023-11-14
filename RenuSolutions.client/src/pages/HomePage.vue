@@ -1,17 +1,15 @@
 <!-- HOME PAGE -->
 <template>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
-  <section class="container-flex top-sec-bg-image justify-content-around m-0 p-0">
-
+  <section class="m-0 p-0 container-flex top-sec-bg-image justify-content-around">
     <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
     <section class="m-0 p-0 d-flex align-items-center justify-content-around">
-      <nav v-if="$route.name === 'Home'"
-        class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
-        <router-link class="navbar-brand" :to="{ name: 'Home' }">
+      <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
+        <router-link class="navbar-brand mt-3 mb-0 mx-0" :to="{ name: 'Home' }">
           <div class="align-items-center justify-content-center renu-glow">
             <img :src="logo"
               alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
-              height="45" style="max-width: 100%;" class="" title="Home">
+              height="95" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
         <!-- <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
