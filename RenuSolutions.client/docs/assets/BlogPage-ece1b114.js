@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./index-27bddeda.js";const a={setup(){return{}}},c={class:"about"},n=o("h1",null,"This is the Blog page",-1),r=[n];function _(i,p,d,l,u,h){return s(),t("div",c,r)}const B=e(a,[["render",_]]);export{B as default};

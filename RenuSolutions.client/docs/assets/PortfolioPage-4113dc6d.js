@@ -1,0 +1,1 @@
+import{_ as o,o as e,c as t,a as s}from"./index-27bddeda.js";const a={setup(){return{}}},c={class:"about"},r=s("h1",null,"This is the Portfolio page",-1),n=[r];function _(i,p,d,l,f,u){return e(),t("div",c,n)}const m=o(a,[["render",_]]);export{m as default};
