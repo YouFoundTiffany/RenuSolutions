@@ -4,7 +4,7 @@
             <div class="col-12 col-md-3">
                 <router-link :to="{ name: 'Home' }" class="">
                     <img :src="renuLogo" class="p-3" style="object-fit: cover; object-position: center; max-height: 25vh;"
-                        alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal
+                        height="138" width="126.59" alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal
                         with ditigal artifacts in circle">
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
