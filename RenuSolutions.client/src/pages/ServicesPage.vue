@@ -30,7 +30,7 @@
   <!-- 1️⃣ - TRIPLE CARDS END-->
 
   <!-- 🚀 spacer div -->
-  <div class="spacer d-flex align-items-center" style="height: 30vh;">
+  <div class="spacer d-flex align-items-center">
     <!-- DIVIDER LINE -->
     <div class="container mx-5 my-4 px-5 align-items-center">
       <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -157,7 +157,7 @@
   <!-- STATIC WEBSITE -->
 
   <!-- 🚀 spacer div -->
-  <div class="spacer d-flex align-items-center" style="height: 30vh;">
+  <div class="spacer d-flex align-items-center">
     <!-- DIVIDER LINE -->
     <div class="container mx-5 my-4 px-5 align-items-center">
       <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -276,7 +276,7 @@
 
 
   <!-- 🚀 spacer div -->
-  <div class="spacer d-flex align-items-center" style="height: 30vh;">
+  <div class="spacer d-flex align-items-center">
     <!-- DIVIDER LINE -->
     <div class="container mx-5 my-4 px-5 align-items-center">
       <!-- <hr class="solid mx-5" style="color: var(--Midnight);"> -->

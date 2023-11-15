@@ -346,7 +346,22 @@
 // ====================  //
 //     MDI SETTINGS      //
 // ====================  //
+// ====================  //
+//     SPACING DIVS      //
+// ====================  //
+.spacer {
+  height: 30vh;
+}
 
+@media screen and (max-width: 768px) {
+  .spacer {
+    height: 5vh;
+  }
+}
+
+// ====================  //
+//     SPACING DIVS      //
+// ====================  //
 
 body {
   overscroll-behavior: none;

@@ -9,7 +9,7 @@
           <div class="align-items-center justify-content-center renu-glow">
             <img :src="logo"
               alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
-              height="95" style="max-width: 100%;" class="" title="Home">
+              height="95" width="377.44" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
         <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
@@ -47,7 +47,7 @@
       </nav>
       <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
         <button type="button"
-          class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+          class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
           Free Consult</button>
       </router-link>
     </section>
@@ -58,12 +58,17 @@
           <!-- animate__animated animate__backInLeft -->
           <div class="row">
             <div class="col-12 col-md-6">
-              <h1 class=" fw-bold text-start ms-5 mt-3 mb-0 ps-5 xxbig-txt-msg text-Minty txt-shad">Custom Web
+              <h1
+                class="headline fw-bold text-start ms-5 mt-3 mb-0 ps-lg-5 ps-md-2 ps-sm-2 xxbig-txt-msg text-Minty txt-shad">
+                Custom
+                Web
                 Solutions<br>for the
                 Modern Small Business
               </h1>
               <!-- lh-sm line height -->
-              <p class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-5 smol-txt-msg text-Midnight txt-glow">Ditch
+              <p
+                class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 smol-txt-msg text-Midnight txt-glow">
+                Ditch
                 WordPress for
                 our
                 bespoke,<br>
@@ -79,7 +84,7 @@
             <!-- Static mockup Image -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
               alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
-              style="max-width: 100%; height: auto;" title="Your New Mobile First Website">
+              style="max-width: 648; height: 351.34;" title="Your New Mobile First Website">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
@@ -164,7 +169,7 @@
 
   <!-- 🚀 - spacer div 1️⃣ -->
   <!-- Do NOT copy this Spacer Set it is custom, use 2 or 3 -->
-  <div class="spacer mx-3 d-flex justify-content-center align-items-center" style="height: 30vh;">
+  <div class="spacer mx-3 d-flex justify-content-center align-items-center">
     <!-- DIVIDER LINE -->
     <div class="container mx-5 my-4 px-5">
       <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -217,7 +222,7 @@
 
 
     <!-- 🚀 spacer div 2️⃣-->
-    <div class="spacer d-flex align-items-center" style="height: 30vh;">
+    <div class="spacer d-flex align-items-center">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
         <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -231,10 +236,10 @@
     <section class="container mb-2 text-Midnight">
       <div class="row pb-5 justify-content-center align-items-center">
         <!-- PIGGY -->
-        <div class="col-3">
-          <img :src="piggyBank"
+        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
+          <img :src="piggyBank" class="pig-bank"
             alt="Piggy Bank with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            style="width: 200px; height: 200px;" title="Simple Stataic Website helps you to Make and Save Money">
+            title="Simple Stataic Website helps you to Make and Save Money">
 
         </div>
         <!-- PIGGY -->
@@ -445,10 +450,10 @@
           </div>
         </div>
         <!-- MONEY HANDS -->
-        <div class="col-3">
-          <img :src="moneyHands"
+        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
+          <img :src="moneyHands" class="hand-coin"
             alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            style="width: 200px; height: 200px;" title=" Delta ERP helps you to Make and Save Money.">
+            title=" Delta ERP helps you to Make and Save Money.">
 
         </div>
         <!-- MONEY HANDS -->
@@ -458,7 +463,7 @@
 
 
     <!-- 🚀 spacer div 3️⃣-->
-    <div class="spacer d-flex align-items-center" style="height: 30vh;">
+    <div class="spacer d-flex align-items-center">
       <!-- DIVIDER LINE -->
       <div class="container mx-5 my-4 px-5 align-items-center">
         <hr class="solid mx-5" style="color: var(--Midnight);">
@@ -671,6 +676,59 @@ export default {
   font-style: normal;
   font-display: swap;
   /* Use 'swap' or 'fallback' to ensure text remains visible */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .consult {
+    height: 100px;
+    width: 75px;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+.spacer {
+  height: 30vh;
+}
+
+@media screen and (max-width: 768px) {
+  .spacer {
+    height: 5vh;
+  }
+}
+
+.pig-bank {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .pig-bank {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+.hand-coin {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .hand-coin {
+    width: 100px;
+    height: 100px;
+  }
+
 }
 </style>
 

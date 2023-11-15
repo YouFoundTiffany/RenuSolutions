@@ -8,7 +8,7 @@
           <div class="align-items-center justify-content-center renu-glow">
             <img :src="logo"
               alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
-              height="95" style="max-width: 100%;" class="" title="Home">
+              height="95" width="377.44" style="max-width: 100%;" class="" title="Home">
           </div>
         </router-link>
         <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
@@ -45,8 +45,10 @@
         </div>
       </nav>
       <router-link :to="{ name: 'Contact' }" v-if="$route.name !== 'Contact'"
-        class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-        Free Consult
+        class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+        <button type="button"
+          class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+          Free Consult</button>
       </router-link>
       <div v-else style="width: 11vw;"></div>
 
@@ -98,6 +100,21 @@ a:hover {
 @media screen and (min-width: 768px) {
   nav {
     height: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .consult {
+    height: 100px;
+    width: 75px;
+    align-items: center;
+    padding: 0;
   }
 }
 </style>
