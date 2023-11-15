@@ -84,7 +84,7 @@
             <!-- Static mockup Image -->
             <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
               alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
-              style="max-width: 648; height: 351.34;" title="Your New Mobile First Website">
+              height="351.34" width="648" style="max-width: 100%;" title="Your New Mobile First Website">
             <div class="container d-flex ms-5 ps-5">
               <div class="container d-flex ps-5 ps-md-5">
               </div>
