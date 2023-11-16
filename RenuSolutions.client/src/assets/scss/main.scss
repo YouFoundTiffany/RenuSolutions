@@ -11,6 +11,7 @@
 //   Renu Solutions CSS   //
 //  ====================  //
 :root {
+  --Seashell: #e7f3f3;
   --Minty: #bdfafd;
   --Aquatic: #2fcbe0;
   --Maritime: #04748c;
@@ -38,6 +39,10 @@
 }
 
 /* Background Colors */
+.bg-Seashell {
+  background-color: var(--Seashell) !important;
+}
+
 .bg-Minty {
   background-color: var(--Minty) !important;
 }
@@ -59,6 +64,10 @@
 }
 
 /* Text Colors */
+.text-Seashell {
+  color: var(--Seashell) !important;
+}
+
 .text-Minty {
   color: var(--Minty) !important;
 }
@@ -80,6 +89,10 @@
 }
 
 /* Border Colors */
+.border-Seashell {
+  border: 1px solid var(--Seashell) !important;
+}
+
 .border-Minty {
   border: 1px solid var(--Minty) !important;
 }
@@ -94,6 +107,10 @@
 
 .border-Midnight {
   border: 1px solid var(--Midnight) !important;
+}
+
+.border-Midnight-bottom {
+  border-bottom: 1px solid var(--Midnight) !important;
 }
 
 .border-Abyss {

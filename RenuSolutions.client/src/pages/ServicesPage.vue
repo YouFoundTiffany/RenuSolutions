@@ -6,16 +6,16 @@
     <div class="row justify-content-around text-center gap-sm-2 gap-lg-0">
       <!-- 🅰️ -->
       <a @click.prevent="scrollTo('static-website')"
-        class="col-6 col-md-3 cad mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
+        class="col-lg-3 col-md-3 col-sm-3 card mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
         <i class="mdi mdi-web fs-1 text-center"></i>
-        <h6 class="card-title text-center">Static Website</h6>
+        <h6 class="card-title text-center p-2 m-0">Starter Website</h6>
         <!-- <p class="card-text text-start fw-semibold "></p> -->
       </a>
       <!-- 🅱️ -->
       <a @click.prevent="scrollTo('delta-erp')"
-        class="col-6 col-md-3 card mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
+        class="col-lg-3 col-md-3 col-sm-3 card mb-3 elevation-3 text-Midnight align-items-center justify-content-center onhvr">
         <i class="mdi mdi-package-variant-closed fs-1 text-center"></i>
-        <h6 class="card-title text-center">Delta ERP</h6>
+        <h6 class="card-title text-center p-2 m-0">Delta ERP</h6>
         <!-- <p class="card-text text-start fw-semibold "></p> -->
       </a>
       <!-- 🆎 -->

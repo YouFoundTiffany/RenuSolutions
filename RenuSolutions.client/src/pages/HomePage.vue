@@ -67,7 +67,7 @@
               </h1>
               <!-- lh-sm line height -->
               <p
-                class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 smol-txt-msg text-Midnight txt-glow">
+                class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 lrg-txt-msg text-Midnight txt-glow">
                 Ditch
                 WordPress for
                 our
@@ -112,51 +112,20 @@
   <div class="container mt-2 text-Midnight">
     <div class="row pt-5 justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
-        <h1 class="fw-bold">WHAT WE DO</h1>
+        <h1 class="fw-bold Playfair">WHAT WE DO</h1>
         <div class="text-Midnight">
           <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
         </div>
         <p class="fst-italic fw-medium">You finally get to focus on what you really love about your business!
         </p>
-        <p class="fw-medium">We Specialize in providing a quality business system that has a proven track record of
+        <p class="fw-medium">We Specialize in providing a quality business systems that has a proven track record of
           increasing
           revenue for small businesses like yours. This allows you the time and freedom to meet with your clients, which
           brings in more revenue.</p>
 
 
-        <!-- MODAL BUTTON-->
-        <h5 type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
-            learn-more">LEARN MORE</span></h5>
-        <!-- MODAL -->
-        <div class="modal fade" id="DeltaERPModal" tabindex="-1" role="dialog" aria-labelledby="DeltaERPModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="DeltaERPModalLabel">The Renü Solutions <span class="Delta">Delta</span>
-                  ERP</h5>
-              </div>
-              <div class="modal-body">
-                <p class="text-start fw-normal">What is the Delta ERP or an ERP? ERP stands for
-                  <span style="text-decoration: underline;">E</span>nterprise
-                  <span style="text-decoration: underline;">R</span>esource
-                  <span style="text-decoration: underline;">P</span>lanning
-                  software.
-                </p>
-                <p class="text-start">
-                  ERPs are systems utilized by medium and large businesses to run everything in a systematic and organized
-                  way. We have taken the <span class="fst-italic">BEST</span> of these systems and made them
-                  available to small businesses
-                  like yours, which is what we call the <span class="fw-bold fs-5">Delta ERP</span>.<br><br>
-                  We have also added in some of our own special sauce to make it even better. We have seen it increase
-                  revenue for every business that has used it.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL -->
+
         <div class="text-Midnight">
           <span>———</span><i class="mdi
           mdi-pyramid mdi-flip-v"></i><span>———</span>
@@ -169,21 +138,21 @@
 
   <!-- 🚀 - spacer div 1️⃣ -->
   <!-- Do NOT copy this Spacer Set it is custom, use 2 or 3 -->
-  <div class="spacer mx-3 d-flex justify-content-center align-items-center">
-    <!-- DIVIDER LINE -->
-    <div class="container mx-5 my-4 px-5">
+  <!-- <div class="spacer mx-3 d-flex justify-content-center align-items-center"> -->
+  <!-- DIVIDER LINE -->
+  <!-- <div class="container mx-5 my-4 px-5">
       <hr class="solid mx-5" style="color: var(--Midnight);">
-    </div>
-    <!-- DIVIDER LINE -->
-  </div>
+    </div> -->
+  <!-- DIVIDER LINE -->
+  <!-- </div> -->
   <!-- 🚀 - spacer div 1️⃣-->
 
-
-  <!-- 2️⃣ - TRIPLE CARDS -->
   <section class="container my-2">
-    <div class="row justify-content-around">
-      <!-- 🅰️ -->
-      <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+
+    <!-- 2️⃣ - TRIPLE CARDS -->
+    <!-- <div class="row justify-content-around"> -->
+    <!-- 🅰️ -->
+    <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Full-System</h5>
@@ -194,9 +163,9 @@
             work
             together!</p>
         </div>
-      </div>
-      <!-- 🅱️ -->
-      <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+      </div> -->
+    <!-- 🅱️ -->
+    <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-tablet-cellphone fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Mobile First</h5>
@@ -205,9 +174,9 @@
             mobile sizes.
           </p>
         </div>
-      </div>
-      <!-- 🆎 -->
-      <div class="col-10 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
+      </div> -->
+    <!-- 🆎 -->
+    <!-- <div class="col-10 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
         <i class="mdi mdi-key fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Turn Key</h5>
@@ -217,7 +186,7 @@
             business is all organized for you.</p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- 2️⃣ - TRIPLE CARDS END-->
 
 
@@ -230,27 +199,21 @@
       <!-- DIVIDER LINE -->
     </div>
     <!-- 🚀 spacer div 2️⃣-->
-
-
+    <div style="height:5vh;"></div>
+    <h1 class="text-Midnight Merri">Level 1</h1>
     <!-- 3️⃣ - Horizontal Card DIV -->
-    <section class="container mb-2 text-Midnight">
-      <div class="row pb-5 justify-content-center align-items-center">
-        <!-- PIGGY -->
-        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
-          <img :src="piggyBank" class="pig-bank"
-            alt="Piggy Bank with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            title="Simple Stataic Website helps you to Make and Save Money">
-
-        </div>
-        <!-- PIGGY -->
-        <!-- $150 CONTRACT -->
+    <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
+      <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold  lh-1">Starting at<span class="text-Maritime lght-txt-shad"> $150</span> per Month,<br>6
-            month
-            Minimum
-            Contract</h1>
-          <!-- $150 CONTRACT -->
-          <h3 class="fw-bold text-Maritime lght-txt-shad">The Simple Static Website</h3>
+          <h2 class="fw-bold text-Midnight lght-txt-shad">The Starter Website Package
+
+            <span type="button" class="" data-toggle="modal" data-target="#StarterSiteModal"><span class="fw-bold
+          learn-more bg-Minty rounded"> LEARN MORE </span>
+            </span>
+          </h2>
+          <h4 class="fw-bold lh-1 py-3">Starting at<span class="text-Maritime lght-txt-shad"> $150</span> a month, Your
+            Gateway to the Web</h4>
+
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -260,9 +223,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 1 content-->
               <p class=" fw-bold">
-                <span class="smol-txt-checks fw-bold">Inclusive Hosting Costs</span>
+                <span class="med-txt-checks fw-bold">Inclusive Hosting Costs</span>
                 <br>
-                <span class="xsmol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
+                <span class="smol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
               </p>
             </div>
             <!-- Infinity 2 check -->
@@ -272,11 +235,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 2 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
+                <span class="med-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Feel free to request any modifications at any time, and expect completion
-                  within the same day.
+                <span class="smol-txt-checks">Feel free to request any modifications at any time.
                 </span>
               </p>
             </div>
@@ -290,10 +252,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 3 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Direct 24/7 Support Access
+                <span class="med-txt-checks fw-bold">Direct 24/7 Support Access
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
+                <span class="smol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
                   immediate human assistance.
                 </span>
               </p>
@@ -305,10 +267,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 4 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Comprehensive Web Crafting
+                <span class="med-txt-checks fw-bold">Comprehensive Web Crafting
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
+                <span class="smol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
                   development, and rigorous quality checks.
                 </span>
               </p>
@@ -324,10 +286,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 5 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
+                <span class="med-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Attain an impeccable score of 100 in Google Page Speed insights, enhancing
+                <span class="smol-txt-checks">High Google Page Speeds, insights, and SEO enhancing
                   your site's visibility.
                 </span>
               </p>
@@ -339,32 +301,48 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 6 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Complimentary Google Analytics Integration
+                <span class="med-txt-checks fw-bold">Complimentary Google Integration
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">We provide a complimentary setup of Google Analytics to track your
+                <span class="smol-txt-checks">We provide a complimentary setup of Google tool integration to track your
                   website's traffic sources and visitor behavior.</span>
               </p>
             </div>
           </div>
         </div>
+        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
+          <img :src="piggyBank" class="pig-bank"
+            alt="Piggy Bank with csoin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
+            title="Simple Stataic Website helps you to Make and Save Money">
+          <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+            <span> Call us Today!</span>
+            <button type="button"
+              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+              Free Consult</button>
+          </router-link>
+        </div>
       </div>
     </section>
     <!-- 3️⃣ - Horizontal Card DIV END -->
 
-    <!-- 4️⃣ - Horizontal Card DIV -->
-    <section class="container my-2 text-Midnight">
-      <div class="row py-2 justify-content-center align-items-center">
 
-        <!-- $50 CONTRACT -->
+    <div style="height:5vh;"></div>
+
+    <h1 class="text-Midnight Merri">Level 2</h1>
+    <!-- 4️⃣ - Horizontal Card DIV -->
+    <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
+      <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-8">
-          <h1 class="fw-bold lh-1"><span>Upgrade Package</span><br><span class="text-Maritime lght-txt-shad">$50</span>
-            per
-            Month,<br>6
-            month
-            Minimum Contract</h1>
-          <!-- DELTA ERP CONTRACT -->
-          <h3 class="fw-bold text-Maritime lght-txt-shad">The Delta ERP</h3>
+          <h2 class="fw-bold text-Midnight lght-txt-shad">The Delta ERP
+            <span type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
+          learn-more bg-Minty rounded">LEARN MORE</span>
+            </span>
+          </h2>
+          <h4 class="fw-bold lh-1 py-3"><span>Ultimate Small Business Package, Add-On to the Starter Site Package,
+            </span><span class="text-Maritime lght-txt-shad">$50</span>
+            a month, six-month
+            month minimum contract.</h4>
+
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
@@ -374,10 +352,10 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 1 content-->
               <p class=" fw-bold">
-                <span class="smol-txt-checks fw-bold">Customer Relationship Manager (CRM)
+                <span class="med-txt-checks fw-bold">Customer Relationship Manager (CRM)
                 </span>
                 <br>
-                <span class="xsmol-txt-checks">Easily Manage all of Your Customer Interactions</span>
+                <span class="smol-txt-checks">Easily Manage all of Your Customer Interactions</span>
               </p>
             </div>
             <!-- Infinity 2 check -->
@@ -387,9 +365,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 2 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Calendar Scheduler</span>
+                <span class="med-txt-checks fw-bold">Calendar Scheduler</span>
                 <br>
-                <span class="xsmol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
+                <span class="smol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
               </p>
             </div>
           </div>
@@ -402,9 +380,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 3 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Website & Funnel Builder</span>
+                <span class="med-txt-checks fw-bold">Website & Funnel Builder</span>
                 <br>
-                <span class="xsmol-txt-checks">Direct Potential Customers to your Site</span>
+                <span class="smol-txt-checks">Direct Potential Customers to your Site</span>
               </p>
             </div>
             <!-- Infinity 4 check -->
@@ -414,9 +392,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 4 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Membership Portal</span>
+                <span class="med-txt-checks fw-bold">Membership Portal</span>
                 <br>
-                <span class="xsmol-txt-checks">Virtual Training System</span>
+                <span class="smol-txt-checks">Virtual Training System</span>
               </p>
             </div>
           </div>
@@ -430,9 +408,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 5 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Messaging Capabilities</span>
+                <span class="med-txt-checks fw-bold">Messaging Capabilities</span>
                 <br>
-                <span class="xsmol-txt-checks">Integrated Email, Text, Phone, etc.</span>
+                <span class="smol-txt-checks">Integrated Email, Text, Phone, etc.</span>
               </p>
             </div>
             <!-- Infinity 6 check -->
@@ -442,9 +420,9 @@
             <div class="col-4 ps-1 m-0">
               <!-- check 6 content-->
               <p class="">
-                <span class="smol-txt-checks fw-bold">Online Payments</span>
+                <span class="med-txt-checks fw-bold">Online Payments</span>
                 <br>
-                <span class="xsmol-txt-checks">Accept and Manage Your Revenue</span>
+                <span class="smol-txt-checks">Accept and Manage Your Revenue</span>
               </p>
             </div>
           </div>
@@ -454,10 +432,15 @@
           <img :src="moneyHands" class="hand-coin"
             alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
             title=" Delta ERP helps you to Make and Save Money.">
-
+          <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+            <span> Call us Today!</span>
+            <button type="button"
+              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+              Free Consult</button>
+          </router-link>
         </div>
-        <!-- MONEY HANDS -->
       </div>
+      <!-- MONEY HANDS -->
     </section>
     <!-- 4️⃣ - Horizontal Card DIV END -->
 
@@ -477,7 +460,7 @@
     <div class="container my-2 text-Midnight">
       <div class="row py-2 justify-content-center align-items-center">
         <div class="col-12 col-md-6 text-center">
-          <h1 class="fw-bold">WHO WE ARE</h1>
+          <h1 class="fw-bold Playfair">WHO WE ARE</h1>
           <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
           <p class="text-start fw-medium"> My name is Tiffany, I am a web developer that found their special skill later
             in life. I
@@ -507,12 +490,97 @@
 
     <!--🦄 - BODY END -->
   </section>
-
-
   <!-- </section> -->
+  <!-- MODAL BUTTON-->
+
+
+  <!-- MODAL -->
+  <div class="modal fade" id="StarterSiteModal" tabindex="-1" role="dialog" aria-labelledby="StarterSiteModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content bg-Minty">
+        <div class="modal-header border-Midnight-bottom">
+          <h5 class="modal-title text-Midnight" id="StarterSiteModalLabel">The <span class="Playfair fw-bold">Renü
+              Solutions</span> Starter Website</h5>
+          <button type="button" class="close text-Midnight" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-Midnight">
+          <p class="text-start fw-medium">Your complete first website package. We build you a beautiful, mobile-first
+            website that
+            is
+            designed to convert visitors into clients. This package is perfect for the small business owner who is just
+            starting out and
+            needs a
+            website that will grow with them.<br><br>
+          </p>
+          <p class="text-start fw-medium">
+          </p>
+          <!-- <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+            <span> Call us Today!</span>
+            <button type="button"
+              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+              Free Consult</button>
+          </router-link> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL -->
+  <!-- MODAL -->
+  <div class="modal fade" id="DeltaERPModal" tabindex="-1" role="dialog" aria-labelledby="DeltaERPModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content bg-Minty">
+        <div class="modal-header border-Midnight-bottom">
+          <h5 class="modal-title text-Midnight" id="DeltaERPModalLabel">The <span class="Playfair fw-bold">Renü
+              Solutions</span> Ultimate Small Business
+            Management Software </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-Midnight">
+          <p class="text-start fw-medium fs-5">What is the Delta ERP or an ERP? ERP stands for
+            <span style="text-decoration: underline;">E</span>nterprise
+            <span style="text-decoration: underline;">R</span>esource
+            <span style="text-decoration: underline;">P</span>lanning
+            software.
+          </p>
+          <p class="text-start fw-medium fs-5">Fancy words for "that thing that runs your business in place of all the
+            people
+            you would have to hire to do it for you!"<br><br>
+            ERPs are systems utilized by businesses to run everything in a systematic and organized
+            way. We have taken the <span class="fst-italic">BEST</span> of these systems and made them
+            available to small businesses
+            like yours, and we call it the <span class="fw-bold fs-5">Delta ERP</span>.<br><br>We have also sprinkled
+            <span><i class="mdi mdi-creation-outline"></i></span> in some of our magic to make it even better! Our system
+            increases
+            revenue for every business that has uses it.<span class=""></span><br><br>Here is a list of the business areas
+            it covers for you:<br>● Client
+            Management,<br>●
+            Scheduling Management,<br>● Payment Processing,<br>● Advertising and Marketing Management,<br>● Training
+            Education Platform Management,<br>● Financial Account Department,<br>● Customer Service Management,<br>● And
+            so
+            much
+            more!
+          </p>
+          <!-- <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+            <span> Call us Today!</span>
+            <button type="button"
+              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+              Free Consult</button>
+          </router-link> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL -->
 </template>
 
 <script>
+
 
 import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
 import piggyBank from '@/assets/img/piggyBank.svg';
@@ -554,20 +622,26 @@ export default {
 
 /* To Display Navbar over HomePage background image ONLY */
 // MODAL HOVER
+
+.learn-more {
+  font-size: 10pt;
+  text-shadow: var(--Aquatic 2px 2px 1px);
+}
+
 .learn-more:hover {
-  scale: 1.5;
-  font-size: x-large;
+  scale: 1.1;
+  font-size: 14pt;
   transition: 0.3s;
-  color: var(--Aquatic);
+  color: var(--Maritime);
   cursor: pointer;
 }
 
-.piggyBank {
-  max-height: 10rem;
-  max-width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+// .piggyBank {
+//   max-height: 10rem;
+//   max-width: 100%;
+//   object-fit: cover;
+//   object-position: center;
+// }
 
 // letter spacing
 
@@ -586,22 +660,22 @@ export default {
   line-height: .75;
 }
 
-.smol-txt-checks {
-  font-size: small !important;
+.med-txt-checks {
+  font-size: med !important;
 }
 
-.xsmol-txt-checks {
-  font-size: x-small !important;
+.smol-txt-checks {
+  font-size: small !important;
   font-weight: 700 !important;
 }
 
-.smol-txt-msg {
-  font-size: medium !important;
+.lrg-txt-msg {
+  font-size: large !important;
   font-weight: 800 !important;
 }
 
 .lght-txt-shad {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.367);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.235);
 }
 
 .txt-shad {
@@ -614,7 +688,7 @@ export default {
 }
 
 .txt-glow {
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.836);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.572);
 }
 
 .xxbig-txt-msg {
@@ -696,7 +770,7 @@ export default {
 }
 
 .spacer {
-  height: 30vh;
+  height: 18vh;
 }
 
 @media screen and (max-width: 768px) {

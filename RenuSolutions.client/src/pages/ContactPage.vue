@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <div class=" text-center">
-            <button type="button" class="btn" data-toggle="modal" data-target="#contactUsModal"
+            <button type="button" class="btn m-lg-0 m-md-0 my-4" data-toggle="modal" data-target="#contactUsModal"
               style="background-color: var(--Maritime); color: var(--Minty);">
               Contact Us
             </button>
@@ -22,10 +22,10 @@
         </div>
 
         <!-- Right -->
-        <div class="col-12 col-md-6 d-flex align-items-center">
+        <div class="col-12 col-md-6 m-lg-0 m-md-0 my-4 d-flex align-items-center">
           <div class=" text-center w-100">
             <div class="card-body">
-              <h4 class="card-text">Renü Solutions Digital Lab</h4>
+              <h4 class="card-text Playfair">Renü Solutions Digital Lab</h4>
               <p class="card-text">Call or Text: (208) 918-0942<br>Email: Info@RenuSolutions.tech<br>
               </p>
             </div>
