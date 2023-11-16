@@ -47,9 +47,9 @@
                 <router-link :to="{ name: 'Services' }">
                     <p class="borderLinerNav text-light txt-shad">SERVICES</p>
                 </router-link>
-                <!-- <router-link :to="{ name: 'Portfolio' }">
+                <router-link :to="{ name: 'Portfolio' }">
                     <p class="borderLinerNav text-light txt-shad">PORTFOLIO</p>
-                </router-link> -->
+                </router-link>
                 <!-- <router-link :to="{ name: 'Blog' }">
                     <p class="borderLinerNav text-light txt-shad">BLOG</p>
                 </router-link> -->
