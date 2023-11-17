@@ -21,19 +21,29 @@
 
 
             <!-- 🐕‍🦺 SERVICES -->
-            <!-- <section class="glass-effect m-0 p-0"> -->
-            <div class="col-12 col-md-1 text-center ">
-                <!-- <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p> -->
-                <!-- <router-link :to="{ name: 'WEBSITES' }">
-                    <p class="borderLinerServ text-light pt-1">WEBSITES</p>
-                </router-link> -->
-                <!-- <p class="borderLinerServ text-light txt-shad pt-1">WEBSITES</p>
-                <p class="borderLinerServ text-light txt-shad">WEB DESIGN</p>
-                <p class="borderLinerServ text-light txt-shad">MAINTENANCE</p>
-                <p class="borderLinerServ text-light txt-shad">SEO</p>
-                <p class="borderLinerServ text-light txt-shad">CONTENT CREATION</p>
-                <p class="borderLinerServ text-light txt-shad">LOGOS</p>
-                <p class="borderLinerServ text-light txt-shad">APPS</p> -->
+            <div class="col-12 col-md-1 text-center glass-effect">
+                <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">WEBSITES</p>
+                </router-link>
+                <router-link :to="{ name: 'Portfolio' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">WEB DESIGN</p>
+                </router-link>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">MAINTENANCE</p>
+                </router-link>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">SEO</p>
+                </router-link>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">CONTENT CREATION</p>
+                </router-link>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">LOGOS</p>
+                </router-link>
+                <router-link :to="{ name: 'Services' }">
+                    <p class="borderLinerServ text-light pt-1 txt-shad">APPS</p>
+                </router-link>
             </div>
             <!-- 🧭 NAVIGATION -->
             <div class="col-12 col-md-1 text-center glass-effect">
@@ -57,7 +67,6 @@
                     <p class="borderLinerNav text-light txt-shad">CONTACT</p>
                 </router-link>
             </div>
-            <!-- </section> -->
         </div>
 
 
@@ -183,7 +192,8 @@ export default {
 <style scoped lang="scss">
 // glass effect
 .glass-effect {
-    backdrop-filter: brightness(110%);
+    backdrop-filter: brightness(110%) !important;
+    border-radius: 20px !important;
 }
 
 // TEXT SHADOW
@@ -218,8 +228,8 @@ export default {
     position: relative;
     overflow: hidden;
     text-align: center;
-    width: 90%;
-    margin-left: 4%;
+    width: 99%;
+    margin-left: 1%;
 }
 
 .borderLinerServ::after {
@@ -245,8 +255,8 @@ export default {
     position: relative;
     overflow: hidden;
     text-align: center;
-    width: 75%;
-    margin-left: 12%;
+    width: 79%;
+    margin-left: 9%;
 }
 
 .borderLinerNav::after {
