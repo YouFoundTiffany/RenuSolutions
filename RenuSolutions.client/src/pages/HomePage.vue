@@ -199,7 +199,7 @@
       <!-- DIVIDER LINE -->
     </div>
     <!-- 🚀 spacer div 2️⃣-->
-    <div style="height:5vh;"></div>
+    <!-- <div style="height:5vh;"></div> -->
     <h1 class="text-Midnight Merri">Level 1</h1>
     <!-- 3️⃣ - Horizontal Card DIV -->
     <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
@@ -217,28 +217,34 @@
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
-              <!-- check 1 content-->
-              <p class=" fw-bold">
-                <span class="med-txt-checks fw-bold">Inclusive Hosting Costs</span>
+              <p class="">
+                <span class="med-txt-checks fw-bold">Inclusive Hosting Costs
+                </span>
                 <br>
-                <span class="smol-txt-checks">Your monthly plan encompasses all hosting charges.</span>
+                <span class="smol-txt-checks">Your monthly plan encompasses all hosting charges.
+                </span>
               </p>
+              <!-- check 1 content-->
+              <!-- <p class="fw-bold med-txt-checks fw-bold m-0 p-0">Inclusive Hosting Costs</p>
+
+              <p class="smol-txt-checks mt-1 p-0 ">Your monthly plan encompasses all hosting charges.</p> -->
+
             </div>
             <!-- Infinity 2 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
               <!-- check 2 content-->
               <p class="">
-                <span class="med-txt-checks fw-bold">Unlimited Revisions & Round-the-Clock Support
+                <span class="med-txt-checks fw-bold">Unlimited Revisions
                 </span>
                 <br>
-                <span class="smol-txt-checks">Feel free to request any modifications at any time.
+                <span class="smol-txt-checks">Free to request any modifications at any time.
                 </span>
               </p>
             </div>
@@ -246,32 +252,30 @@
           <!-- CHECK POINTS ROW 2 -->
           <div class="row squish">
             <!-- Infinity 3 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
               <!-- check 3 content-->
               <p class="">
-                <span class="med-txt-checks fw-bold">Direct 24/7 Support Access
+                <span class="med-txt-checks fw-bold">24/7 Support Access
                 </span>
                 <br>
-                <span class="smol-txt-checks">Contact us directly at any hour—avoiding automated menus and getting
-                  immediate human assistance.
+                <span class="smol-txt-checks">Here for you when you need us.
                 </span>
               </p>
             </div>
             <!-- Infinity 4 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
               <!-- check 4 content-->
               <p class="">
-                <span class="med-txt-checks fw-bold">Comprehensive Web Crafting
+                <span class="med-txt-checks fw-bold">Comprehensive Crafting
                 </span>
                 <br>
-                <span class="smol-txt-checks">Our package offers over 40 hours dedicated to meticulous web design,
-                  development, and rigorous quality checks.
+                <span class="smol-txt-checks">Over 40 hours web design.
                 </span>
               </p>
             </div>
@@ -280,22 +284,22 @@
           <!-- CHECK POINTS ROW 3 -->
           <div class="row squish">
             <!-- Infinity 5 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
               <!-- check 5 content-->
               <p class="">
-                <span class="med-txt-checks fw-bold">Top-Tier Google Page Speed Ratings
+                <span class="med-txt-checks fw-bold">Top-Tier Page Ratings
                 </span>
                 <br>
-                <span class="smol-txt-checks">High Google Page Speeds, insights, and SEO enhancing
+                <span class="smol-txt-checks">Enhancing
                   your site's visibility.
                 </span>
               </p>
             </div>
             <!-- Infinity 6 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -304,8 +308,7 @@
                 <span class="med-txt-checks fw-bold">Complimentary Google Integration
                 </span>
                 <br>
-                <span class="smol-txt-checks">We provide a complimentary setup of Google tool integration to track your
-                  website's traffic sources and visitor behavior.</span>
+                <span class="smol-txt-checks">Track your site's performance.</span>
               </p>
             </div>
           </div>
@@ -346,7 +349,7 @@
           <!-- CHECK POINTS ROW 1 -->
           <div class="row squish">
             <!-- Infinity 1 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -359,7 +362,7 @@
               </p>
             </div>
             <!-- Infinity 2 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -374,7 +377,7 @@
           <!-- CHECK POINTS ROW 2 -->
           <div class="row squish">
             <!-- Infinity 3 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -386,7 +389,7 @@
               </p>
             </div>
             <!-- Infinity 4 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -402,7 +405,7 @@
           <!-- CHECK POINTS ROW 3 -->
           <div class="row squish">
             <!-- Infinity 5 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -414,7 +417,7 @@
               </p>
             </div>
             <!-- Infinity 6 check -->
-            <div class="col-1 p-0 m-0 text-end">
+            <div class="col-1 p-0 mt-1 text-end">
               <i class="mdi mdi-infinity mdi-18px"></i>
             </div>
             <div class="col-4 ps-1 m-0">
@@ -662,16 +665,19 @@ export default {
 
 .med-txt-checks {
   font-size: med !important;
+  line-height: normal;
 }
 
 .smol-txt-checks {
   font-size: small !important;
   font-weight: 700 !important;
+  line-height: normal;
 }
 
 .lrg-txt-msg {
   font-size: large !important;
   font-weight: 800 !important;
+  line-height: normal;
 }
 
 .lght-txt-shad {
