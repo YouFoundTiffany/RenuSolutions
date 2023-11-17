@@ -9,7 +9,7 @@
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#footContactUsModal"
+                <button type="button" class="btn my-3" data-bs-toggle="modal" data-bs-target="#footContactUsModal"
                     style="background-color: var(--Maritime); color: var(--Minty);">
                     Contact Us
                 </button>
@@ -21,7 +21,7 @@
 
 
             <!-- 🐕‍🦺 SERVICES -->
-            <div class="col-12 col-md-1 text-center glass-effect">
+            <div class="col-lg-1 col-md-1 col-sm-8 text-center glass-effect">
                 <p class="ftsTitleUnderlineServ pt-1 m-0 fw-bold txt-shad">SERVICES</p>
                 <router-link :to="{ name: 'Services' }">
                     <p class="borderLinerServ text-light pt-1 txt-shad">WEBSITES</p>
@@ -46,7 +46,7 @@
                 </router-link>
             </div>
             <!-- 🧭 NAVIGATION -->
-            <div class="col-12 col-md-1 text-center glass-effect">
+            <div class="col-lg-1 col-md-1 col-sm-8  text-center glass-effect">
                 <p class="ftsTitleUnderlineNav pt-1 m-0 fw-bold txt-shad">NAVIGATION</p>
                 <router-link :to="{ name: 'Home' }">
                     <p class="borderLinerNav text-light pt-1 txt-shad">HOME</p>

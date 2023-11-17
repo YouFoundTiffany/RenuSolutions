@@ -26,11 +26,11 @@
                 Services
               </router-link>
             </li>
-            <!-- <li>
-            <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-              Portfolio
-            </router-link>
-          </li> -->
+            <li>
+              <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                Portfolio
+              </router-link>
+            </li>
             <!-- <li>
             <router-link :to="{ name: 'Blog' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
               Blog

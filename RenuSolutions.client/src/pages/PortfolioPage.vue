@@ -4,16 +4,16 @@ PORTFOLIO
 
   <div class="row justify-content-around mt-5">
     <!-- 🅰️ -->
-    <div class="col-10 col-md-3 col-sm-3 my-2 rounded elevation-3 text-Midnight">
+    <div class="col-10 col-md-4 col-sm-3 my-2 p-1 text-Midnight">
       <a href="https://app.fgfunnels.com/v2/preview/CDtpg7rhOxbI9MDywois?notrack=true" target="_blank">
-        <img :src="Hypno" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img">
+        <img :src="Hypno" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
       </a>
     </div>
     <!-- 🅰️ -->
     <!-- 🅱️ -->
-    <div class="col-10 col-md-3 col-sm-3 my-2 rounded elevation-3 text-Midnight">
+    <div class="col-10 col-md-4 col-sm-3 my-2 p-1 rounded text-Midnight">
       <a href="https://app.fgfunnels.com/v2/preview/CvYJt85c1zpN3CRskeKC?notrack=true" target="_blank">
-        <img :src="Yoga" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img">
+        <img :src="Yoga" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
       </a>
     </div>
     <!-- 🅱️ -->

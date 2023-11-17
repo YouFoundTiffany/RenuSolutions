@@ -69,21 +69,21 @@
       <div class="row justify-content-around">
         <!-- 1️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">5 Pages</p>
           <p class="fw-medium ps-2 smol-txt-msg">Home Page, and four more pages of your choosing.
           </p>
         </div>
         <!-- 2️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Online Hosting</p>
           <p class="fw-medium ps-2 smol-txt-msg">You own your domain and content.
           </p>
         </div>
         <!-- 3️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">24/7 Support</p>
           <p class="fw-medium ps-2 smol-txt-msg">Direct Line to us. After-hours, we respond in 24 hours or less—no extra
             charges for evenings or weekends.
@@ -96,7 +96,7 @@
       <div class="row justify-content-around">
         <!-- 4️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Logo and Web Copy</p>
           <p class="fw-medium ps-2 smol-txt-msg">The logo includes two phase edits. If you need help to create content on
             your Home Page, we will provide high-quality starter web copy with your specific industry's keywords. We
@@ -105,7 +105,7 @@
         </div>
         <!-- 5️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">SEO Optimization</p>
           <p class="fw-medium ps-2 smol-txt-msg"><span style="text-decoration: underline;">S</span>earch
             <span style="text-decoration: underline;">E</span>ngine <span
@@ -116,7 +116,7 @@
         </div>
         <!-- 6️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Full-Service Management</p>
           <p class="fw-medium ps-2 smol-txt-msg">Unlimited Edits are edits after the site is up and running. When you want
             to change a messaging, copy, or formatting, we provide up to 2 hours of editing per month; anything over that,
@@ -129,21 +129,21 @@
       <div class="row justify-content-around">
         <!-- 7️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Mobile-First</p>
           <p class="fw-medium ps-2 smol-txt-msg">We build your site for mobile device viewing first. Your site will fit
             all mobile screens and desktop screens.</p>
         </div>
         <!-- 8️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Google Analytics</p>
           <p class="fw-medium ps-2 smol-txt-msg">We install Google Analytics on your site. Google
             Analytics is a free service offered by Google that tracks and reports website traffic.</p>
         </div>
         <!-- 9️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0 p-0 m-0">Email Integration</p>
           <p class="fw-medium ps-2 smol-txt-msg">We ensure your email is connected along with any other integrations you
             already have.</p>
@@ -194,14 +194,14 @@
       <div class="row justify-content-around">
         <!-- 1️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Customer Relationship Manager (CRM)</p>
           <p class="fw-medium ps-2 smol-txt-msg">An essential tool to manage your customers, leads, and sales.
           </p>
         </div>
         <!-- 2️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Calendar Scheduler</p>
           <p class="fw-medium ps-2 smol-txt-msg">Customers can request appointments, and you can manage your
             schedule.
@@ -209,7 +209,7 @@
         </div>
         <!-- 3️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Messaging Capabilities</p>
           <p class="fw-medium ps-2 smol-txt-msg">Additional messaging capabilities to communicate with your
             customers. Email Marketing Campaigns, SMS, and more.
@@ -222,21 +222,21 @@
       <div class="row justify-content-around">
         <!-- 4️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Sales and Opportunity Tracking</p>
           <p class="fw-medium ps-2 smol-txt-msg">Manage your sales and opportunities.
           </p>
         </div>
         <!-- 5️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Online Payments</p>
           <p class="fw-medium ps-2 smol-txt-msg">Accept and manage online payments.
           </p>
         </div>
         <!-- 6️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Customer Courses</p>
           <p class="fw-medium ps-2 smol-txt-msg">Create Courses for your customers and manage your additional income
             stream.</p>
@@ -248,14 +248,14 @@
       <div class="row justify-content-around">
         <!-- 7️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Marketing Funnel</p>
           <p class="fw-medium ps-2 smol-txt-msg">Add a marketing funnel to bring customers to your business efficiently.
           </p>
         </div>
         <!-- 8️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0">Business Analytics</p>
           <p class="fw-medium ps-2 smol-txt-msg">Automated Business Reporting that details your business. No more
             wondering how you
@@ -263,7 +263,7 @@
         </div>
         <!-- 9️⃣ -->
         <div
-          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-sm-2 align-items-center grow-bullets">
+          class="col-11 col-md-3 card bg-Minty text-Midnight elevation-3 pt-2 ps-1 mb-2 align-items-center grow-bullets">
           <p class="fw-semibold p-0 m-0 p-0 m-0">Reputation Management</p>
           <p class="fw-medium ps-2 smol-txt-msg">See and track all your customer reviews in one place.</p>
         </div>
