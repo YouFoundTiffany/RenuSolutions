@@ -582,7 +582,7 @@
 <script>
 
 
-import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW3.svg';
+import RenuSolutionsLogo from '@/assets/img/RenuSolutionsDigitalLabLogoandNameGLOW.svg';
 import piggyBank from '@/assets/img/piggyBank.svg';
 import moneyHands from '@/assets/img/moneyHands.svg';
 import RenuLogoMockUp from '@/assets/img/RenuLogoMockUp.png';
