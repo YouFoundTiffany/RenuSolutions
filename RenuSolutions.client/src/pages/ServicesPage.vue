@@ -2,7 +2,7 @@
 <template>
   <section class="container-flex mb-3">
     <img :src="Swoop" alt="website layout for small business" class="banner-img">
-    <h1 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Our Services</h1>
+    <h2 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Our Services</h2>
   </section>
 
 
@@ -337,6 +337,13 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48pt;
+}
+
+@media screen and (max-width: 768px) {
+
+  .centered {
+    font-size: 24pt;
+  }
 }
 
 /* Text Over Image */

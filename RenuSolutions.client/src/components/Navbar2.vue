@@ -1,6 +1,6 @@
 <!-- NAVBAR 2 -->
 <template>
-  <section class="py-5 m-0 container-flex justify-content-around">
+  <section class="py-lg-4 pt-sm-3 ps-1 pe-0 pb-0 m-0 container-flex justify-content-around">
 
     <section class="m-0 p-0 d-flex align-items-center justify-content-around">
       <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">

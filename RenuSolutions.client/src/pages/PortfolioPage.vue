@@ -2,7 +2,7 @@
 <template>
   <section class="container-flex mb-3">
     <img :src="Swoop" alt="website layout for small business" class="banner-img">
-    <h1 class="centered m-4 p-4 text-Seashell fw-bold lght-txt-shad">Portfolio</h1>
+    <h2 class="centered m-4 p-4 text-Seashell fw-bold lght-txt-shad">Portfolio</h2>
   </section>
 
   <!-- PORTFOLIO CARDS -->
@@ -87,5 +87,12 @@ document.querySelectorAll('.card').forEach(card => {
 
 .portfolio-img:hover {
   transform: scale(1.05); // Slightly enlarge on hover
+}
+
+@media screen and (max-width: 768px) {
+
+  .centered {
+    font-size: 24pt;
+  }
 }
 </style>

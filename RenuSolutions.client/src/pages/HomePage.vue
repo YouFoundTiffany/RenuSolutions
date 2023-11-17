@@ -1,8 +1,8 @@
 <!-- HOME PAGE -->
 <template>
-  <div class="top-sec-bg-image">
+  <div class="top-sec-bg-image p-0 m-0">
     <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
-    <section class="py-5 m-0 container-flex justify-content-around">
+    <section class="py-lg-4 pt-sm-3 ps-1 pe-0 pb-0 m-0 container-flex justify-content-around">
       <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
       <section class="m-0 p-0 d-flex align-items-center justify-content-around">
         <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
@@ -104,8 +104,8 @@
   <!-- HOME PAGE CONTENT -->
   <!--🦄 - BODY -->
   <!-- 1️⃣ - SINGLE CONTENT DIV -->
-  <div class="container mt-2 text-Midnight bg-transparent">
-    <div class="row pt-2 justify-content-center align-items-center">
+  <div class="mt-5 p-0 container-flex text-Midnight bg-transparent">
+    <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
         <h1 class="fw-bold Playfair">WHAT WE DO</h1>
         <div class="text-Midnight">
@@ -607,7 +607,7 @@ export default {
 // mobile screen spacer
 @media screen and (max-width: 768px) {
   .small-screen-spacer {
-    height: 50vh !important;
+    height: 90vh !important;
   }
 }
 
@@ -620,7 +620,7 @@ small-screen-spacer {
   background-image: url("../assets/img/final-basicbackgroundRenuSolwebready.png");
   // background-attachment: fixed;
   /* This keeps the background image fixed during scroll */
-  height: 90vh;
+  height: 50vh;
   width: 100%;
   background-size: cover;
   background-position: center;

@@ -2,7 +2,8 @@
 <template>
   <section class="container-flex mb-3">
     <img :src="Swoop" alt="website layout for small business" class="banner-img">
-    <h1 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Contact US</h1>
+    <h2 class="centered too-big text-center my-4 mx-2 p-4 text-Seashell fw-bold lght-txt-shad">How can we help?</h2>
+    <p>Send us a message!</p>
   </section>
 
   <!-- Button trigger modal -->
@@ -201,5 +202,12 @@ export default {
   /* Color on hover */
   color: var(--Midnight) !important;
   /* Text color on hover */
+}
+
+@media screen and (max-width: 768px) {
+
+  .centered {
+    font-size: 24pt;
+  }
 }
 </style>
