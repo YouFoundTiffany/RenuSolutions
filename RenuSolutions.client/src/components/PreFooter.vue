@@ -9,7 +9,7 @@
                 </router-link>
                 <p>Email Info@RenuSolutions.tech</p>
                 <p>Call Text (208) 918-0942</p>
-                <button type="button" class="btn my-3" data-bs-toggle="modal" data-bs-target="#footContactUsModal"
+                <button type="button" class="btn my-3 btn-grow" data-bs-toggle="modal" data-bs-target="#footContactUsModal"
                     style="background-color: var(--Maritime); color: var(--Minty);">
                     Contact Us
                 </button>
@@ -190,6 +190,20 @@ export default {
 
 
 <style scoped lang="scss">
+// .btn-grow {
+// padding-top: 10px;
+// height: 35px !important;
+// font-size: x-small !important;
+// font-weight: 800 !important;
+// }
+
+.btn-grow:hover {
+    background-color: var(--Aquatic) !important;
+    color: var(--Minty) !important;
+    transition: 0.3s !important;
+    scale: 1.2;
+}
+
 // glass effect
 .glass-effect {
     backdrop-filter: brightness(110%) !important;

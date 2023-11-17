@@ -1,32 +1,37 @@
 <!-- CONTACT -->
 <template>
+  <section class="container-flex mb-3">
+    <img :src="Swoop" alt="website layout for small business" class="banner-img">
+    <h1 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Contact US</h1>
+  </section>
+
   <!-- Button trigger modal -->
-
-
-  <section class="container-flex py-5">
+  <section class="container-flex m-2 py-5 text-Midnight fw-medium">
     <!-- Left -->
-    <!-- <h5 class="card-title text-center">Feel free to call, text, or email. </h5> -->
+    <h5 class="card-title text-center py-3">Feel free to call, text, or email. </h5>
     <div class="container">
       <p class="text-center fw-medium">We are happy to provide more information. Schedule your compilementary discovery
         session
         now!
       </p>
       <div class="row">
-        <div class="col-12 col-md-6">
-          <div class=" text-center">
-            <button type="button" class="btn m-lg-0 m-md-0 my-4" data-toggle="modal" data-target="#contactUsModal"
-              style="background-color: var(--Maritime); color: var(--Minty);">
-              Contact Us
+        <div class="col-12 col-md-6 py-5">
+          <div class="text-center">
+            <p class="m-0 p-0">Ask us a Question</p>
+            <button type="button" class="btn m-lg-0 m-md-0 my-4 btn-grow" data-toggle="modal"
+              data-target="#contactUsModal" style="background-color: var(--Maritime); color: var(--Minty);">
+              Contact Form
             </button>
           </div>
         </div>
 
         <!-- Right -->
-        <div class="col-12 col-md-6 m-lg-0 m-md-0 my-4 d-flex align-items-center">
-          <div class=" text-center w-100">
+        <div class="col-12 col-md-6 m-lg-0 m-md-0 my-4 d-flex text-Midnight fw-medium align-items-center py-5">
+          <div class="elevation-3 bg-Seashell rounded p-4">
             <div class="card-body">
-              <h4 class="card-text Playfair">Renü Solutions Digital Lab</h4>
-              <p class="card-text">Call or Text: (208) 918-0942<br>Email: Info@RenuSolutions.tech<br>
+              <h2 class="card-text Playfair">Renü Solutions <span class="Monty"> Digital Lab</span></h2>
+              <p class="card-text">Call or Text: <span><a href="tel:+12089180942">(208) 918-0942</a></span><br>Email:
+                Info@RenuSolutions.tech<br>
               </p>
             </div>
           </div>
@@ -98,12 +103,14 @@
 </template>
 
 <script >
-
+import Swoop from '@/assets/img/final-basicbackgroundRenuSol.png';
 import Pop from '../utils/Pop.js';
 import { nextTick } from 'vue';
 export default {
+
   data() {
     return {
+      Swoop: Swoop,
       contactData: {
         name: '',
         email: '',
@@ -146,6 +153,42 @@ export default {
 
 </script>
 <style>
+.btn-grow:hover {
+  background-color: var(--Aquatic) !important;
+  color: var(--Minty) !important;
+  transition: 0.3s !important;
+  scale: 1.2;
+}
+
+.lght-txt-shad {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.235);
+}
+
+.banner-img {
+  object-fit: cover !important;
+  object-position: center center !important;
+  overflow: hidden !important;
+  height: 30vh !important;
+  width: 100vw !important;
+}
+
+/* Text Over Image */
+/* this is the container */
+.container-flex {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48pt;
+}
+
+/* Text Over Image */
 #contactUsModal .btn[type="submit"] {
   background-color: var(--Aquatic) !important;
   /* Replace with your desired color */

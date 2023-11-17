@@ -1,6 +1,6 @@
 <!-- NAVBAR 2 -->
 <template>
-  <section class="m-0 p-0 container-flex justify-content-around">
+  <section class="py-5 m-0 container-flex justify-content-around">
 
     <section class="m-0 p-0 d-flex align-items-center justify-content-around">
       <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
@@ -47,11 +47,15 @@
       <router-link :to="{ name: 'Contact' }" v-if="$route.name !== 'Contact'"
         class="btn lighten-30 text-uppercase fw-bold text-Midnight">
         <button type="button"
-          class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+          class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3">
           Free Consult</button>
       </router-link>
-      <div v-else style="width: 11vw;"></div>
-
+      <!-- <div v-else style="width: 9vw;"></div> -->
+      <router-link v-else :to="{ name: 'Contact' }" class="btn text-uppercase fw-bold text-white">
+        <button type="button" :disabled='isDisabled'
+          class="consult smol-txt-btn btn bg-transparent text-white  text-uppercase rounded ">
+          Free Consult</button>
+      </router-link>
     </section>
 
     <!-- LOGIN COMPONENT HERE -->

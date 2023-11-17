@@ -1,116 +1,111 @@
 <!-- HOME PAGE -->
 <template>
-  <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
-  <section class="m-0 p-0 container-flex top-sec-bg-image justify-content-around">
-    <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
-    <section class="m-0 p-0 d-flex align-items-center justify-content-around">
-      <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
-        <router-link class="navbar-brand mt-3 mb-0 mx-0" :to="{ name: 'Home' }">
-          <div class="align-items-center justify-content-center renu-glow">
-            <img :src="logo"
-              alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
-              height="95" width="377.44" style="max-width: 100%;" class="" title="Home">
-          </div>
-        </router-link>
-        <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarText1" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarText1">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <!-- <li>
+  <div class="top-sec-bg-image">
+    <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE -->
+    <section class="py-5 m-0 container-flex justify-content-around">
+      <!-- 🧭 - NAVBAR ON HOME PAGE ONLY -->
+      <section class="m-0 p-0 d-flex align-items-center justify-content-around">
+        <nav class="navbar bg-transparent navbar-expand-sm navbar-light navbar-expand-sm pe-2 m-0">
+          <router-link class="navbar-brand mt-3 mb-0 mx-0" :to="{ name: 'Home' }">
+            <div class="align-items-center justify-content-center renu-glow">
+              <img :src="logo"
+                alt="Renu Solutions Digital Lab Web Development rising phoenix in shades of navy blue to teal with ditigal artifacts in circle"
+                height="95" width="377.44" style="max-width: 100%;" class="" title="Home">
+            </div>
+          </router-link>
+          <button class="navbar-toggler d-lg-none pe-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarText1" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarText1">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <!-- <li>
               <router-link :to="{ name: 'About' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 About
               </router-link>
             </li>-->
-            <li>
-              <router-link :to="{ name: 'Services' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-                Services
-              </router-link>
-            </li>
-            <li>
-              <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-                Portfolio
-              </router-link>
-            </li>
-            <!--  <li>
+              <li>
+                <router-link :to="{ name: 'Services' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                  Services
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'Portfolio' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                  Portfolio
+                </router-link>
+              </li>
+              <!--  <li>
               <router-link :to="{ name: 'Blog' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
                 Blog
               </router-link>
             </li> -->
-            <li>
-              <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-                Contact
-              </router-link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-        <button type="button"
-          class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-          Free Consult</button>
-      </router-link>
-    </section>
-    <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
-    <section class="" style="min-height: 35vh;">
-      <div class="container">
-        <div class=" row justify-content-around text-Midnight p-0 m-0n animate__animated animate__backInLeft">
-          <!-- animate__animated animate__backInLeft -->
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h1
-                class="headline fw-bold text-start ms-5 mt-3 mb-0 ps-lg-5 ps-md-2 ps-sm-2 xxbig-txt-msg text-Minty txt-shad">
-                Custom
-                Web
-                Solutions<br>for the
-                Modern Small Business
-              </h1>
-              <!-- lh-sm line height -->
-              <p
-                class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 lrg-txt-msg text-Midnight txt-glow">
-                Ditch
-                WordPress for
-                our
-                bespoke,<br>
-                human-coded
-                web
-                designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
-              <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight ms-5">
-                <button type="button"
-                  class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 ms-5">
-                  Get In Touch!</button>
-              </router-link>
-            </div>
-            <!-- Static mockup Image -->
-            <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-6" :src="Mockups"
-              alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
-              height="351.34" width="648" style="max-width: 100%;" title="Your New Mobile First Website">
-            <div class="container d-flex ms-5 ps-5">
-              <div class="container d-flex ps-5 ps-md-5">
+              <li>
+                <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+                  Contact
+                </router-link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+          <button type="button"
+            class="consult smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+            Free Consult</button>
+        </router-link>
+      </section>
+      <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
+      <section class="" style="min-height: 35vh;">
+        <div class="container">
+          <div class="row justify-content-around text-Midnight p-0 m-0n animate__animated animate__backInLeft">
+            <div class="row mt-5">
+              <div class="col-12 col-md-7 ">
+                <h1
+                  class="headline fw-bold text-start ms-5 mt-3 mb-3 ps-lg-5 ps-md-2 ps-sm-2 xxbig-txt-msg text-Minty txt-shad">
+                  Custom
+                  Web
+                  Solutions<br>for the
+                  Modern Small Business
+                </h1>
+                <!-- lh-sm line height -->
+                <p
+                  class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 lrg-txt-msg text-Midnight txt-glow">
+                  Ditch
+                  WordPress for
+                  our
+                  bespoke,<br>
+                  human-coded
+                  web
+                  designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
+                <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight ms-5">
+                  <button type="button"
+                    class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 ms-5">
+                    Get In Touch!</button>
+                </router-link>
+              </div>
+              <!-- Static mockup Image -->
+              <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-5" :src="Mockups"
+                alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
+                height="351.34" width="648" style="max-width: 100%;" title="Your New Mobile First Website">
+              <div class="container d-flex ms-5 ps-5">
+                <div class="container d-flex ps-5 ps-md-5">
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-
-
-
+      </section>
+      <!-- 🧭 - NAVBAR END -->
     </section>
-
-
-
-    <!-- 🧭 - NAVBAR END -->
-  </section>
+  </div>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE END-->
+
+  <div class="small-screen-spacer"></div>
 
 
   <!-- HOME PAGE CONTENT -->
   <!--🦄 - BODY -->
-
   <!-- 1️⃣ - SINGLE CONTENT DIV -->
-  <div class="container mt-2 text-Midnight">
-    <div class="row pt-5 justify-content-center align-items-center">
+  <div class="container mt-2 text-Midnight bg-transparent">
+    <div class="row pt-2 justify-content-center align-items-center">
       <div class="col-12 col-md-6 text-center">
         <h1 class="fw-bold Playfair">WHAT WE DO</h1>
         <div class="text-Midnight">
@@ -354,7 +349,7 @@
             </div>
             <div class="col-4 ps-1 m-0">
               <!-- check 1 content-->
-              <p class=" fw-bold">
+              <p class="fw-bold">
                 <span class="med-txt-checks fw-bold">Customer Relationship Manager (CRM)
                 </span>
                 <br>
@@ -609,12 +604,23 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// mobile screen spacer
+@media screen and (max-width: 768px) {
+  .small-screen-spacer {
+    height: 50vh !important;
+  }
+}
+
+small-screen-spacer {
+  height: 10vh;
+}
+
 /* To Display Navbar over HomePage background image ONLY */
 .top-sec-bg-image {
   background-image: url("../assets/img/final-basicbackgroundRenuSolwebready.png");
   // background-attachment: fixed;
   /* This keeps the background image fixed during scroll */
-  // height: 140vh;
+  height: 90vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -639,14 +645,6 @@ export default {
   cursor: pointer;
 }
 
-// .piggyBank {
-//   max-height: 10rem;
-//   max-width: 100%;
-//   object-fit: cover;
-//   object-position: center;
-// }
-
-// letter spacing
 
 .card:hover i.onhvr {
   scale: 1.5;
@@ -714,8 +712,7 @@ export default {
   background-color: var(--Aquatic) !important;
   color: var(--Minty) !important;
   transition: 0.3s !important;
-  scale: 1.3;
-
+  scale: 1.2;
 }
 
 //ad mock up image

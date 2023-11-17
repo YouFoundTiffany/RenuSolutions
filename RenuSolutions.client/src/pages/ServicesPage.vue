@@ -1,7 +1,12 @@
 <!-- SERVICES -->
 <template>
+  <section class="container-flex mb-3">
+    <img :src="Swoop" alt="website layout for small business" class="banner-img">
+    <h1 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Our Services</h1>
+  </section>
+
+
   <section class="container my-2 mt-4">
-    <h1 class="text-center m-4 p-4">Our Services</h1>
     <!-- 1️⃣ - TRIPLE CARDS -->
     <div class="row justify-content-around text-center gap-sm-2 gap-lg-0">
       <!-- 🅰️ -->
@@ -288,10 +293,11 @@
 </template>
 
 <script>
+import Swoop from '@/assets/img/final-basicbackgroundRenuSol.png';
 export default {
   setup() {
     return {
-
+      Swoop,
 
       scrollTo(id) {
         const element = document.getElementById(id);
@@ -305,6 +311,36 @@ export default {
 }
 </script>
 <style>
+.lght-txt-shad {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.235);
+}
+
+.banner-img {
+  object-fit: cover !important;
+  object-position: center center !important;
+  overflow: hidden !important;
+  height: 30vh !important;
+  width: 100vw !important;
+}
+
+/* Text Over Image */
+/* this is the container */
+.container-flex {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48pt;
+}
+
+/* Text Over Image */
+
 /* // Card hover effect */
 .onhvr:hover {
   scale: 1.1;

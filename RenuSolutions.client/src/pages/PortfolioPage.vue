@@ -1,7 +1,11 @@
-PORTFOLIO
+<!-- PORTFOLIO -->
 <template>
-  <!-- PORTFOLIO CARDS -->
+  <section class="container-flex mb-3">
+    <img :src="Swoop" alt="website layout for small business" class="banner-img">
+    <h1 class="centered m-4 p-4 text-Seashell fw-bold lght-txt-shad">Portfolio</h1>
+  </section>
 
+  <!-- PORTFOLIO CARDS -->
   <div class="row justify-content-around mt-5">
     <!-- 🅰️ -->
     <div class="col-10 col-md-4 col-sm-3 my-2 p-1 text-Midnight">
@@ -24,6 +28,7 @@ PORTFOLIO
 <script setup>
 import Hypno from '@/assets/img/hpno.png';
 import Yoga from '@/assets/img/yoga.png';
+import Swoop from '@/assets/img/final-basicbackgroundRenuSol.png';
 
 document.querySelectorAll('.card').forEach(card => {
   card.addEventListener('click', function () {
@@ -34,6 +39,36 @@ document.querySelectorAll('.card').forEach(card => {
 
 </script>
 <style scoped lang="scss">
+.lght-txt-shad {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.235);
+}
+
+.banner-img {
+  object-fit: cover !important;
+  object-position: center center !important;
+  overflow: hidden !important;
+  height: 30vh !important;
+  width: 100vw !important;
+}
+
+/* Text Over Image */
+/* this is the container */
+.container-flex {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48pt;
+}
+
+/* Text Over Image */
+
 .card iframe {
   width: 100%;
   /* Full width of the container */
