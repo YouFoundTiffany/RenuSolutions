@@ -6,14 +6,16 @@ PORTFOLIO
     <!-- 🅰️ -->
     <div class="col-10 col-md-3 col-sm-3 my-2 rounded elevation-3 text-Midnight">
       <a href="https://app.fgfunnels.com/v2/preview/CDtpg7rhOxbI9MDywois?notrack=true" target="_blank">
-        <img src="src/assets/img/hpno.png" alt="Portfolio 1" class="portfolio-img">
+        <img :src="Hypno" alt="Demo Website for a Professional Certified Hypnotist"
+          class="portfolio-img">src/assets/img/hpno.png
       </a>
     </div>
     <!-- 🅰️ -->
     <!-- 🅱️ -->
     <div class="col-10 col-md-3 col-sm-3 my-2 rounded elevation-3 text-Midnight">
       <a href="https://app.fgfunnels.com/v2/preview/CvYJt85c1zpN3CRskeKC?notrack=true" target="_blank">
-        <img src="src/assets/img/yoga.png" alt="Portfolio 2" class="portfolio-img">
+        <img :src="Yoga" alt="Demo Website for a Professional Certified Hypnotist"
+          class="portfolio-img">src/assets/img/yoga.png
       </a>
     </div>
     <!-- 🅱️ -->
@@ -22,6 +24,9 @@ PORTFOLIO
   </div>
 </template>
 <script setup>
+import Hypno from '@/assets/img/hpno.png';
+import Yoga from '@/assets/img/yoga.png';
+
 document.querySelectorAll('.card').forEach(card => {
   card.addEventListener('click', function () {
     const iframeSrc = this.querySelector('iframe').src;
