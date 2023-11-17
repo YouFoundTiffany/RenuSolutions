@@ -193,7 +193,7 @@ export default {
 // glass effect
 .glass-effect {
     backdrop-filter: brightness(110%) !important;
-    border-radius: 20px !important;
+    border-radius: 12px !important;
 }
 
 // TEXT SHADOW
