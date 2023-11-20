@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vite",
-    "build": "vite build && copyfiles -u src/sitemap.xml dist && copyfiles -u src/robots.txt dist",
+    "build": "vite build",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
@@ -28,6 +28,7 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-vue": "^9.14.1",
     "sass": "1.62.1",
-    "vite": "4.3.9"
+    "vite": "4.3.9",
+    "vite-plugin-copy": "^0.1.6"
   }
 }
