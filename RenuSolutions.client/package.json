@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vite",
     "build": "vite build",
-    "postbuild": "node -e \"const fs=require('fs');const path=require('path');fs.copyFileSync(path.resolve(__dirname, 'package.json'), path.resolve(__dirname, 'docs/sitemap.xml'));\"",
+    "postbuild": "node -e \"const fs=require('fs');const path=require('path');fs.copyFileSync(path.resolve(__dirname, './relative/path/to/sitemap.xml'), path.resolve(__dirname, './docs/sitemap.xml'));\"",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
