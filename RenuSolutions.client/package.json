@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "serve": "vite",
-    // NOTE dded && copyfiles -u src/sitemap.xml dist && copyfiles -u src/robots.txt dist
     "build": "vite build && copyfiles -u src/sitemap.xml dist && copyfiles -u src/robots.txt dist",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
