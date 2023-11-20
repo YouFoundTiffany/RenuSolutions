@@ -20,3 +20,6 @@ export default defineConfig({
     port: 8080
   }
 })
+
+
+// NOTE see also robots.txt

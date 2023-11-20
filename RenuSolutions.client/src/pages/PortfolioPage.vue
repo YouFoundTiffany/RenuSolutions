@@ -1,28 +1,27 @@
 <!-- PORTFOLIO -->
 <template>
-  <section class="container-flex mb-3">
-    <img :src="Swoop" alt="website layout for small business" class="banner-img">
-    <h2 class="centered m-4 p-4 text-Seashell fw-bold lght-txt-shad">Portfolio</h2>
-  </section>
+  <div class="container-flex bg-Seashell m-0 p-0">
 
-  <!-- PORTFOLIO CARDS -->
-  <div class="row justify-content-around mt-5">
-    <!-- 🅰️ -->
-    <div class="col-10 col-md-4 col-sm-3 my-2 p-1 text-Midnight">
-      <a href="https://app.fgfunnels.com/v2/preview/CDtpg7rhOxbI9MDywois?notrack=true" target="_blank">
-        <img :src="Hypno" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
-      </a>
-    </div>
-    <!-- 🅰️ -->
-    <!-- 🅱️ -->
-    <div class="col-10 col-md-4 col-sm-3 my-2 p-1 rounded text-Midnight">
-      <a href="https://app.fgfunnels.com/v2/preview/CvYJt85c1zpN3CRskeKC?notrack=true" target="_blank">
-        <img :src="Yoga" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
-      </a>
-    </div>
-    <!-- 🅱️ -->
+
     <!-- PORTFOLIO CARDS -->
+    <div class="row justify-content-around my-5">
+      <!-- 🅰️ -->
+      <div class="col-10 col-md-4 col-sm-3 my-2 p-1 text-Midnight">
+        <a href="https://app.fgfunnels.com/v2/preview/CDtpg7rhOxbI9MDywois?notrack=true" target="_blank">
+          <img :src="Hypno" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
+        </a>
+      </div>
+      <!-- 🅰️ -->
+      <!-- 🅱️ -->
+      <div class="col-10 col-md-4 col-sm-3 my-2 p-1 rounded text-Midnight">
+        <a href="https://app.fgfunnels.com/v2/preview/CvYJt85c1zpN3CRskeKC?notrack=true" target="_blank">
+          <img :src="Yoga" alt="Demo Website for a Professional Certified Hypnotist" class="portfolio-img elevation-3">
+        </a>
+      </div>
+      <!-- 🅱️ -->
+      <!-- PORTFOLIO CARDS -->
 
+    </div>
   </div>
 </template>
 <script setup>
@@ -39,6 +38,10 @@ document.querySelectorAll('.card').forEach(card => {
 
 </script>
 <style scoped lang="scss">
+.Seashell {
+  background-color: var(--Seashell);
+}
+
 .lght-txt-shad {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.235);
 }

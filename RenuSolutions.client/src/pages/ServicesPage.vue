@@ -1,9 +1,9 @@
 <!-- SERVICES -->
 <template>
-  <section class="container-flex mb-3">
+  <!-- <section class="container-flex mb-3">
     <img :src="Swoop" alt="website layout for small business" class="banner-img">
     <h2 class="centered text-center m-4 p-4 text-Seashell fw-bold lght-txt-shad">Our Services</h2>
-  </section>
+  </section> -->
 
 
   <section class="container my-2 mt-4">

@@ -1,10 +1,10 @@
 <!-- CONTACT -->
 <template>
-  <section class="container-flex mb-3">
+  <!-- <section class="container-flex mb-3">
     <img :src="Swoop" alt="website layout for small business" class="banner-img">
     <h2 class="centered too-big text-center my-4 mx-2 p-4 text-Seashell fw-bold lght-txt-shad">How can we help?</h2>
     <p>Send us a message!</p>
-  </section>
+  </section> -->
 
   <!-- Button trigger modal -->
   <section class="container-flex m-2 py-5 text-Midnight fw-medium">
@@ -28,7 +28,7 @@
 
         <!-- Right -->
         <div class="col-12 col-md-6 m-lg-0 m-md-0 my-4 d-flex text-Midnight fw-medium align-items-center py-5">
-          <div class="elevation-3 bg-Seashell rounded p-4">
+          <div class="elevation-3 bg-white rounded p-4">
             <div class="card-body">
               <h2 class="card-text Playfair">Renü Solutions <span class="Monty"> Digital Lab</span></h2>
               <p class="card-text">Call or Text: <span><a href="tel:+12089180942">(208) 918-0942</a></span><br>Email:

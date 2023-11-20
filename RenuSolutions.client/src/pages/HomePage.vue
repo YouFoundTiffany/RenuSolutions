@@ -54,12 +54,12 @@
       </section>
       <!-- 🧭 - HOME PAGE NAVBAR ONLY END-->
       <section class="" style="min-height: 35vh;">
-        <div class="container">
+        <div class="container bg-transparent">
           <div class="row justify-content-around text-Midnight p-0 m-0n animate__animated animate__backInLeft">
-            <div class="row mt-5">
-              <div class="col-12 col-md-7 ">
+            <div class="row mt-5 bg-transparent">
+              <div class="col-12 col-md-7 bg-transparent">
                 <h1
-                  class="headline fw-bold text-start ms-5 mt-3 mb-3 ps-lg-5 ps-md-2 ps-sm-2 xxbig-txt-msg text-Minty txt-shad">
+                  class="headline fw-bold text-start ms-5 mt-3 mb-3 ps-lg-5 ps-md-2 ps-sm-2 xxbig-txt-msg text-Minty txt-shad bg-transparent">
                   Custom
                   Web
                   Solutions<br>for the
@@ -67,7 +67,7 @@
                 </h1>
                 <!-- lh-sm line height -->
                 <p
-                  class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 lrg-txt-msg text-Midnight txt-glow">
+                  class="fw-medium text-start lh-md ms-5 my-2 me-4 ps-lg-5 ps-md-2 ps-sm-2 lrg-txt-msg text-Midnight txt-glow bg-transparent">
                   Ditch
                   WordPress for
                   our
@@ -75,20 +75,17 @@
                   human-coded
                   web
                   designs<br>that ensure superior performance,<br>with plans starting at $150 a month." </p>
-                <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight ms-5">
+                <router-link :to="{ name: 'Contact' }"
+                  class="btn lighten-30 text-uppercase fw-bold text-Midnight ms-5 bg-transparent">
                   <button type="button"
                     class="smol-txt-btn btn bg-Minty text-Midnight lighten-30 text-uppercase rounded elevation-3 ms-5">
                     Get In Touch!</button>
                 </router-link>
               </div>
               <!-- Static mockup Image -->
-              <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-5" :src="Mockups"
+              <img class="ad-img justify-content-start img-fluid d-flex col-12 col-md-5 bg-transparent" :src="Mockups"
                 alt="mockups of full screen and mobile websites and funnels for small businesses for online success leads funnels web development"
                 height="351.34" width="648" style="max-width: 100%;" title="Your New Mobile First Website">
-              <div class="container d-flex ms-5 ps-5">
-                <div class="container d-flex ps-5 ps-md-5">
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -98,56 +95,58 @@
   </div>
   <!-- 🖼️ - TOPLINE OUTER WRAPPER W/ BACKGROUND IMAGE END-->
 
-  <div class="small-screen-spacer"></div>
+  <div class="bg-white">
+
+    <div class="small-screen-spacer"></div>
 
 
-  <!-- HOME PAGE CONTENT -->
-  <!--🦄 - BODY -->
-  <!-- 1️⃣ - SINGLE CONTENT DIV -->
-  <div class="mt-5 p-0 container-flex text-Midnight bg-transparent">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-md-6 text-center">
-        <h1 class="fw-bold Playfair">WHAT WE DO</h1>
-        <div class="text-Midnight">
-          <span>———</span><i class="mdi
+    <!-- HOME PAGE CONTENT -->
+    <!--🦄 - BODY -->
+    <!-- 1️⃣ - SINGLE CONTENT DIV -->
+    <div class="mt-5 p-0 container-flex text-Midnight bg-white">
+      <div class="row justify-content-center align-items-center bg-white">
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="fw-bold Playfair bg-white">WHAT WE DO</h1>
+          <div class="text-Midnight ">
+            <span>———</span><i class="mdi
           mdi-pyramid"></i><span>———</span>
-        </div>
-        <p class="fst-italic fw-medium">You finally get to focus on what you really love about your business!
-        </p>
-        <p class="fw-medium">We Specialize in providing a quality business systems that has a proven track record of
-          increasing
-          revenue for small businesses like yours. This allows you the time and freedom to meet with your clients, which
-          brings in more revenue.</p>
+          </div>
+          <p class="fst-italic fw-medium">You finally get to focus on what you really love about your business!
+          </p>
+          <p class="fw-medium">We Specialize in providing a quality business systems that has a proven track record of
+            increasing
+            revenue for small businesses like yours. This allows you the time and freedom to meet with your clients, which
+            brings in more revenue.</p>
 
 
 
-        <div class="text-Midnight">
-          <span>———</span><i class="mdi
+          <div class="text-Midnight">
+            <span>———</span><i class="mdi
           mdi-pyramid mdi-flip-v"></i><span>———</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- 1️⃣ - SINGLE CONTENT DIV -->
+    <!-- 1️⃣ - SINGLE CONTENT DIV -->
 
 
-  <!-- 🚀 - spacer div 1️⃣ -->
-  <!-- Do NOT copy this Spacer Set it is custom, use 2 or 3 -->
-  <!-- <div class="spacer mx-3 d-flex justify-content-center align-items-center"> -->
-  <!-- DIVIDER LINE -->
-  <!-- <div class="container mx-5 my-4 px-5">
+    <!-- 🚀 - spacer div 1️⃣ -->
+    <!-- Do NOT copy this Spacer Set it is custom, use 2 or 3 -->
+    <!-- <div class="spacer mx-3 d-flex justify-content-center align-items-center"> -->
+    <!-- DIVIDER LINE -->
+    <!-- <div class="container mx-5 my-4 px-5">
       <hr class="solid mx-5" style="color: var(--Midnight);">
     </div> -->
-  <!-- DIVIDER LINE -->
-  <!-- </div> -->
-  <!-- 🚀 - spacer div 1️⃣-->
+    <!-- DIVIDER LINE -->
+    <!-- </div> -->
+    <!-- 🚀 - spacer div 1️⃣-->
 
-  <section class="container my-2">
+    <section class="container my-2">
 
-    <!-- 2️⃣ - TRIPLE CARDS -->
-    <!-- <div class="row justify-content-around"> -->
-    <!-- 🅰️ -->
-    <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+      <!-- 2️⃣ - TRIPLE CARDS -->
+      <!-- <div class="row justify-content-around"> -->
+      <!-- 🅰️ -->
+      <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-pipe fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Full-System</h5>
@@ -159,8 +158,8 @@
             together!</p>
         </div>
       </div> -->
-    <!-- 🅱️ -->
-    <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
+      <!-- 🅱️ -->
+      <!-- <div class="col-10 col-md-3 card h-30 mb-3 elevation-3 text-Midnight">
         <i class="mdi mdi-tablet-cellphone fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Mobile First</h5>
@@ -170,8 +169,8 @@
           </p>
         </div>
       </div> -->
-    <!-- 🆎 -->
-    <!-- <div class="col-10 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
+      <!-- 🆎 -->
+      <!-- <div class="col-10 col-md-3 card h-30 mb-3  elevation-3 text-Midnight">
         <i class="mdi mdi-key fs-1 onhvr text-center"></i>
         <div class="card-body">
           <h5 class="card-title text-center">Turn Key</h5>
@@ -182,312 +181,314 @@
         </div>
       </div>
     </div> -->
-    <!-- 2️⃣ - TRIPLE CARDS END-->
+      <!-- 2️⃣ - TRIPLE CARDS END-->
 
 
-    <!-- 🚀 spacer div 2️⃣-->
-    <div class="spacer d-flex align-items-center">
-      <!-- DIVIDER LINE -->
-      <div class="container mx-5 my-4 px-5 align-items-center">
-        <hr class="solid mx-5" style="color: var(--Midnight);">
+      <!-- 🚀 spacer div 2️⃣-->
+      <div class="spacer d-flex align-items-center">
+        <!-- DIVIDER LINE -->
+        <div class="container mx-5 my-4 px-5 align-items-center">
+          <hr class="solid mx-5" style="color: var(--Midnight);">
+        </div>
+        <!-- DIVIDER LINE -->
       </div>
-      <!-- DIVIDER LINE -->
-    </div>
-    <!-- 🚀 spacer div 2️⃣-->
-    <!-- <div style="height:5vh;"></div> -->
-    <h1 class="text-Midnight Merri">Level 1</h1>
-    <!-- 3️⃣ - Horizontal Card DIV -->
-    <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-md-8">
-          <h2 class="fw-bold text-Midnight lght-txt-shad">The Starter Website Package
+      <!-- 🚀 spacer div 2️⃣-->
+      <!-- <div style="height:5vh;"></div> -->
+      <h1 class="text-Midnight Merri">Level 1</h1>
+      <!-- 3️⃣ - Horizontal Card DIV -->
+      <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-8">
+            <h2 class="fw-bold text-Midnight lght-txt-shad">The Starter Website Package
 
-            <span type="button" class="" data-toggle="modal" data-target="#StarterSiteModal"><span class="fw-bold
+              <span type="button" class="" data-toggle="modal" data-target="#StarterSiteModal"><span class="fw-bold
           learn-more bg-Minty rounded"> LEARN MORE </span>
-            </span>
-          </h2>
-          <h4 class="fw-bold lh-1 py-3">Starting at<span class="text-Maritime lght-txt-shad"> $150</span> a month, Your
-            Gateway to the Web</h4>
+              </span>
+            </h2>
+            <h4 class="fw-bold lh-1 py-3">Starting at<span class="text-Maritime lght-txt-shad"> $150</span> a month, Your
+              Gateway to the Web</h4>
 
-          <!-- CHECK POINTS ROW 1 -->
-          <div class="row squish">
-            <!-- Infinity 1 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <p class="">
-                <span class="med-txt-checks fw-bold">Inclusive Hosting Costs
-                </span>
-                <br>
-                <span class="smol-txt-checks">Your monthly plan encompasses all hosting charges.
-                </span>
-              </p>
-              <!-- check 1 content-->
-              <!-- <p class="fw-bold med-txt-checks fw-bold m-0 p-0">Inclusive Hosting Costs</p>
+            <!-- CHECK POINTS ROW 1 -->
+            <div class="row squish">
+              <!-- Infinity 1 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Inclusive Hosting Costs
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Your monthly plan encompasses all hosting charges.
+                  </span>
+                </p>
+                <!-- check 1 content-->
+                <!-- <p class="fw-bold med-txt-checks fw-bold m-0 p-0">Inclusive Hosting Costs</p>
 
               <p class="smol-txt-checks mt-1 p-0 ">Your monthly plan encompasses all hosting charges.</p> -->
 
+              </div>
+              <!-- Infinity 2 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 2 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Unlimited Revisions
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Free to request any modifications at any time.
+                  </span>
+                </p>
+              </div>
             </div>
-            <!-- Infinity 2 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            <!-- CHECK POINTS ROW 2 -->
+            <div class="row squish">
+              <!-- Infinity 3 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 3 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">24/7 Support Access
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Here for you when you need us.
+                  </span>
+                </p>
+              </div>
+              <!-- Infinity 4 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 4 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Comprehensive Crafting
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Over 40 hours web design.
+                  </span>
+                </p>
+              </div>
             </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 2 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Unlimited Revisions
-                </span>
-                <br>
-                <span class="smol-txt-checks">Free to request any modifications at any time.
-                </span>
-              </p>
-            </div>
-          </div>
-          <!-- CHECK POINTS ROW 2 -->
-          <div class="row squish">
-            <!-- Infinity 3 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 3 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">24/7 Support Access
-                </span>
-                <br>
-                <span class="smol-txt-checks">Here for you when you need us.
-                </span>
-              </p>
-            </div>
-            <!-- Infinity 4 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 4 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Comprehensive Crafting
-                </span>
-                <br>
-                <span class="smol-txt-checks">Over 40 hours web design.
-                </span>
-              </p>
-            </div>
-          </div>
 
-          <!-- CHECK POINTS ROW 3 -->
-          <div class="row squish">
-            <!-- Infinity 5 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+            <!-- CHECK POINTS ROW 3 -->
+            <div class="row squish">
+              <!-- Infinity 5 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 5 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Top-Tier Page Ratings
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Enhancing
+                    your site's visibility.
+                  </span>
+                </p>
+              </div>
+              <!-- Infinity 6 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 6 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Complimentary Google Integration
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Track your site's performance.</span>
+                </p>
+              </div>
             </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 5 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Top-Tier Page Ratings
-                </span>
-                <br>
-                <span class="smol-txt-checks">Enhancing
-                  your site's visibility.
-                </span>
-              </p>
-            </div>
-            <!-- Infinity 6 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-checkbox-marked-circle-outline mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 6 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Complimentary Google Integration
-                </span>
-                <br>
-                <span class="smol-txt-checks">Track your site's performance.</span>
-              </p>
-            </div>
+          </div>
+          <div class="col-lg-3 col-md-10 col-sm-10 text-center">
+            <img :src="piggyBank" class="pig-bank"
+              alt="Piggy Bank with csoin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
+              title="Simple Stataic Website helps you to Make and Save Money">
+            <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+              <span> Call us Today!</span>
+              <button type="button"
+                class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+                Free Consult</button>
+            </router-link>
           </div>
         </div>
-        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
-          <img :src="piggyBank" class="pig-bank"
-            alt="Piggy Bank with csoin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            title="Simple Stataic Website helps you to Make and Save Money">
-          <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-            <span> Call us Today!</span>
-            <button type="button"
-              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-              Free Consult</button>
-          </router-link>
-        </div>
-      </div>
-    </section>
-    <!-- 3️⃣ - Horizontal Card DIV END -->
+      </section>
+      <!-- 3️⃣ - Horizontal Card DIV END -->
 
 
-    <div style="height:5vh;"></div>
+      <div style="height:5vh;"></div>
 
-    <h1 class="text-Midnight Merri">Level 2</h1>
-    <!-- 4️⃣ - Horizontal Card DIV -->
-    <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-md-8">
-          <h2 class="fw-bold text-Midnight lght-txt-shad">The Delta ERP
-            <span type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
+      <h1 class="text-Midnight Merri">Level 2</h1>
+      <!-- 4️⃣ - Horizontal Card DIV -->
+      <section class="container elevation-3 my-2 p-4 text-Midnight bg-Seashell rounded">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-8">
+            <h2 class="fw-bold text-Midnight lght-txt-shad">The Delta ERP
+              <span type="button" class="" data-toggle="modal" data-target="#DeltaERPModal"><span class="fw-bold
           learn-more bg-Minty rounded">LEARN MORE</span>
-            </span>
-          </h2>
-          <h4 class="fw-bold lh-1 py-3"><span>Ultimate Small Business Package, Add-On to the Starter Site Package,
-            </span><span class="text-Maritime lght-txt-shad">$50</span>
-            a month, six-month
-            month minimum contract.</h4>
+              </span>
+            </h2>
+            <h4 class="fw-bold lh-1 py-3"><span>Ultimate Small Business Package, Add-On to the Starter Site Package,
+              </span><span class="text-Maritime lght-txt-shad">$50</span>
+              a month, six-month
+              month minimum contract.</h4>
 
-          <!-- CHECK POINTS ROW 1 -->
-          <div class="row squish">
-            <!-- Infinity 1 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
+            <!-- CHECK POINTS ROW 1 -->
+            <div class="row squish">
+              <!-- Infinity 1 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 1 content-->
+                <p class="fw-bold">
+                  <span class="med-txt-checks fw-bold">Customer Relationship Manager (CRM)
+                  </span>
+                  <br>
+                  <span class="smol-txt-checks">Easily Manage all of Your Customer Interactions</span>
+                </p>
+              </div>
+              <!-- Infinity 2 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 2 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Calendar Scheduler</span>
+                  <br>
+                  <span class="smol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
+                </p>
+              </div>
             </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 1 content-->
-              <p class="fw-bold">
-                <span class="med-txt-checks fw-bold">Customer Relationship Manager (CRM)
-                </span>
-                <br>
-                <span class="smol-txt-checks">Easily Manage all of Your Customer Interactions</span>
-              </p>
+            <!-- CHECK POINTS ROW 2 -->
+            <div class="row squish">
+              <!-- Infinity 3 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 3 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Website & Funnel Builder</span>
+                  <br>
+                  <span class="smol-txt-checks">Direct Potential Customers to your Site</span>
+                </p>
+              </div>
+              <!-- Infinity 4 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 4 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Membership Portal</span>
+                  <br>
+                  <span class="smol-txt-checks">Virtual Training System</span>
+                </p>
+              </div>
             </div>
-            <!-- Infinity 2 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 2 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Calendar Scheduler</span>
-                <br>
-                <span class="smol-txt-checks">Online Scheduling, Automated Reminders, and More </span>
-              </p>
+
+            <!-- CHECK POINTS ROW 3 -->
+            <div class="row squish">
+              <!-- Infinity 5 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 5 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Messaging Capabilities</span>
+                  <br>
+                  <span class="smol-txt-checks">Integrated Email, Text, Phone, etc.</span>
+                </p>
+              </div>
+              <!-- Infinity 6 check -->
+              <div class="col-1 p-0 mt-1 text-end">
+                <i class="mdi mdi-infinity mdi-18px"></i>
+              </div>
+              <div class="col-4 ps-1 m-0">
+                <!-- check 6 content-->
+                <p class="">
+                  <span class="med-txt-checks fw-bold">Online Payments</span>
+                  <br>
+                  <span class="smol-txt-checks">Accept and Manage Your Revenue</span>
+                </p>
+              </div>
             </div>
           </div>
-          <!-- CHECK POINTS ROW 2 -->
-          <div class="row squish">
-            <!-- Infinity 3 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 3 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Website & Funnel Builder</span>
-                <br>
-                <span class="smol-txt-checks">Direct Potential Customers to your Site</span>
-              </p>
-            </div>
-            <!-- Infinity 4 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 4 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Membership Portal</span>
-                <br>
-                <span class="smol-txt-checks">Virtual Training System</span>
-              </p>
-            </div>
-          </div>
-
-          <!-- CHECK POINTS ROW 3 -->
-          <div class="row squish">
-            <!-- Infinity 5 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 5 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Messaging Capabilities</span>
-                <br>
-                <span class="smol-txt-checks">Integrated Email, Text, Phone, etc.</span>
-              </p>
-            </div>
-            <!-- Infinity 6 check -->
-            <div class="col-1 p-0 mt-1 text-end">
-              <i class="mdi mdi-infinity mdi-18px"></i>
-            </div>
-            <div class="col-4 ps-1 m-0">
-              <!-- check 6 content-->
-              <p class="">
-                <span class="med-txt-checks fw-bold">Online Payments</span>
-                <br>
-                <span class="smol-txt-checks">Accept and Manage Your Revenue</span>
-              </p>
-            </div>
+          <!-- MONEY HANDS -->
+          <div class="col-lg-3 col-md-10 col-sm-10 text-center">
+            <img :src="moneyHands" class="hand-coin"
+              alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
+              title=" Delta ERP helps you to Make and Save Money.">
+            <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
+              <span> Call us Today!</span>
+              <button type="button"
+                class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
+                Free Consult</button>
+            </router-link>
           </div>
         </div>
         <!-- MONEY HANDS -->
-        <div class="col-lg-3 col-md-10 col-sm-10 text-center">
-          <img :src="moneyHands" class="hand-coin"
-            alt="Money Hands with coin dropping in and dollar symbol, bring in revenue, make money for your small business, hypnotist therapist"
-            title=" Delta ERP helps you to Make and Save Money.">
-          <router-link :to="{ name: 'Contact' }" class="btn lighten-30 text-uppercase fw-bold text-Midnight">
-            <span> Call us Today!</span>
-            <button type="button"
-              class="consult smol-txt-btn btn bg-Aquatic text-Midnight lighten-30 text-uppercase rounded elevation-3 m-3">
-              Free Consult</button>
-          </router-link>
+      </section>
+      <!-- 4️⃣ - Horizontal Card DIV END -->
+
+
+      <!-- 🚀 spacer div 3️⃣-->
+      <div class="spacer d-flex align-items-center">
+        <!-- DIVIDER LINE -->
+        <div class="container mx-5 my-4 px-5 align-items-center">
+          <hr class="solid mx-5" style="color: var(--Midnight);">
         </div>
+        <!-- DIVIDER LINE -->
       </div>
-      <!-- MONEY HANDS -->
-    </section>
-    <!-- 4️⃣ - Horizontal Card DIV END -->
+      <!-- 🚀 spacer div 3️⃣-->
 
 
-    <!-- 🚀 spacer div 3️⃣-->
-    <div class="spacer d-flex align-items-center">
-      <!-- DIVIDER LINE -->
-      <div class="container mx-5 my-4 px-5 align-items-center">
-        <hr class="solid mx-5" style="color: var(--Midnight);">
-      </div>
-      <!-- DIVIDER LINE -->
-    </div>
-    <!-- 🚀 spacer div 3️⃣-->
-
-
-    <!-- 5️⃣ - SINGLE CONTENT DIV -->
-    <div class="container my-2 text-Midnight">
-      <div class="row py-2 justify-content-center align-items-center">
-        <div class="col-12 col-md-6 text-center">
-          <h1 class="fw-bold Playfair">WHO WE ARE</h1>
-          <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
-          <p class="text-start fw-medium"> My name is Tiffany, I am a web developer that found their special skill later
-            in life. I
-            started this
-            business to help other small
-            business
-            owners, like you. My mission is to assist others in achieving thier biggest dreams for thier business. I
-            do that by managing and providing all of the hard stuff so they can focus on being their best-selves for thier
-            clients.
-          </p>
-          <!-- <img src="" alt="picture of Tiffany"> -->
-          <p class="fw-medium">
-            <br>Tiffany H. OWNER/DEVELOPER
-          </p>
-          <p class="fst-italic fw-medium">Personal Motto:<br><span class="fs-5">Make the World Better, One Day at a
-              Time!</span>
-          </p>
-          <div class="text-Midnight">
-            <span>———</span><i class="mdi mdi-heart-outline"></i><span id="HomePageFooter">———</span>
+      <!-- 5️⃣ - SINGLE CONTENT DIV -->
+      <div class="container my-2 text-Midnight">
+        <div class="row py-2 justify-content-center align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h1 class="fw-bold Playfair">WHO WE ARE</h1>
+            <span>———</span><i class="mdi mdi-heart-outline"></i><span>———</span>
+            <p class="text-start fw-medium"> My name is Tiffany, I am a web developer that found their special skill later
+              in life. I
+              started this
+              business to help other small
+              business
+              owners, like you. My mission is to assist others in achieving thier biggest dreams for thier business. I
+              do that by managing and providing all of the hard stuff so they can focus on being their best-selves for
+              thier
+              clients.
+            </p>
+            <!-- <img src="" alt="picture of Tiffany"> -->
+            <p class="fw-medium">
+              <br>Tiffany H. OWNER/DEVELOPER
+            </p>
+            <p class="fst-italic fw-medium">Personal Motto:<br><span class="fs-5">Make the World Better, One Day at a
+                Time!</span>
+            </p>
+            <div class="text-Midnight">
+              <span>———</span><i class="mdi mdi-heart-outline"></i><span id="HomePageFooter">———</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- 5️⃣ - SINGLE CONTENT DIV -->
+      <!-- 5️⃣ - SINGLE CONTENT DIV -->
 
 
 
-    <!--🦄 - BODY END -->
-  </section>
+      <!--🦄 - BODY END -->
+    </section>
+  </div>
   <!-- </section> -->
   <!-- MODAL BUTTON-->
 
@@ -605,13 +606,19 @@ export default {
 
 <style scoped lang="scss">
 // mobile screen spacer
+.small-screen-spacer {
+  background-color: transparent !important;
+
+}
+
 @media screen and (max-width: 768px) {
   .small-screen-spacer {
     height: 90vh !important;
+    background-color: white !important;
   }
 }
 
-small-screen-spacer {
+.small-screen-spacer {
   height: 10vh;
 }
 

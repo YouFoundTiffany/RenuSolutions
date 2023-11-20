@@ -122,6 +122,14 @@
   background: linear-gradient(to right, var(--Minty), var(--Aquatic)) !important;
 }
 
+.gradient-aquatic-minty {
+  background: linear-gradient(to right, var(--Aquatic), var(--Minty)) !important;
+}
+
+.gradient-maritime-aquatic {
+  background: linear-gradient(to right, var(--Maritime), var(--Aquatic)) !important;
+}
+
 /* Gradient from Aquatic to Maritime */
 .gradient-midnight-maritime-aquatic {
   background: linear-gradient(to right, var(--Midnight), var(--Maritime), var(--Aquatic)) !important;
@@ -176,6 +184,25 @@
 //  ====================  //
 // END Renu Solutions CSS //
 //  ====================  //
+
+// free consult button
+.smol-txt-btn {
+  padding-top: 10px;
+  height: 35px !important;
+  font-size: x-small !important;
+  font-weight: 800 !important;
+}
+
+.smol-txt-btn:hover {
+  background-color: var(--Aquatic) !important;
+  color: var(--Minty) !important;
+  transition: 0.3s !important;
+  scale: 1.2;
+}
+
+// free consult button
+
+
 //  ====================  //
 //       SPINNER          //
 //  ====================  //
