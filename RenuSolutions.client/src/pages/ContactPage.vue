@@ -31,7 +31,7 @@
           <div class="elevation-3 bg-white rounded p-4">
             <div class="card-body">
               <h2 class="card-text Playfair">Renü Solutions <span class="Monty"> Digital Lab</span></h2>
-              <p class="card-text">Call or Text: <span><a href="tel:+12089180942">(208) 918-0942</a></span><br>Email:
+              <p class="card-text">Call or Text: <span><a href="tel:+12089980217">(208) 998-0217</a></span><br>Email:
                 Info@RenuSolutions.tech<br>
               </p>
             </div>
